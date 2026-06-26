@@ -314,7 +314,8 @@ async function checkNow() {
     if (data.results) {
       const found = data.results.filter(r => r.found);
       if (found.length > 0) {
-        showToast(`${found.length} deal(s) found!`, 'success');
+        const totalHotels = found.reduce((sum, r) => sum + (r.matches || 1), 0);
+        showToast(`Found ${totalHotels} hotel${totalHotels > 1 ? 's' : ''} within your budget!`, 'success');
       } else {
         showToast('No deals below your budget right now', 'info');
       }

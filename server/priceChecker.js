@@ -220,33 +220,47 @@ async function checkAlert(alert) {
         // Total price divided by nights = per night price
         const perNightPrice = Math.round(r.price / nights);
         return { ...r, perNightPrice };
-      });
+      }).sort((a, b) => a.perNightPrice - b.perNightPrice);
 
-      // Find cheapest per night
-      const cheapest = processedResults.reduce((min, r) => 
-        r.perNightPrice < min.perNightPrice ? r : min, processedResults[0]);
+      // Find all hotels within budget
+      const matchingHotels = processedResults.filter(r => r.perNightPrice <= alert.max_price);
+      const cheapest = processedResults[0];
 
       const geniusLabel = cheapest.hasGenius ? ' (Genius price)' : '';
       console.log(`  Cheapest: ${cheapest.hotelName} at ${alert.currency} ${cheapest.perNightPrice}/night${geniusLabel} (total: ${cheapest.price} for ${nights} nights)`);
+      console.log(`  ${matchingHotels.length}/${processedResults.length} hotels within budget of ${alert.currency} ${alert.max_price}/night`);
 
-      // Record price history (per night)
+      // Record cheapest price in history and update alert
       db.addPriceHistory(alert.id, cheapest.perNightPrice, cheapest.hotelName, cheapest.url);
       db.updateAlertPrice(alert.id, cheapest.perNightPrice);
 
-      // Check if price is below threshold
-      if (cheapest.perNightPrice <= alert.max_price) {
-        const message = `🏨 ${cheapest.hotelName} in ${alert.destination} is ${alert.currency} ${cheapest.perNightPrice}/night${geniusLabel} (your max: ${alert.currency} ${alert.max_price})`;
-        const notification = db.addNotification(alert.id, cheapest.hotelName, cheapest.perNightPrice, cheapest.url, message);
+      // Create notifications for ALL hotels within budget
+      if (matchingHotels.length > 0) {
+        const notifiedHotels = [];
 
-        // Send notifications
-        await notifier.notify(notification, alert);
+        for (const hotel of matchingHotels) {
+          const hotelGeniusLabel = hotel.hasGenius ? ' (Genius)' : '';
+          const message = `🏨 ${hotel.hotelName} in ${alert.destination} — ${alert.currency} ${hotel.perNightPrice}/night${hotelGeniusLabel}`;
+          const notification = db.addNotification(alert.id, hotel.hotelName, hotel.perNightPrice, hotel.url, message);
 
-        // Broadcast via SSE
-        if (global.broadcast) {
-          global.broadcast(notification);
+          // Broadcast via SSE
+          if (global.broadcast) {
+            global.broadcast(notification);
+          }
+
+          notifiedHotels.push({ hotelName: hotel.hotelName, price: hotel.perNightPrice, url: hotel.url, hasGenius: hotel.hasGenius });
         }
 
-        return { found: true, hotelName: cheapest.hotelName, price: cheapest.perNightPrice, url: cheapest.url };
+        // Send one summary email with all matching hotels
+        const summaryNotification = {
+          hotel_name: `${matchingHotels.length} hotels`,
+          price: cheapest.perNightPrice,
+          url: buildBookingUrl(alert),
+          message: `Found ${matchingHotels.length} hotels in ${alert.destination} within your budget of ${alert.currency} ${alert.max_price}/night`
+        };
+        await notifier.notify(summaryNotification, alert, matchingHotels);
+
+        return { found: true, matches: notifiedHotels.length, hotels: notifiedHotels };
       }
 
       return { found: false, cheapest: cheapest.perNightPrice, hotelName: cheapest.hotelName };
