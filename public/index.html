@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Price Monitor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏨</text></svg>">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="header-content">
+        <h1>🏨 Hotel Price Monitor</h1>
+        <p class="subtitle">Set your budget, get notified when prices drop</p>
+      </div>
+      <div class="header-actions">
+        <button id="check-now-btn" class="btn btn-secondary" title="Check all alerts now">
+          🔄 Check Now
+        </button>
+        <div class="notification-bell" id="notification-bell">
+          🔔
+          <span class="badge" id="notification-badge" style="display:none">0</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Create Alert Form -->
+      <section class="card form-section">
+        <h2 id="form-title">Create Price Alert</h2>
+        <form id="alert-form">
+          <input type="hidden" id="edit-id" name="edit_id" value="">
+          <div class="form-grid">
+            <div class="form-group destination-group">
+              <label for="destination">Destination</label>
+              <input type="text" id="destination" name="destination" placeholder="e.g. Paris, France" required autocomplete="off">
+              <input type="hidden" id="dest_id" name="dest_id">
+              <input type="hidden" id="dest_type" name="dest_type">
+              <div class="autocomplete-dropdown" id="autocomplete-dropdown"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="checkin">Check-in</label>
+              <input type="date" id="checkin" name="checkin" required>
+            </div>
+
+            <div class="form-group">
+              <label for="checkout">Check-out</label>
+              <input type="date" id="checkout" name="checkout" required>
+            </div>
+
+            <div class="form-group">
+              <label for="adults">Adults</label>
+              <input type="number" id="adults" name="adults" value="2" min="1" max="30">
+            </div>
+
+            <div class="form-group">
+              <label for="children">Children</label>
+              <input type="number" id="children" name="children" value="0" min="0" max="10">
+            </div>
+
+            <div class="form-group">
+              <label for="rooms">Rooms</label>
+              <input type="number" id="rooms" name="rooms" value="1" min="1" max="30">
+            </div>
+
+            <div class="form-group">
+              <label for="max_price">Max Price (per night)</label>
+              <input type="number" id="max_price" name="max_price" placeholder="100" min="1" step="1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="currency">Currency</label>
+              <select id="currency" name="currency">
+                <option value="EUR">EUR (€)</option>
+                <option value="USD">USD ($)</option>
+                <option value="GBP">GBP (£)</option>
+                <option value="PLN">PLN (zł)</option>
+                <option value="CZK">CZK (Kč)</option>
+                <option value="CHF">CHF</option>
+                <option value="SEK">SEK (kr)</option>
+                <option value="NOK">NOK (kr)</option>
+                <option value="DKK">DKK (kr)</option>
+                <option value="HUF">HUF (Ft)</option>
+                <option value="RON">RON (lei)</option>
+                <option value="TRY">TRY (₺)</option>
+                <option value="JPY">JPY (¥)</option>
+                <option value="AUD">AUD ($)</option>
+                <option value="CAD">CAD ($)</option>
+                <option value="THB">THB (฿)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="star_rating">Star Rating</label>
+              <select id="star_rating" name="star_rating">
+                <option value="">Any</option>
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+                <option value="3,4">3-4 Stars</option>
+                <option value="4,5">4-5 Stars</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="sort_by">Sort By</label>
+              <select id="sort_by" name="sort_by">
+                <option value="price">Lowest Price</option>
+                <option value="popularity">Popularity</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-buttons">
+            <button type="submit" class="btn btn-primary" id="form-submit-btn">➕ Create Alert</button>
+            <button type="button" class="btn btn-secondary" id="form-cancel-btn" style="display:none" onclick="cancelEdit()">Cancel</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Genius Settings -->
+      <section class="card genius-section">
+        <h2>🎖️ Genius Discounts</h2>
+        <p class="genius-description">Link your Booking.com account to see Genius Level 3 pricing in results.</p>
+        <div class="genius-status" id="genius-status">
+          <span class="genius-badge inactive">Not connected</span>
+        </div>
+        <div class="genius-actions">
+          <button class="btn btn-primary btn-sm" id="genius-login-btn" onclick="geniusLogin()">🔑 Open Login Window</button>
+          <button class="btn btn-secondary btn-sm" id="genius-remove-btn" onclick="geniusRemove()" style="display:none">🗑️ Disconnect</button>
+        </div>
+        <details class="genius-help">
+          <summary>Alternative: Import cookies manually</summary>
+          <p>If the login window doesn't work, you can export cookies from your browser:</p>
+          <ol>
+            <li>Install "EditThisCookie" or "Cookie Editor" browser extension</li>
+            <li>Go to booking.com while logged in</li>
+            <li>Export all cookies as JSON</li>
+            <li>Paste them below and click Import</li>
+          </ol>
+          <textarea id="genius-cookies-input" placeholder='Paste exported cookies JSON here...' rows="4"></textarea>
+          <button class="btn btn-secondary btn-sm" onclick="geniusImportCookies()" style="margin-top:8px">Import Cookies</button>
+        </details>
+      </section>
+
+      <!-- Active Alerts -->
+      <section class="card">
+        <h2>Your Alerts</h2>
+        <div id="alerts-list" class="alerts-list">
+          <p class="empty-state">No alerts yet. Create one above to start monitoring prices.</p>
+        </div>
+      </section>
+
+      <!-- Notifications Panel -->
+      <section class="card" id="notifications-section" style="display:none">
+        <h2>📬 Notifications</h2>
+        <div id="notifications-list" class="notifications-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
