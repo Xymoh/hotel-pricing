@@ -488,12 +488,22 @@ async function loadGeniusStatus() {
     const data = await res.json();
     const statusEl = document.getElementById('genius-status');
     const removeBtn = document.getElementById('genius-remove-btn');
+    const loginBtn = document.getElementById('genius-login-btn');
     
-    if (data.enabled) {
-      statusEl.innerHTML = '<span class="genius-badge active">✅ Connected — Genius prices enabled</span>';
+    if (data.loginInProgress) {
+      statusEl.innerHTML = '<span class="genius-badge pending">⏳ Login in progress — complete in the browser window...</span>';
+      loginBtn.disabled = true;
+      loginBtn.textContent = '⏳ Waiting for login...';
+      removeBtn.style.display = 'none';
+    } else if (data.enabled) {
+      statusEl.innerHTML = '<span class="genius-badge active">✅ Connected — Genius Level 3 prices enabled</span>';
+      loginBtn.disabled = false;
+      loginBtn.textContent = '🔑 Re-login';
       removeBtn.style.display = 'inline-flex';
     } else {
-      statusEl.innerHTML = '<span class="genius-badge inactive">Not connected — showing public prices</span>';
+      statusEl.innerHTML = '<span class="genius-badge inactive">Not connected — showing public prices only</span>';
+      loginBtn.disabled = false;
+      loginBtn.textContent = '🔑 Connect Booking.com Account';
       removeBtn.style.display = 'none';
     }
   } catch (err) {
@@ -502,25 +512,51 @@ async function loadGeniusStatus() {
 }
 
 async function geniusLogin() {
+  const loginBtn = document.getElementById('genius-login-btn');
+  
   try {
-    showToast('Opening Booking.com login window... Please log in with your Genius account.', 'info');
-    await fetch(`${API_BASE}/api/genius/login`, { method: 'POST' });
-    // The login happens in a separate browser window on the server
-    // Poll for status change
-    const pollInterval = setInterval(async () => {
-      const res = await fetch(`${API_BASE}/api/genius/status`);
-      const data = await res.json();
-      if (data.enabled) {
-        clearInterval(pollInterval);
-        loadGeniusStatus();
-        showToast('Genius account connected! Prices will include your discounts.', 'success');
-      }
-    }, 3000);
+    const res = await fetch(`${API_BASE}/api/genius/login`, { method: 'POST' });
+    const data = await res.json();
     
-    // Stop polling after 5 minutes
-    setTimeout(() => clearInterval(pollInterval), 300000);
+    if (!res.ok) {
+      showToast(data.error, 'error');
+      return;
+    }
+    
+    showToast('A Chrome window has been opened. Log into Booking.com with your Genius account.', 'info');
+    loginBtn.disabled = true;
+    loginBtn.textContent = '⏳ Waiting for login...';
+    
+    // Poll for completion
+    const pollInterval = setInterval(async () => {
+      try {
+        const statusRes = await fetch(`${API_BASE}/api/genius/status`);
+        const status = await statusRes.json();
+        
+        if (!status.loginInProgress) {
+          clearInterval(pollInterval);
+          loadGeniusStatus();
+          
+          if (status.enabled) {
+            showToast('Genius account connected! Your Level 3 discounts will now be applied.', 'success');
+          } else if (status.lastLoginResult && !status.lastLoginResult.success) {
+            showToast(`Login failed: ${status.lastLoginResult.error}`, 'error');
+          }
+        }
+      } catch (e) {
+        // Network error, keep polling
+      }
+    }, 2000);
+    
+    // Stop polling after 6 minutes (give login 5 min + buffer)
+    setTimeout(() => {
+      clearInterval(pollInterval);
+      loadGeniusStatus();
+    }, 360000);
+    
   } catch (err) {
-    showToast('Failed to open login window', 'error');
+    showToast('Failed to start login process', 'error');
+    loginBtn.disabled = false;
   }
 }
 
@@ -555,7 +591,7 @@ async function geniusImportCookies() {
 }
 
 async function geniusRemove() {
-  if (!confirm('Disconnect Genius account? You will see public prices.')) return;
+  if (!confirm('Disconnect Genius account? You will see public prices only.')) return;
   
   try {
     await fetch(`${API_BASE}/api/genius/cookies`, { method: 'DELETE' });

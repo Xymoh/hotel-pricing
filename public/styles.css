@@ -533,6 +533,11 @@ header h1 {
   color: var(--text-muted);
 }
 
+.genius-badge.pending {
+  background: #fef3cd;
+  color: #856404;
+}
+
 .genius-actions {
   display: flex;
   gap: 8px;

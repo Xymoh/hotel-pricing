@@ -180,18 +180,40 @@ app.post('/api/check-now', async (req, res) => {
 });
 
 // Genius / Cookie management
+// Genius login state tracking
+let geniusLoginInProgress = false;
+let geniusLoginResult = null;
+
 app.get('/api/genius/status', (req, res) => {
-  res.json({ enabled: priceChecker.hasGeniusCookies() });
+  res.json({ 
+    enabled: priceChecker.hasGeniusCookies(),
+    loginInProgress: geniusLoginInProgress,
+    lastLoginResult: geniusLoginResult
+  });
 });
 
 app.post('/api/genius/login', async (req, res) => {
+  if (geniusLoginInProgress) {
+    return res.status(409).json({ error: 'Login already in progress. Complete or close the open browser window.' });
+  }
+  
   try {
-    res.json({ message: 'Browser opened. Please log into Booking.com. This window will close after login is detected.' });
+    geniusLoginInProgress = true;
+    geniusLoginResult = null;
+    
+    res.json({ message: 'Browser window opened. Please log into your Booking.com account. The window will close automatically after login.' });
+    
     // Run in background since it waits for user interaction
     priceChecker.exportCookiesFromLogin().then(result => {
+      geniusLoginResult = result;
+      geniusLoginInProgress = false;
       console.log('Genius login result:', result);
+    }).catch(err => {
+      geniusLoginResult = { success: false, error: err.message };
+      geniusLoginInProgress = false;
     });
   } catch (err) {
+    geniusLoginInProgress = false;
     res.status(500).json({ error: err.message });
   }
 });

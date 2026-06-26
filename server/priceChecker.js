@@ -297,57 +297,112 @@ async function checkAllAlerts() {
 }
 
 // Export cookies from a logged-in Booking.com session
-// This is called via the API endpoint
+// Opens a visible Chrome window for the user to log in
 async function exportCookiesFromLogin() {
-  let loginPage = null;
+  let loginBrowser = null;
   
   try {
     // Launch browser in visible mode for login
-    const loginBrowser = await puppeteer.launch({
+    loginBrowser = await puppeteer.launch({
       executablePath: CHROME_PATH,
       headless: false, // Visible so user can log in
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
-        '--window-size=1200,800'
+        '--disable-blink-features=AutomationControlled',
+        '--window-size=1200,900'
       ]
     });
     
-    loginPage = await loginBrowser.newPage();
-    await loginPage.goto('https://www.booking.com/signin.html', { waitUntil: 'networkidle2' });
+    const loginPage = await loginBrowser.newPage();
+    await loginPage.setViewport({ width: 1200, height: 900 });
     
-    console.log('Browser opened for login. Please log into your Booking.com account...');
-    console.log('After logging in and seeing the homepage, the cookies will be saved automatically.');
+    // Go to Booking.com sign-in page
+    await loginPage.goto('https://account.booking.com/sign-in', { 
+      waitUntil: 'networkidle2',
+      timeout: 30000 
+    });
     
-    // Wait for user to log in (detect redirect to account/homepage)
-    // We wait up to 5 minutes for the user to complete login
-    await loginPage.waitForFunction(
-      () => document.querySelector('[data-testid="header-profile"]') || 
-            document.querySelector('.bui-avatar') ||
-            document.querySelector('[class*="profile"]') ||
-            window.location.pathname === '/' && document.cookie.includes('bkng_sso_auth'),
-      { timeout: 300000 }
+    console.log('=== Genius Login ===');
+    console.log('Browser window opened. Please log into your Booking.com account.');
+    console.log('Waiting up to 5 minutes for login to complete...');
+    
+    // Poll for login success — check for session cookies
+    // Booking.com sets various cookies upon successful authentication
+    const startTime = Date.now();
+    const TIMEOUT = 5 * 60 * 1000; // 5 minutes
+    let loggedIn = false;
+    
+    while (Date.now() - startTime < TIMEOUT) {
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      try {
+        // Check if browser was closed by user
+        if (!loginBrowser.connected) {
+          throw new Error('Browser was closed before login completed');
+        }
+
+        const cookies = await loginPage.cookies('https://www.booking.com');
+        const cookieNames = cookies.map(c => c.name);
+        
+        // Check for authentication cookies that indicate successful login
+        const hasAuth = cookieNames.some(name => 
+          name.includes('bkng_sso_auth') || 
+          name.includes('bkng_sso_session') ||
+          name.includes('login_token') ||
+          name === 'bkng_auth_profile'
+        );
+        
+        if (hasAuth) {
+          loggedIn = true;
+          break;
+        }
+        
+        // Also check by navigating — if we can reach the account page
+        const currentUrl = loginPage.url();
+        if (currentUrl.includes('mysettings') || currentUrl.includes('mydashboard') || 
+            (currentUrl === 'https://www.booking.com/' && cookies.length > 10)) {
+          loggedIn = true;
+          break;
+        }
+      } catch (e) {
+        if (e.message.includes('closed') || e.message.includes('disconnected')) {
+          throw new Error('Browser was closed before login completed');
+        }
+      }
+    }
+    
+    if (!loggedIn) {
+      throw new Error('Login timed out after 5 minutes');
+    }
+    
+    // Navigate to booking.com main page to collect all relevant cookies
+    await loginPage.goto('https://www.booking.com/', { waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    // Collect all booking.com cookies
+    const allCookies = await loginPage.cookies(
+      'https://www.booking.com',
+      'https://account.booking.com',
+      'https://secure.booking.com'
     );
-    
-    // Give it a moment to settle
-    await new Promise(resolve => setTimeout(resolve, 3000));
-    
-    // Extract cookies
-    const cookies = await loginPage.cookies();
     
     // Save cookies
     const dataDir = path.dirname(COOKIES_FILE);
     if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
-    fs.writeFileSync(COOKIES_FILE, JSON.stringify(cookies, null, 2));
+    fs.writeFileSync(COOKIES_FILE, JSON.stringify(allCookies, null, 2));
     
-    console.log(`Saved ${cookies.length} cookies. Genius discounts will now be applied!`);
+    console.log(`✅ Login successful! Saved ${allCookies.length} cookies.`);
+    console.log('Genius discounts will now be applied to price checks.');
     
     await loginBrowser.close();
-    return { success: true, cookieCount: cookies.length };
+    return { success: true, cookieCount: allCookies.length };
     
   } catch (err) {
-    console.error('Cookie export failed:', err.message);
-    if (loginPage) await loginPage.browser().close().catch(() => {});
+    console.error('❌ Genius login failed:', err.message);
+    if (loginBrowser && loginBrowser.connected) {
+      await loginBrowser.close().catch(() => {});
+    }
     return { success: false, error: err.message };
   }
 }
