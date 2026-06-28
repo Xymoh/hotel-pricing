@@ -114,4 +114,4 @@ async function notify(notification, alert, matchingHotels) {
   console.log(`  🔔 ${count} hotel${count > 1 ? 's' : ''} within budget in ${alert.destination}`);
 }
 
-module.exports = { notify, sendEmail };
+module.exports = { notify, sendEmail, resetTransporter: () => { transporter = null; } };

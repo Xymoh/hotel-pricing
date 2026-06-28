@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadAlerts();
   loadNotifications();
   loadGeniusStatus();
+  loadEmailStatus();
   setupSSE();
   setupAutocomplete();
   requestNotificationPermission();
@@ -478,6 +479,76 @@ function updateBadge() {
     notificationBadge.style.display = 'inline';
   } else {
     notificationBadge.style.display = 'none';
+  }
+}
+
+// ==================== EMAIL ====================
+
+async function loadEmailStatus() {
+  try {
+    const res = await fetch(`${API_BASE}/api/email/status`);
+    const data = await res.json();
+    const statusEl = document.getElementById('email-status');
+
+    if (data.configured) {
+      statusEl.innerHTML = `<span class="genius-badge active">✅ Configured — sending to ${escapeHtml(data.notification_email)}</span>`;
+      // Pre-fill form
+      document.getElementById('smtp_host').value = data.smtp_host;
+      document.getElementById('smtp_user').value = data.smtp_user;
+      document.getElementById('notification_email').value = data.notification_email;
+    } else {
+      statusEl.innerHTML = '<span class="genius-badge inactive">Not configured — no emails will be sent</span>';
+    }
+  } catch (err) {
+    console.error('Failed to load email status:', err);
+  }
+}
+
+async function saveEmailConfig() {
+  const config = {
+    smtp_host: document.getElementById('smtp_host').value.trim(),
+    smtp_port: parseInt(document.getElementById('smtp_port').value) || 587,
+    smtp_user: document.getElementById('smtp_user').value.trim(),
+    smtp_pass: document.getElementById('smtp_pass').value.trim(),
+    notification_email: document.getElementById('notification_email').value.trim()
+  };
+
+  if (!config.smtp_host || !config.smtp_user || !config.smtp_pass) {
+    showToast('Fill in SMTP host, email, and password', 'error');
+    return;
+  }
+
+  try {
+    const res = await fetch(`${API_BASE}/api/email/configure`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(config)
+    });
+
+    const data = await res.json();
+    if (res.ok) {
+      showToast('Email settings saved!', 'success');
+      document.getElementById('smtp_pass').value = '';
+      loadEmailStatus();
+    } else {
+      showToast(data.error, 'error');
+    }
+  } catch (err) {
+    showToast('Failed to save email config', 'error');
+  }
+}
+
+async function testEmail() {
+  try {
+    const res = await fetch(`${API_BASE}/api/email/test`, { method: 'POST' });
+    const data = await res.json();
+    if (res.ok) {
+      showToast(data.message, 'success');
+    } else {
+      showToast(data.error, 'error');
+    }
+  } catch (err) {
+    showToast('Failed to send test email', 'error');
   }
 }
 

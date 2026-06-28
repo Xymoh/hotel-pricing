@@ -574,3 +574,28 @@ header h1 {
   font-size: 0.8rem;
   resize: vertical;
 }
+
+
+/* Email Section */
+.email-section {
+  border-left: 4px solid #2563eb;
+}
+
+.email-description {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.email-status {
+  margin-bottom: 12px;
+}
+
+.email-form .form-grid {
+  margin-bottom: 12px;
+}
+
+.email-actions {
+  display: flex;
+  gap: 8px;
+}
