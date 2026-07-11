@@ -31,6 +31,12 @@ jobs:
           echo "Using Chrome at: $CHROME_BIN"
           echo "CHROME_PATH=$CHROME_BIN" >> "$GITHUB_ENV"
 
+      - name: Write Genius session cookies
+        if: ${{ secrets.BOOKING_COOKIES_JSON != '' }}
+        env:
+          BOOKING_COOKIES_JSON: ${{ secrets.BOOKING_COOKIES_JSON }}
+        run: printf '%s' "$BOOKING_COOKIES_JSON" > data/booking-cookies.json
+
       - name: Run price check
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}

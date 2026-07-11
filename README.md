@@ -83,10 +83,16 @@ Notes:
   Make the repo private if that's not okay for you.
 - `data/booking-cookies.json` (Genius login session) is **never** committed — it's a
   credential, not data, and stays gitignored.
-- The "Genius login" browser popup (`/api/genius/login`) opens a visible Chrome window for
-  interactive login, which only works locally, not in the GitHub Actions runner — use the
-  cookie-paste option (`/api/genius/cookies`) if you want Genius prices while running locally,
-  then keep the local dashboard open, or accept public prices for the scheduled checks.
+- The "Genius login" browser popup (`/api/genius/login`) opens a visible Chrome/Brave window
+  for interactive login, which only works locally, not in the GitHub Actions runner.
+- To get **Genius-discounted prices in the scheduled checks too**, add a `BOOKING_COOKIES_JSON`
+  repo secret with the full contents of your local `data/booking-cookies.json` (created after
+  logging in via the Genius button). The workflow writes it to the runner before each check —
+  never committed to the repo, since it's a session credential. This gives real discounted
+  prices as shown by Booking.com for your account, not a guessed/hardcoded percentage (Genius
+  discounts vary per hotel, so a flat number would be inaccurate). Booking.com sessions expire
+  after a while — if scheduled emails quietly go back to public pricing, redo the Genius login
+  locally and update the secret with the new cookie file contents.
 - Scheduled GitHub Actions runs can slip by several minutes under load, and auto-disable
   after 60 days with no commits to the repo (any commit, including `npm run sync`, resets
   that clock).
