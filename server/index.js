@@ -17,6 +17,18 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 // Initialize database
 db.initialize();
 
+// Require an API key on every /api route when one is configured via env.
+// Left open when API_KEY is unset so local dev works with zero setup.
+const API_KEY = process.env.API_KEY;
+app.use('/api', (req, res, next) => {
+  if (!API_KEY) return next();
+  const provided = req.get('x-api-key') || req.query.key;
+  if (provided !== API_KEY) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+  next();
+});
+
 // API Routes
 
 // Destination autocomplete - uses OpenStreetMap Nominatim for reliable city lookup
@@ -282,13 +294,16 @@ app.post('/api/email/configure', (req, res) => {
   process.env.SMTP_PASS = smtp_pass;
   process.env.NOTIFICATION_EMAIL = notification_email || smtp_user;
 
-  // Write to .env file for persistence
+  // Write to .env file for persistence (preserving settings this endpoint doesn't manage)
   const envContent = `# Email notification settings
 SMTP_HOST=${smtp_host}
 SMTP_PORT=${smtp_port || 587}
 SMTP_USER=${smtp_user}
 SMTP_PASS=${smtp_pass}
 NOTIFICATION_EMAIL=${notification_email || smtp_user}
+
+# Shared secret required on every /api request
+API_KEY=${API_KEY || ''}
 
 # Server settings
 PORT=${process.env.PORT || 3000}
@@ -297,7 +312,7 @@ PORT=${process.env.PORT || 3000}
 CHECK_INTERVAL_MINUTES=${process.env.CHECK_INTERVAL_MINUTES || 30}
 
 # Chrome path (auto-detected if not set)
-# CHROME_PATH=C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe
+${process.env.CHROME_PATH ? `CHROME_PATH=${process.env.CHROME_PATH}` : '# CHROME_PATH=C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe'}
 `;
 
   fs.writeFileSync(envPath, envContent);

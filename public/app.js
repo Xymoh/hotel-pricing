@@ -1,4 +1,26 @@
 const API_BASE = '';
+const API_KEY_STORAGE_KEY = 'hotelPriceMonitorApiKey';
+
+function getApiKey() {
+  let key = localStorage.getItem(API_KEY_STORAGE_KEY);
+  if (key === null) {
+    key = window.prompt('Enter the app API key (leave blank if the server has none configured):') || '';
+    localStorage.setItem(API_KEY_STORAGE_KEY, key);
+  }
+  return key;
+}
+
+async function apiFetch(url, options = {}) {
+  const key = getApiKey();
+  const headers = { ...(options.headers || {}) };
+  if (key) headers['x-api-key'] = key;
+  const res = await fetch(url, { ...options, headers });
+  if (res.status === 401) {
+    localStorage.removeItem(API_KEY_STORAGE_KEY);
+    showToast('Invalid API key — reload the page to re-enter it', 'error');
+  }
+  return res;
+}
 
 // State
 let alerts = [];
@@ -86,7 +108,7 @@ function setupAutocomplete() {
 
 async function fetchSuggestions(query) {
   try {
-    const res = await fetch(`${API_BASE}/api/destinations?query=${encodeURIComponent(query)}`);
+    const res = await apiFetch(`${API_BASE}/api/destinations?query=${encodeURIComponent(query)}`);
     autocompleteResults = await res.json();
     activeAutocompleteIndex = -1;
 
@@ -174,7 +196,9 @@ function requestNotificationPermission() {
 }
 
 function setupSSE() {
-  const eventSource = new EventSource(`${API_BASE}/api/events`);
+  const key = getApiKey();
+  const url = `${API_BASE}/api/events${key ? `?key=${encodeURIComponent(key)}` : ''}`;
+  const eventSource = new EventSource(url);
 
   eventSource.onmessage = (event) => {
     const notification = JSON.parse(event.data);
@@ -211,7 +235,7 @@ function showBrowserNotification(notification) {
 
 async function loadAlerts() {
   try {
-    const res = await fetch(`${API_BASE}/api/alerts`);
+    const res = await apiFetch(`${API_BASE}/api/alerts`);
     alerts = await res.json();
     renderAlerts();
   } catch (err) {
@@ -221,7 +245,7 @@ async function loadAlerts() {
 
 async function loadNotifications() {
   try {
-    const res = await fetch(`${API_BASE}/api/notifications`);
+    const res = await apiFetch(`${API_BASE}/api/notifications`);
     notifications = await res.json();
     renderNotifications();
     updateBadge();
@@ -232,7 +256,7 @@ async function loadNotifications() {
 
 async function createAlert(data) {
   try {
-    const res = await fetch(`${API_BASE}/api/alerts`, {
+    const res = await apiFetch(`${API_BASE}/api/alerts`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
@@ -256,7 +280,7 @@ async function createAlert(data) {
 
 async function updateAlertApi(id, data) {
   try {
-    const res = await fetch(`${API_BASE}/api/alerts/${id}`, {
+    const res = await apiFetch(`${API_BASE}/api/alerts/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
@@ -283,7 +307,7 @@ async function deleteAlert(id) {
   if (!confirm('Delete this alert?')) return;
 
   try {
-    await fetch(`${API_BASE}/api/alerts/${id}`, { method: 'DELETE' });
+    await apiFetch(`${API_BASE}/api/alerts/${id}`, { method: 'DELETE' });
     alerts = alerts.filter(a => a.id !== id);
     renderAlerts();
     showToast('Alert deleted', 'info');
@@ -294,7 +318,7 @@ async function deleteAlert(id) {
 
 async function toggleAlert(id) {
   try {
-    const res = await fetch(`${API_BASE}/api/alerts/${id}/toggle`, { method: 'PATCH' });
+    const res = await apiFetch(`${API_BASE}/api/alerts/${id}/toggle`, { method: 'PATCH' });
     const updated = await res.json();
     const idx = alerts.findIndex(a => a.id === id);
     if (idx !== -1) alerts[idx] = updated;
@@ -309,7 +333,7 @@ async function checkNow() {
   checkNowBtn.innerHTML = '<span class="spinner"></span> Checking...';
 
   try {
-    const res = await fetch(`${API_BASE}/api/check-now`, { method: 'POST' });
+    const res = await apiFetch(`${API_BASE}/api/check-now`, { method: 'POST' });
     const data = await res.json();
 
     if (data.results) {
@@ -486,7 +510,7 @@ function updateBadge() {
 
 async function loadEmailStatus() {
   try {
-    const res = await fetch(`${API_BASE}/api/email/status`);
+    const res = await apiFetch(`${API_BASE}/api/email/status`);
     const data = await res.json();
     const statusEl = document.getElementById('email-status');
 
@@ -519,7 +543,7 @@ async function saveEmailConfig() {
   }
 
   try {
-    const res = await fetch(`${API_BASE}/api/email/configure`, {
+    const res = await apiFetch(`${API_BASE}/api/email/configure`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(config)
@@ -540,7 +564,7 @@ async function saveEmailConfig() {
 
 async function testEmail() {
   try {
-    const res = await fetch(`${API_BASE}/api/email/test`, { method: 'POST' });
+    const res = await apiFetch(`${API_BASE}/api/email/test`, { method: 'POST' });
     const data = await res.json();
     if (res.ok) {
       showToast(data.message, 'success');
@@ -556,7 +580,7 @@ async function testEmail() {
 
 async function loadGeniusStatus() {
   try {
-    const res = await fetch(`${API_BASE}/api/genius/status`);
+    const res = await apiFetch(`${API_BASE}/api/genius/status`);
     const data = await res.json();
     const statusEl = document.getElementById('genius-status');
     const removeBtn = document.getElementById('genius-remove-btn');
@@ -587,7 +611,7 @@ async function geniusLogin() {
   const loginBtn = document.getElementById('genius-login-btn');
   
   try {
-    const res = await fetch(`${API_BASE}/api/genius/login`, { method: 'POST' });
+    const res = await apiFetch(`${API_BASE}/api/genius/login`, { method: 'POST' });
     const data = await res.json();
     
     if (!res.ok) {
@@ -602,7 +626,7 @@ async function geniusLogin() {
     // Poll for completion
     const pollInterval = setInterval(async () => {
       try {
-        const statusRes = await fetch(`${API_BASE}/api/genius/status`);
+        const statusRes = await apiFetch(`${API_BASE}/api/genius/status`);
         const status = await statusRes.json();
         
         if (!status.loginInProgress) {
@@ -643,7 +667,7 @@ async function geniusImportCookies() {
   
   try {
     const cookies = JSON.parse(text);
-    const res = await fetch(`${API_BASE}/api/genius/cookies`, {
+    const res = await apiFetch(`${API_BASE}/api/genius/cookies`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(cookies)
@@ -666,7 +690,7 @@ async function geniusRemove() {
   if (!confirm('Disconnect Genius account? You will see public prices only.')) return;
   
   try {
-    await fetch(`${API_BASE}/api/genius/cookies`, { method: 'DELETE' });
+    await apiFetch(`${API_BASE}/api/genius/cookies`, { method: 'DELETE' });
     loadGeniusStatus();
     showToast('Genius account disconnected', 'info');
   } catch (err) {

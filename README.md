@@ -58,3 +58,35 @@ Copy `.env.example` to `.env` and configure:
 - **Scraping**: Puppeteer (headless Chrome) to bypass WAF protection
 - **Frontend**: Vanilla HTML/CSS/JS (no build step needed)
 - **Notifications**: Nodemailer (email) + Web Notifications API (browser) + SSE (real-time)
+
+## Running checks even when your PC is off
+
+This is a full-stack app (Express + Puppeteer + cron + email), so it can't run on
+GitHub Pages (static hosting only, no server process to keep alive). Instead, a
+[GitHub Actions workflow](.github/workflows/price-check.yml) runs the price check on a
+schedule (every 30 minutes) in the cloud, for free, with no server to host or pay for:
+
+1. **Add SMTP secrets**: repo Settings → Secrets and variables → Actions → New repository
+   secret. Add `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `NOTIFICATION_EMAIL`
+   (same values you'd put in `.env`).
+2. **Manage alerts locally** via `npm start` and the dashboard at `http://localhost:3000`,
+   same as before.
+3. **After adding/editing/deleting an alert locally, sync it to the repo** so the scheduled
+   check picks it up: `npm run sync` (commits & pushes `data/db.json`). Run `git pull`
+   before starting the dashboard too, so you see price history/notifications the scheduled
+   run collected while you were away.
+4. The workflow also runs on demand: repo → Actions → "Hotel Price Check" → Run workflow.
+
+Notes:
+- `data/db.json` (alerts, price history, notifications) is committed to the repo so state
+  persists between scheduled runs — this repo is public, so that data is publicly visible.
+  Make the repo private if that's not okay for you.
+- `data/booking-cookies.json` (Genius login session) is **never** committed — it's a
+  credential, not data, and stays gitignored.
+- The "Genius login" browser popup (`/api/genius/login`) opens a visible Chrome window for
+  interactive login, which only works locally, not in the GitHub Actions runner — use the
+  cookie-paste option (`/api/genius/cookies`) if you want Genius prices while running locally,
+  then keep the local dashboard open, or accept public prices for the scheduled checks.
+- Scheduled GitHub Actions runs can slip by several minutes under load, and auto-disable
+  after 60 days with no commits to the repo (any commit, including `npm run sync`, resets
+  that clock).

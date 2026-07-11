@@ -1,4 +1,9 @@
 node_modules/
 .env
-data/
+
+# Track db.json (used by the scheduled GitHub Actions check to persist state)
+# but never the Booking.com session cookies - that's a credential, not data.
+data/*
+!data/db.json
+data/booking-cookies.json
 *.db
