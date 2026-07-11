@@ -1,6 +1,51 @@
 {
-  "alerts": [],
+  "alerts": [
+    {
+      "id": 1,
+      "destination": "Poznan, Greater Poland Voivodeship, Poland",
+      "dest_id": "2456294",
+      "dest_type": "city",
+      "checkin": "2027-06-17",
+      "checkout": "2027-06-20",
+      "adults": 2,
+      "children": 0,
+      "rooms": 1,
+      "max_price": 500,
+      "currency": "PLN",
+      "star_rating": "",
+      "sort_by": "price",
+      "active": 1,
+      "last_checked": null,
+      "last_price": null,
+      "created_at": "2026-07-11T18:31:19.869Z",
+      "updated_at": "2026-07-11T18:31:19.869Z"
+    },
+    {
+      "id": 2,
+      "destination": "Dusseldorf, North Rhine-Westphalia, Germany",
+      "dest_id": "62539",
+      "dest_type": "city",
+      "checkin": "2027-07-08",
+      "checkout": "2027-07-12",
+      "adults": 2,
+      "children": 0,
+      "rooms": 1,
+      "max_price": 150,
+      "currency": "EUR",
+      "star_rating": "",
+      "sort_by": "price",
+      "active": 1,
+      "last_checked": null,
+      "last_price": null,
+      "created_at": "2026-07-11T18:32:26.142Z",
+      "updated_at": "2026-07-11T18:32:26.142Z"
+    }
+  ],
   "price_history": [],
   "notifications": [],
-  "nextId": { "alerts": 1, "price_history": 1, "notifications": 1 }
+  "nextId": {
+    "alerts": 3,
+    "price_history": 1,
+    "notifications": 1
+  }
 }
