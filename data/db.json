@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-11T22:23:33.709Z",
+      "last_checked": "2026-07-11T23:28:47.918Z",
       "last_price": 41,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-11T22:23:33.709Z"
+      "updated_at": "2026-07-11T23:28:47.918Z"
     }
   ],
   "price_history": [
@@ -65,6 +65,14 @@
       "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
       "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC3oTL0gbAAgHSAiQwODgzYmFkYi02YzhhLTRiYjMtODg1Zi1lODNhZjNkOTM1OWHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=71869d6fced80613&srepoch=1783808610&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__66063&from=searchresults",
       "checked_at": "2026-07-11T22:23:33.709Z"
+    },
+    {
+      "id": 4,
+      "alert_id": 2,
+      "price": 41,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__66063&from=searchresults",
+      "checked_at": "2026-07-11T23:28:47.918Z"
     }
   ],
   "notifications": [
@@ -367,11 +375,111 @@
       "message": "🏨 Radisson Blu Media Harbour Hotel, Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 58/night",
       "is_read": 0,
       "created_at": "2026-07-11T22:23:33.714Z"
+    },
+    {
+      "id": 31,
+      "alert_id": 2,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "price": 41,
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__66063&from=searchresults",
+      "message": "🏨 Fährhaus Hotel am Rhein by Mayburgh in Dusseldorf, North Rhine-Westphalia, Germany — EUR 41/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.919Z"
+    },
+    {
+      "id": 32,
+      "alert_id": 2,
+      "hotel_name": "Van der Valk Hotel Düsseldorf",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/van-der-valk-airporthotel-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=24663715_90860864_0_2_0_1140079&highlighted_blocks=24663715_90860864_0_2_0_1140079&matching_block_id=24663715_90860864_0_2_0_1140079&sr_pri_blocks=24663715_90860864_0_2_0_1140079_67469&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Van der Valk Hotel Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.919Z"
+    },
+    {
+      "id": 33,
+      "alert_id": 2,
+      "hotel_name": "Hotel Moon",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/moon.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=44229503_404261700_0_2_0&highlighted_blocks=44229503_404261700_0_2_0&matching_block_id=44229503_404261700_0_2_0&sr_pri_blocks=44229503_404261700_0_2_0__68224&from=searchresults",
+      "message": "🏨 Hotel Moon in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.920Z"
+    },
+    {
+      "id": 34,
+      "alert_id": 2,
+      "hotel_name": "Hotel Ko",
+      "price": 52,
+      "url": "https://www.booking.com/hotel/de/ko.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=42052808_88936046_2_2_0&highlighted_blocks=42052808_88936046_2_2_0&matching_block_id=42052808_88936046_2_2_0&sr_pri_blocks=42052808_88936046_2_2_0__83645&from=searchresults",
+      "message": "🏨 Hotel Ko in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.920Z"
+    },
+    {
+      "id": 35,
+      "alert_id": 2,
+      "hotel_name": "Hotel Arosa Düsseldorf Oberkassel",
+      "price": 53,
+      "url": "https://www.booking.com/hotel/de/arosa.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=7131403_338444063_2_2_0&highlighted_blocks=7131403_338444063_2_2_0&matching_block_id=7131403_338444063_2_2_0&sr_pri_blocks=7131403_338444063_2_2_0__84611&from=searchresults",
+      "message": "🏨 Hotel Arosa Düsseldorf Oberkassel in Dusseldorf, North Rhine-Westphalia, Germany — EUR 53/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.921Z"
+    },
+    {
+      "id": 36,
+      "alert_id": 2,
+      "hotel_name": "Tolstov Apartments - Airport Apartments",
+      "price": 55,
+      "url": "https://www.booking.com/hotel/de/tolstov-apartments-airport-apartments.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=1615301405_432410084_2_0_0&highlighted_blocks=1615301405_432410084_2_0_0&matching_block_id=1615301405_432410084_2_0_0&sr_pri_blocks=1615301405_432410084_2_0_0__87022&from=searchresults",
+      "message": "🏨 Tolstov Apartments - Airport Apartments in Dusseldorf, North Rhine-Westphalia, Germany — EUR 55/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.921Z"
+    },
+    {
+      "id": 37,
+      "alert_id": 2,
+      "hotel_name": "Lessing-Apartment",
+      "price": 55,
+      "url": "https://www.booking.com/hotel/de/lessing-apartment.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=18110002_93131482_2_0_0&highlighted_blocks=18110002_93131482_2_0_0&matching_block_id=18110002_93131482_2_0_0&sr_pri_blocks=18110002_93131482_2_0_0__88200&from=searchresults",
+      "message": "🏨 Lessing-Apartment in Dusseldorf, North Rhine-Westphalia, Germany — EUR 55/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.921Z"
+    },
+    {
+      "id": 38,
+      "alert_id": 2,
+      "hotel_name": "Hyatt Regency Dusseldorf",
+      "price": 56,
+      "url": "https://www.booking.com/hotel/de/hyatt-regency-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=27003415_338444253_2_2_0_1355071&highlighted_blocks=27003415_338444253_2_2_0_1355071&matching_block_id=27003415_338444253_2_2_0_1355071&sr_pri_blocks=27003415_338444253_2_2_0_1355071_89065&from=searchresults",
+      "message": "🏨 Hyatt Regency Dusseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 56/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.922Z"
+    },
+    {
+      "id": 39,
+      "alert_id": 2,
+      "hotel_name": "Home sweet home",
+      "price": 57,
+      "url": "https://www.booking.com/hotel/de/home-sweet-home-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=1335700001_406030086_2_0_0&highlighted_blocks=1335700001_406030086_2_0_0&matching_block_id=1335700001_406030086_2_0_0&sr_pri_blocks=1335700001_406030086_2_0_0__90841&from=searchresults",
+      "message": "🏨 Home sweet home in Dusseldorf, North Rhine-Westphalia, Germany — EUR 57/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.923Z"
+    },
+    {
+      "id": 40,
+      "alert_id": 2,
+      "hotel_name": "Radisson Blu Media Harbour Hotel, Düsseldorf",
+      "price": 58,
+      "url": "https://www.booking.com/hotel/de/radisson-sas-media-harbour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqKPL0gbAAgHSAiQ5ZWI3MGFkNi03MmU4LTQ4YTMtODljNS1mN2Y0MmYxZjZjNGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=f3d2a514c6230497&srepoch=1783812524&all_sr_blocks=6715602_338459318_2_2_0&highlighted_blocks=6715602_338459318_2_2_0&matching_block_id=6715602_338459318_2_2_0&sr_pri_blocks=6715602_338459318_2_2_0__92056&from=searchresults",
+      "message": "🏨 Radisson Blu Media Harbour Hotel, Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 58/night",
+      "is_read": 0,
+      "created_at": "2026-07-11T23:28:47.923Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 4,
-    "notifications": 31
+    "price_history": 5,
+    "notifications": 41
   }
 }
