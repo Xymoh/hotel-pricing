@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-12T12:04:23.357Z",
-      "last_price": 18,
+      "last_checked": "2026-07-12T12:30:46.431Z",
+      "last_price": 75,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-12T12:04:23.357Z"
+      "updated_at": "2026-07-12T12:30:46.431Z"
     }
   ],
   "price_history": [
@@ -121,6 +121,14 @@
       "hotel_name": "Helles, gepflegtes Souterrain Apartment in ruhiger Lage",
       "url": "https://www.booking.com/hotel/de/helles-gepflegtes-souterrain-apartment-in-ruhiger-lage.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv4XO0gbAAgHSAiQzODgyMDFmYi1jOGJkLTQ4ZmItODBlYy05ODBkMzlhNmM4YTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=630754df81b6039f&srepoch=1783857860&all_sr_blocks=1483440501_419838945_2_0_0&highlighted_blocks=1483440501_419838945_2_0_0&matching_block_id=1483440501_419838945_2_0_0&sr_pri_blocks=1483440501_419838945_2_0_0__27942&from=searchresults",
       "checked_at": "2026-07-12T12:04:23.356Z"
+    },
+    {
+      "id": 11,
+      "alert_id": 2,
+      "price": 75,
+      "hotel_name": "Helles, gepflegtes Souterrain Apartment in ruhiger Lage",
+      "url": "https://www.booking.com/hotel/de/helles-gepflegtes-souterrain-apartment-in-ruhiger-lage.en-gb.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiPAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7pHO0gbAAgHSAiQ2MzgzN2I1OS05OGYyLTQ4ZTQtODc3Yi0wZjJmOTNhZmM0OTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3ead57f79d38050d&srepoch=1783859443&all_sr_blocks=1483440501_419838945_2_0_0&highlighted_blocks=1483440501_419838945_2_0_0&matching_block_id=1483440501_419838945_2_0_0&sr_pri_blocks=1483440501_419838945_2_0_0__29898&from=searchresults",
+      "checked_at": "2026-07-12T12:30:46.428Z"
     }
   ],
   "notifications": [
@@ -1123,11 +1131,31 @@
       "message": "🏨 Limehome Düsseldorf Pionierstraße in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
       "is_read": 0,
       "created_at": "2026-07-12T12:04:23.369Z"
+    },
+    {
+      "id": 101,
+      "alert_id": 2,
+      "hotel_name": "Helles, gepflegtes Souterrain Apartment in ruhiger Lage",
+      "price": 75,
+      "url": "https://www.booking.com/hotel/de/helles-gepflegtes-souterrain-apartment-in-ruhiger-lage.en-gb.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiPAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7pHO0gbAAgHSAiQ2MzgzN2I1OS05OGYyLTQ4ZTQtODc3Yi0wZjJmOTNhZmM0OTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3ead57f79d38050d&srepoch=1783859443&all_sr_blocks=1483440501_419838945_2_0_0&highlighted_blocks=1483440501_419838945_2_0_0&matching_block_id=1483440501_419838945_2_0_0&sr_pri_blocks=1483440501_419838945_2_0_0__29898&from=searchresults",
+      "message": "🏨 Helles, gepflegtes Souterrain Apartment in ruhiger Lage in Dusseldorf, North Rhine-Westphalia, Germany — EUR 75/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T12:30:46.433Z"
+    },
+    {
+      "id": 102,
+      "alert_id": 2,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "price": 121,
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.en-gb.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiPAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7pHO0gbAAgHSAiQ2MzgzN2I1OS05OGYyLTQ4ZTQtODc3Yi0wZjJmOTNhZmM0OTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=3ead57f79d38050d&srepoch=1783859443&all_sr_blocks=1212816901_393497237_2_0_0&highlighted_blocks=1212816901_393497237_2_0_0&matching_block_id=1212816901_393497237_2_0_0&sr_pri_blocks=1212816901_393497237_2_0_0__48200&from=searchresults",
+      "message": "🏨 Limehome Düsseldorf Bahlenstr in Dusseldorf, North Rhine-Westphalia, Germany — EUR 121/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T12:30:46.435Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 11,
-    "notifications": 101
+    "price_history": 12,
+    "notifications": 103
   }
 }
