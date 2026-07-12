@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-12T15:34:38.104Z",
-      "last_price": 18,
+      "last_checked": "2026-07-12T17:01:12.128Z",
+      "last_price": 27,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-12T15:34:38.104Z"
+      "updated_at": "2026-07-12T17:01:12.128Z"
     }
   ],
   "price_history": [
@@ -137,6 +137,14 @@
       "hotel_name": "Helles, gepflegtes Souterrain Apartment in ruhiger Lage",
       "url": "https://www.booking.com/hotel/de/helles-gepflegtes-souterrain-apartment-in-ruhiger-lage.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgChujO0gbAAgHSAiQ4ZTM1ODNiNC02MjZlLTQ0YzUtYWY3NC1lNjAzYjlkZTExMzDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=50666d8367dd0332&srepoch=1783870475&all_sr_blocks=1483440501_419838945_2_0_0&highlighted_blocks=1483440501_419838945_2_0_0&matching_block_id=1483440501_419838945_2_0_0&sr_pri_blocks=1483440501_419838945_2_0_0__27942&from=searchresults",
       "checked_at": "2026-07-12T15:34:38.102Z"
+    },
+    {
+      "id": 13,
+      "alert_id": 2,
+      "price": 27,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=1212816901_393497237_2_0_0&highlighted_blocks=1212816901_393497237_2_0_0&matching_block_id=1212816901_393497237_2_0_0&sr_pri_blocks=1212816901_393497237_2_0_0__43764&from=searchresults",
+      "checked_at": "2026-07-12T17:01:12.126Z"
     }
   ],
   "notifications": [
@@ -1259,11 +1267,111 @@
       "message": "🏨 Limehome Düsseldorf Pionierstraße in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
       "is_read": 0,
       "created_at": "2026-07-12T15:34:38.116Z"
+    },
+    {
+      "id": 113,
+      "alert_id": 2,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "price": 27,
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=1212816901_393497237_2_0_0&highlighted_blocks=1212816901_393497237_2_0_0&matching_block_id=1212816901_393497237_2_0_0&sr_pri_blocks=1212816901_393497237_2_0_0__43764&from=searchresults",
+      "message": "🏨 Limehome Düsseldorf Bahlenstr in Dusseldorf, North Rhine-Westphalia, Germany — EUR 27/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.130Z"
+    },
+    {
+      "id": 114,
+      "alert_id": 2,
+      "hotel_name": "25hours Hotel Das Tour",
+      "price": 36,
+      "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__58136&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 25hours Hotel Das Tour in Dusseldorf, North Rhine-Westphalia, Germany — EUR 36/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.131Z"
+    },
+    {
+      "id": 115,
+      "alert_id": 2,
+      "hotel_name": "ibis Duesseldorf Airport",
+      "price": 39,
+      "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62034&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 ibis Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 39/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.132Z"
+    },
+    {
+      "id": 116,
+      "alert_id": 2,
+      "hotel_name": "Van der Valk Hotel Düsseldorf",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/van-der-valk-airporthotel-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=24663715_90860864_0_2_0_1140079&highlighted_blocks=24663715_90860864_0_2_0_1140079&matching_block_id=24663715_90860864_0_2_0_1140079&sr_pri_blocks=24663715_90860864_0_2_0_1140079_67469&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Van der Valk Hotel Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.134Z"
+    },
+    {
+      "id": 117,
+      "alert_id": 2,
+      "hotel_name": "Hotel Moon",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/moon.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=44229503_404261700_0_2_0&highlighted_blocks=44229503_404261700_0_2_0&matching_block_id=44229503_404261700_0_2_0&sr_pri_blocks=44229503_404261700_0_2_0__68224&from=searchresults",
+      "message": "🏨 Hotel Moon in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.135Z"
+    },
+    {
+      "id": 118,
+      "alert_id": 2,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__69383&from=searchresults",
+      "message": "🏨 Fährhaus Hotel am Rhein by Mayburgh in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.137Z"
+    },
+    {
+      "id": 119,
+      "alert_id": 2,
+      "hotel_name": "Novotel Duesseldorf Airport",
+      "price": 48,
+      "url": "https://www.booking.com/hotel/de/novotel-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=653017902_266350202_2_2_0&highlighted_blocks=653017902_266350202_2_2_0&matching_block_id=653017902_266350202_2_2_0&sr_pri_blocks=653017902_266350202_2_2_0__76916&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Novotel Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.138Z"
+    },
+    {
+      "id": 120,
+      "alert_id": 2,
+      "hotel_name": "Limehome Düsseldorf Stresemannstraße - Digital Access",
+      "price": 48,
+      "url": "https://www.booking.com/hotel/de/joyn-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=729286001_325340910_2_0_0&highlighted_blocks=729286001_325340910_2_0_0&matching_block_id=729286001_325340910_2_0_0&sr_pri_blocks=729286001_325340910_2_0_0__76609&from=searchresults",
+      "message": "🏨 Limehome Düsseldorf Stresemannstraße - Digital Access in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.139Z"
+    },
+    {
+      "id": 121,
+      "alert_id": 2,
+      "hotel_name": "Novotel Düsseldorf City West",
+      "price": 51,
+      "url": "https://www.booking.com/hotel/de/novotelduesseldorfcw.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=6049317_338443504_2_2_0&highlighted_blocks=6049317_338443504_2_2_0&matching_block_id=6049317_338443504_2_2_0&sr_pri_blocks=6049317_338443504_2_2_0__80841&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Novotel Düsseldorf City West in Dusseldorf, North Rhine-Westphalia, Germany — EUR 51/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.141Z"
+    },
+    {
+      "id": 122,
+      "alert_id": 2,
+      "hotel_name": "Limehome Düsseldorf Pionierstraße",
+      "price": 52,
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-pionierstrasse.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=1619986804_432825836_2_0_0&highlighted_blocks=1619986804_432825836_2_0_0&matching_block_id=1619986804_432825836_2_0_0&sr_pri_blocks=1619986804_432825836_2_0_0__82897&from=searchresults",
+      "message": "🏨 Limehome Düsseldorf Pionierstraße in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T17:01:12.142Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 13,
-    "notifications": 113
+    "price_history": 14,
+    "notifications": 123
   }
 }
