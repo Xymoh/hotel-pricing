@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-12T17:01:12.128Z",
-      "last_price": 27,
+      "last_checked": "2026-07-12T18:27:56.499Z",
+      "last_price": 116,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-12T17:01:12.128Z"
+      "updated_at": "2026-07-12T18:27:56.499Z"
     }
   ],
   "price_history": [
@@ -145,6 +145,14 @@
       "hotel_name": "Limehome Düsseldorf Bahlenstr",
       "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0JDP0gbAAgHSAiQ2N2QyZjk0NS0yM2NhLTRkMmMtYWI0OS0wZTlhZTc2MjliZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f77a849a1096e&srepoch=1783875669&all_sr_blocks=1212816901_393497237_2_0_0&highlighted_blocks=1212816901_393497237_2_0_0&matching_block_id=1212816901_393497237_2_0_0&sr_pri_blocks=1212816901_393497237_2_0_0__43764&from=searchresults",
       "checked_at": "2026-07-12T17:01:12.126Z"
+    },
+    {
+      "id": 14,
+      "alert_id": 2,
+      "price": 116,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpLnP0gbAAgHSAiQ0YTIzNzcwOS1jMmY4LTRmZjItYTAxYy1jNjhkYzMzMWViZjPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=fbaa81d166cb0340&srepoch=1783880873&all_sr_blocks=1212816902_393497237_2_0_0&highlighted_blocks=1212816902_393497237_2_0_0&matching_block_id=1212816902_393497237_2_0_0&sr_pri_blocks=1212816902_393497237_2_0_0__46172&from=searchresults",
+      "checked_at": "2026-07-12T18:27:56.497Z"
     }
   ],
   "notifications": [
@@ -1367,11 +1375,31 @@
       "message": "🏨 Limehome Düsseldorf Pionierstraße in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
       "is_read": 0,
       "created_at": "2026-07-12T17:01:12.142Z"
+    },
+    {
+      "id": 123,
+      "alert_id": 2,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "price": 116,
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpLnP0gbAAgHSAiQ0YTIzNzcwOS1jMmY4LTRmZjItYTAxYy1jNjhkYzMzMWViZjPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=fbaa81d166cb0340&srepoch=1783880873&all_sr_blocks=1212816902_393497237_2_0_0&highlighted_blocks=1212816902_393497237_2_0_0&matching_block_id=1212816902_393497237_2_0_0&sr_pri_blocks=1212816902_393497237_2_0_0__46172&from=searchresults",
+      "message": "🏨 Limehome Düsseldorf Bahlenstr in Dusseldorf, North Rhine-Westphalia, Germany — EUR 116/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T18:27:56.500Z"
+    },
+    {
+      "id": 124,
+      "alert_id": 2,
+      "hotel_name": "25hours Hotel Das Tour",
+      "price": 145,
+      "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpLnP0gbAAgHSAiQ0YTIzNzcwOS1jMmY4LTRmZjItYTAxYy1jNjhkYzMzMWViZjPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=fbaa81d166cb0340&srepoch=1783880873&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__58136&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 25hours Hotel Das Tour in Dusseldorf, North Rhine-Westphalia, Germany — EUR 145/night",
+      "is_read": 0,
+      "created_at": "2026-07-12T18:27:56.502Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 14,
-    "notifications": 123
+    "price_history": 15,
+    "notifications": 125
   }
 }
