@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-13T13:01:32.067Z",
+      "last_checked": "2026-07-13T18:17:01.774Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-13T13:01:32.067Z"
+      "updated_at": "2026-07-13T18:17:01.774Z"
     },
     {
       "id": 2,
@@ -241,6 +241,14 @@
       "hotel_name": "ibis Duesseldorf Airport",
       "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCssPT0gbAAgHSAiRlOTIwMzllNy1hN2M2LTQwN2EtODk5MS1lMGFiZjdmODNjNWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=188e5b9996ee022d&srepoch=1783947703&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-13T13:01:46.477Z"
+    },
+    {
+      "id": 26,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-13T18:17:01.771Z"
     }
   ],
   "notifications": [
@@ -2423,11 +2431,111 @@
       "message": "🏨 Novotel Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
       "is_read": 0,
       "created_at": "2026-07-13T13:01:46.502Z"
+    },
+    {
+      "id": 219,
+      "alert_id": 1,
+      "hotel_name": "Novotel Poznań Malta",
+      "price": 149,
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "message": "🏨 Novotel Poznań Malta in Poznan, Greater Poland Voivodeship, Poland — PLN 149/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.775Z"
+    },
+    {
+      "id": 220,
+      "alert_id": 1,
+      "hotel_name": "Apartamenty Browar Luxury Old Town Poznań 24h",
+      "price": 164,
+      "url": "https://www.booking.com/hotel/pl/apartamenty-browar.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=949322903_367596242_2_2_0&highlighted_blocks=949322903_367596242_2_2_0&matching_block_id=949322903_367596242_2_2_0&sr_pri_blocks=949322903_367596242_2_2_0__147870&from=searchresults",
+      "message": "🏨 Apartamenty Browar Luxury Old Town Poznań 24h in Poznan, Greater Poland Voivodeship, Poland — PLN 164/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.778Z"
+    },
+    {
+      "id": 221,
+      "alert_id": 1,
+      "hotel_name": "Hotel HP Park Poznań Malta",
+      "price": 169,
+      "url": "https://www.booking.com/hotel/pl/hpparkpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=8864903_89063255_0_2_0&highlighted_blocks=8864903_89063255_0_2_0&matching_block_id=8864903_89063255_0_2_0&sr_pri_blocks=8864903_89063255_0_2_0__152528&from=searchresults",
+      "message": "🏨 Hotel HP Park Poznań Malta in Poznan, Greater Poland Voivodeship, Poland — PLN 169/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.781Z"
+    },
+    {
+      "id": 222,
+      "alert_id": 1,
+      "hotel_name": "Apart A2 Poznań - 24h - self check-in - Free Parking",
+      "price": 179,
+      "url": "https://www.booking.com/hotel/pl/m2poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=8715352_193660078_2_2_0&highlighted_blocks=8715352_193660078_2_2_0&matching_block_id=8715352_193660078_2_2_0&sr_pri_blocks=8715352_193660078_2_2_0__160741&from=searchresults",
+      "message": "🏨 Apart A2 Poznań - 24h - self check-in - Free Parking in Poznan, Greater Poland Voivodeship, Poland — PLN 179/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.783Z"
+    },
+    {
+      "id": 223,
+      "alert_id": 1,
+      "hotel_name": "Apartament MALTA COMFORT Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-malta-poznan1.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=455865501_418470981_0_0_0&highlighted_blocks=455865501_418470981_0_0_0&matching_block_id=455865501_418470981_0_0_0&sr_pri_blocks=455865501_418470981_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament MALTA COMFORT Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.786Z"
+    },
+    {
+      "id": 224,
+      "alert_id": 1,
+      "hotel_name": "Apartament MARCELIN GOLD Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-marcelin-gold.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=546301801_418470892_0_0_0&highlighted_blocks=546301801_418470892_0_0_0&matching_block_id=546301801_418470892_0_0_0&sr_pri_blocks=546301801_418470892_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament MARCELIN GOLD Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.789Z"
+    },
+    {
+      "id": 225,
+      "alert_id": 1,
+      "hotel_name": "Apartament OLD TOWN Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-old-town-wes-quality-suite.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=891054001_418470483_0_0_0&highlighted_blocks=891054001_418470483_0_0_0&matching_block_id=891054001_418470483_0_0_0&sr_pri_blocks=891054001_418470483_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament OLD TOWN Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.791Z"
+    },
+    {
+      "id": 226,
+      "alert_id": 1,
+      "hotel_name": "Apartament SILVER GARDEN Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-silver-garden.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=608010701_238223291_0_0_0&highlighted_blocks=608010701_238223291_0_0_0&matching_block_id=608010701_238223291_0_0_0&sr_pri_blocks=608010701_238223291_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament SILVER GARDEN Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.792Z"
+    },
+    {
+      "id": 227,
+      "alert_id": 1,
+      "hotel_name": "Apartament CITY VIEW Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-city-view-wes-quality-suite.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=837511601_418470772_0_0_0&highlighted_blocks=837511601_418470772_0_0_0&matching_block_id=837511601_418470772_0_0_0&sr_pri_blocks=837511601_418470772_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament CITY VIEW Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.794Z"
+    },
+    {
+      "id": 228,
+      "alert_id": 1,
+      "hotel_name": "Moon Hostel Poznań",
+      "price": 194,
+      "url": "https://www.booking.com/hotel/pl/moon-hostel-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKV19TSBsACAdICJDFjNWZhM2I5LWNjMWEtNDdiNS1iYjc0LTM4M2FkZmFkZTNjZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=1055808a1b460203&srepoch=1783966617&all_sr_blocks=327193703_115134739_2_2_0_1411939&highlighted_blocks=327193703_115134739_2_2_0_1411939&matching_block_id=327193703_115134739_2_2_0_1411939&sr_pri_blocks=327193703_115134739_2_2_0_1411939_174333&from=searchresults",
+      "message": "🏨 Moon Hostel Poznań in Poznan, Greater Poland Voivodeship, Poland — PLN 194/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T18:17:01.796Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 26,
-    "notifications": 219
+    "price_history": 27,
+    "notifications": 229
   }
 }
