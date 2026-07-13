@@ -196,6 +196,23 @@ function addNotification(alertId, hotelName, price, url, message) {
   return notification;
 }
 
+// Lowest price ever notified per hotel name for an alert, derived from
+// notification history - used to skip re-notifying about a hotel unless
+// it's new or has dropped to a new lower price.
+function getNotifiedMinPrices(alertId) {
+  const db = readDb();
+  const numId = parseInt(alertId);
+  const minPrices = {};
+  db.notifications
+    .filter(n => n.alert_id === numId)
+    .forEach(n => {
+      if (!(n.hotel_name in minPrices) || n.price < minPrices[n.hotel_name]) {
+        minPrices[n.hotel_name] = n.price;
+      }
+    });
+  return minPrices;
+}
+
 function getNotifications() {
   const db = readDb();
   return db.notifications
@@ -225,6 +242,7 @@ module.exports = {
   addPriceHistory,
   getPriceHistory,
   addNotification,
+  getNotifiedMinPrices,
   getNotifications,
   markNotificationRead
 };

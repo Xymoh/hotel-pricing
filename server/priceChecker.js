@@ -234,11 +234,19 @@ async function checkAlert(alert) {
       db.addPriceHistory(alert.id, cheapest.perNightPrice, cheapest.hotelName, cheapest.url);
       db.updateAlertPrice(alert.id, cheapest.perNightPrice);
 
-      // Create notifications for ALL hotels within budget
-      if (matchingHotels.length > 0) {
+      // Only notify about hotels that are new or have dropped below the
+      // lowest price we already notified about, so a check doesn't re-blast
+      // the same matches it already told you about every 30 minutes.
+      const notifiedMinPrices = db.getNotifiedMinPrices(alert.id);
+      const newHotels = matchingHotels.filter(hotel => {
+        const prevMin = notifiedMinPrices[hotel.hotelName];
+        return prevMin === undefined || hotel.perNightPrice < prevMin;
+      });
+
+      if (newHotels.length > 0) {
         const notifiedHotels = [];
 
-        for (const hotel of matchingHotels) {
+        for (const hotel of newHotels) {
           const hotelGeniusLabel = hotel.hasGenius ? ' (Genius)' : '';
           const message = `🏨 ${hotel.hotelName} in ${alert.destination} — ${alert.currency} ${hotel.perNightPrice}/night${hotelGeniusLabel}`;
           const notification = db.addNotification(alert.id, hotel.hotelName, hotel.perNightPrice, hotel.url, message);
@@ -251,14 +259,14 @@ async function checkAlert(alert) {
           notifiedHotels.push({ hotelName: hotel.hotelName, price: hotel.perNightPrice, url: hotel.url, hasGenius: hotel.hasGenius });
         }
 
-        // Send one summary email with all matching hotels
+        // Send one summary email with only the new/lower-priced hotels
         const summaryNotification = {
-          hotel_name: `${matchingHotels.length} hotels`,
+          hotel_name: `${newHotels.length} hotels`,
           price: cheapest.perNightPrice,
           url: buildBookingUrl(alert),
-          message: `Found ${matchingHotels.length} hotels in ${alert.destination} within your budget of ${alert.currency} ${alert.max_price}/night`
+          message: `Found ${newHotels.length} new hotel${newHotels.length > 1 ? 's' : ''} in ${alert.destination} within your budget of ${alert.currency} ${alert.max_price}/night`
         };
-        await notifier.notify(summaryNotification, alert, matchingHotels);
+        await notifier.notify(summaryNotification, alert, newHotels);
 
         return { found: true, matches: notifiedHotels.length, hotels: notifiedHotels };
       }

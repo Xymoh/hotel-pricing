@@ -42,7 +42,9 @@ Copy `.env.example` to `.env` and configure:
 
 1. You create a price alert with your travel parameters and maximum budget
 2. The server periodically checks Booking.com for the cheapest hotels matching your criteria
-3. When a price drops below your budget, you get notified (browser + email)
+3. When a price drops below your budget, you get notified (browser + email) — only for a
+   hotel you haven't been notified about yet, or one that's dropped below the lowest price
+   you were already told about, so you don't get re-emailed the same matches every check
 4. Click the booking link to go directly to the deal and book it yourself
 
 ## Important Notes
