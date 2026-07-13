@@ -71,8 +71,12 @@ schedule (every 30 minutes) in the cloud, for free, with no server to host or pa
 1. **Add SMTP secrets**: repo Settings → Secrets and variables → Actions → New repository
    secret. Add `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `NOTIFICATION_EMAIL`
    (same values you'd put in `.env`).
-2. **Manage alerts locally** via `npm start` and the dashboard at `http://localhost:3000`,
-   same as before.
+2. **Manage alerts locally** via `npm start` and the dashboard at `http://localhost:3000` —
+   but only run it while you're actively adding/editing alerts, then stop it (Ctrl+C).
+   Don't leave it running continuously: its own cron would check on the same 30-minute
+   schedule as GitHub Actions, double-scraping Booking.com and racing Actions to write
+   `data/db.json`, which causes real ID collisions in the data (two different notifications
+   ending up with the same id), not just an annoying git conflict.
 3. **After adding/editing/deleting an alert locally, sync it to the repo** so the scheduled
    check picks it up: `npm run sync` (commits & pushes `data/db.json`). Run `git pull`
    before starting the dashboard too, so you see price history/notifications the scheduled
@@ -83,6 +87,10 @@ Notes:
 - `data/db.json` (alerts, price history, notifications) is committed to the repo so state
   persists between scheduled runs — this repo is public, so that data is publicly visible.
   Make the repo private if that's not okay for you.
+- If `npm run sync` hits a rebase conflict in `data/db.json` (usually because the local
+  server was left running), resolve it with `git rebase --abort` followed by
+  `git reset --hard origin/main` to take GitHub's copy, then redo your local edit through
+  the dashboard and sync again — don't try to hand-merge the JSON.
 - `data/booking-cookies.json` (Genius login session) is **never** committed — it's a
   credential, not data, and stays gitignored.
 - The "Genius login" browser popup (`/api/genius/login`) opens a visible Chrome/Brave window
