@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-13T21:08:04.694Z",
+      "last_checked": "2026-07-13T22:28:24.574Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-13T21:08:04.694Z"
+      "updated_at": "2026-07-13T22:28:24.574Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-13T21:08:22.581Z",
+      "last_checked": "2026-07-13T22:28:36.329Z",
       "last_price": 39,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-13T21:08:22.581Z"
+      "updated_at": "2026-07-13T22:28:36.329Z"
     }
   ],
   "price_history": [
@@ -281,6 +281,22 @@
       "hotel_name": "ibis Duesseldorf Airport",
       "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-13T21:08:22.579Z"
+    },
+    {
+      "id": 31,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKAzdXSBsACAdICJDUzNDBkZjdkLWRmMjMtNDUxZC05MWQzLWU0ZDljN2ZkYzlhY9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3bda9e00314007f5&srepoch=1783981701&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-13T22:28:24.571Z"
+    },
+    {
+      "id": 32,
+      "alert_id": 2,
+      "price": 39,
+      "hotel_name": "ibis Duesseldorf Airport",
+      "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCjM3V0gbAAgHSAiQ2NzFmNjMyNy1lYzlhLTRiM2EtOGQwZi0xYTIyYTAwY2EyZWbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a6659e0674eb0128&srepoch=1783981713&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-13T22:28:36.324Z"
     }
   ],
   "notifications": [
@@ -2967,7 +2983,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 31,
+    "price_history": 33,
     "notifications": 269
   }
 }
