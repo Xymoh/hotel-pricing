@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-13T19:59:17.568Z",
+      "last_checked": "2026-07-13T21:08:04.694Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-13T19:59:17.568Z"
+      "updated_at": "2026-07-13T21:08:04.694Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-13T19:59:31.356Z",
+      "last_checked": "2026-07-13T21:08:22.581Z",
       "last_price": 39,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-13T19:59:31.356Z"
+      "updated_at": "2026-07-13T21:08:22.581Z"
     }
   ],
   "price_history": [
@@ -265,6 +265,22 @@
       "hotel_name": "ibis Duesseldorf Airport",
       "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnIfV0gbAAgHSAiQ4MDE2ZmQ5Yy1iYTAyLTQxODQtOTFjZS0yYzM4NDkyODRiNTHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c90b8c8e842e0308&srepoch=1783972768&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-13T19:59:31.353Z"
+    },
+    {
+      "id": 29,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-13T21:08:04.691Z"
+    },
+    {
+      "id": 30,
+      "alert_id": 2,
+      "price": 39,
+      "hotel_name": "ibis Duesseldorf Airport",
+      "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-13T21:08:22.579Z"
     }
   ],
   "notifications": [
@@ -2747,11 +2763,211 @@
       "message": "🏨 Novotel Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
       "is_read": 0,
       "created_at": "2026-07-13T19:59:31.381Z"
+    },
+    {
+      "id": 249,
+      "alert_id": 1,
+      "hotel_name": "Novotel Poznań Malta",
+      "price": 149,
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "message": "🏨 Novotel Poznań Malta in Poznan, Greater Poland Voivodeship, Poland — PLN 149/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.812Z"
+    },
+    {
+      "id": 250,
+      "alert_id": 1,
+      "hotel_name": "Apartamenty Browar Luxury Old Town Poznań 24h",
+      "price": 164,
+      "url": "https://www.booking.com/hotel/pl/apartamenty-browar.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=949322903_367596242_2_2_0&highlighted_blocks=949322903_367596242_2_2_0&matching_block_id=949322903_367596242_2_2_0&sr_pri_blocks=949322903_367596242_2_2_0__147870&from=searchresults",
+      "message": "🏨 Apartamenty Browar Luxury Old Town Poznań 24h in Poznan, Greater Poland Voivodeship, Poland — PLN 164/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.861Z"
+    },
+    {
+      "id": 251,
+      "alert_id": 1,
+      "hotel_name": "Hotel HP Park Poznań Malta",
+      "price": 169,
+      "url": "https://www.booking.com/hotel/pl/hpparkpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=8864903_89063255_0_2_0&highlighted_blocks=8864903_89063255_0_2_0&matching_block_id=8864903_89063255_0_2_0&sr_pri_blocks=8864903_89063255_0_2_0__152528&from=searchresults",
+      "message": "🏨 Hotel HP Park Poznań Malta in Poznan, Greater Poland Voivodeship, Poland — PLN 169/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.865Z"
+    },
+    {
+      "id": 252,
+      "alert_id": 1,
+      "hotel_name": "Apart A2 Poznań - 24h - self check-in - Free Parking",
+      "price": 179,
+      "url": "https://www.booking.com/hotel/pl/m2poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=8715352_193660078_2_2_0&highlighted_blocks=8715352_193660078_2_2_0&matching_block_id=8715352_193660078_2_2_0&sr_pri_blocks=8715352_193660078_2_2_0__160741&from=searchresults",
+      "message": "🏨 Apart A2 Poznań - 24h - self check-in - Free Parking in Poznan, Greater Poland Voivodeship, Poland — PLN 179/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.867Z"
+    },
+    {
+      "id": 253,
+      "alert_id": 1,
+      "hotel_name": "Apartament MARCELIN GOLD Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-marcelin-gold.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=546301801_418470892_0_0_0&highlighted_blocks=546301801_418470892_0_0_0&matching_block_id=546301801_418470892_0_0_0&sr_pri_blocks=546301801_418470892_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament MARCELIN GOLD Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.870Z"
+    },
+    {
+      "id": 254,
+      "alert_id": 1,
+      "hotel_name": "Apartament OLD TOWN Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-old-town-wes-quality-suite.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=891054001_418470483_0_0_0&highlighted_blocks=891054001_418470483_0_0_0&matching_block_id=891054001_418470483_0_0_0&sr_pri_blocks=891054001_418470483_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament OLD TOWN Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.872Z"
+    },
+    {
+      "id": 255,
+      "alert_id": 1,
+      "hotel_name": "Apartament SILVER GARDEN Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-silver-garden.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=608010701_238223291_0_0_0&highlighted_blocks=608010701_238223291_0_0_0&matching_block_id=608010701_238223291_0_0_0&sr_pri_blocks=608010701_238223291_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament SILVER GARDEN Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.876Z"
+    },
+    {
+      "id": 256,
+      "alert_id": 1,
+      "hotel_name": "Apartament CITY VIEW Wes Quality Suite",
+      "price": 193,
+      "url": "https://www.booking.com/hotel/pl/apartament-city-view-wes-quality-suite.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=837511601_418470772_0_0_0&highlighted_blocks=837511601_418470772_0_0_0&matching_block_id=837511601_418470772_0_0_0&sr_pri_blocks=837511601_418470772_0_0_0__173611&from=searchresults",
+      "message": "🏨 Apartament CITY VIEW Wes Quality Suite in Poznan, Greater Poland Voivodeship, Poland — PLN 193/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.878Z"
+    },
+    {
+      "id": 257,
+      "alert_id": 1,
+      "hotel_name": "Moon Hostel Poznań",
+      "price": 194,
+      "url": "https://www.booking.com/hotel/pl/moon-hostel-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=327193703_115134739_2_2_0_1411939&highlighted_blocks=327193703_115134739_2_2_0_1411939&matching_block_id=327193703_115134739_2_2_0_1411939&sr_pri_blocks=327193703_115134739_2_2_0_1411939_174333&from=searchresults",
+      "message": "🏨 Moon Hostel Poznań in Poznan, Greater Poland Voivodeship, Poland — PLN 194/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.881Z"
+    },
+    {
+      "id": 258,
+      "alert_id": 1,
+      "hotel_name": "Hotel Lechicka",
+      "price": 209,
+      "url": "https://www.booking.com/hotel/pl/lechicka-system.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsp9XSBsACAdICJGM4YmQ2ZTAyLWM4ZjktNGNlYi04M2NjLTAyZDkxODZjMDlhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=268e94966fbc0e8a&srepoch=1783976880&all_sr_blocks=115822210_186659531_2_2_0&highlighted_blocks=115822210_186659531_2_2_0&matching_block_id=115822210_186659531_2_2_0&sr_pri_blocks=115822210_186659531_2_2_0__187685&from=searchresults",
+      "message": "🏨 Hotel Lechicka in Poznan, Greater Poland Voivodeship, Poland — PLN 209/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:04.883Z"
+    },
+    {
+      "id": 259,
+      "alert_id": 2,
+      "hotel_name": "ibis Duesseldorf Airport",
+      "price": 39,
+      "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 ibis Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 39/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.584Z"
+    },
+    {
+      "id": 260,
+      "alert_id": 2,
+      "hotel_name": "25hours Hotel Das Tour",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 25hours Hotel Das Tour in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.626Z"
+    },
+    {
+      "id": 261,
+      "alert_id": 2,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__67009&from=searchresults",
+      "message": "🏨 Fährhaus Hotel am Rhein by Mayburgh in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.629Z"
+    },
+    {
+      "id": 262,
+      "alert_id": 2,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__67152&from=searchresults",
+      "message": "🏨 Limehome Düsseldorf Bahlenstr in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.778Z"
+    },
+    {
+      "id": 263,
+      "alert_id": 2,
+      "hotel_name": "Van der Valk Hotel Düsseldorf",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/van-der-valk-airporthotel-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=24663715_90860864_0_2_0_1140079&highlighted_blocks=24663715_90860864_0_2_0_1140079&matching_block_id=24663715_90860864_0_2_0_1140079&sr_pri_blocks=24663715_90860864_0_2_0_1140079_67469&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Van der Valk Hotel Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.780Z"
+    },
+    {
+      "id": 264,
+      "alert_id": 2,
+      "hotel_name": "Hotel Moon",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/moon.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=44229503_404261700_0_2_0&highlighted_blocks=44229503_404261700_0_2_0&matching_block_id=44229503_404261700_0_2_0&sr_pri_blocks=44229503_404261700_0_2_0__68224&from=searchresults",
+      "message": "🏨 Hotel Moon in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.784Z"
+    },
+    {
+      "id": 265,
+      "alert_id": 2,
+      "hotel_name": "Luxuswohnung, Airport-Messe fußläufig erreichbar 1",
+      "price": 46,
+      "url": "https://www.booking.com/hotel/de/luxuswohnung-airport-messe-fusslaufig-erreichbar.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=1495606401_421272844_0_0_0&highlighted_blocks=1495606401_421272844_0_0_0&matching_block_id=1495606401_421272844_0_0_0&sr_pri_blocks=1495606401_421272844_0_0_0__73794&from=searchresults",
+      "message": "🏨 Luxuswohnung, Airport-Messe fußläufig erreichbar 1 in Dusseldorf, North Rhine-Westphalia, Germany — EUR 46/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.786Z"
+    },
+    {
+      "id": 266,
+      "alert_id": 2,
+      "hotel_name": "H2 Hotel Düsseldorf Seestern",
+      "price": 46,
+      "url": "https://www.booking.com/hotel/de/h2-dusseldorf-seestern-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=803272102_381358976_0_1_0_1199021&highlighted_blocks=803272102_381358976_0_1_0_1199021&matching_block_id=803272102_381358976_0_1_0_1199021&sr_pri_blocks=803272102_381358976_0_1_0_1199021_73471&from=searchresults",
+      "message": "🏨 H2 Hotel Düsseldorf Seestern in Dusseldorf, North Rhine-Westphalia, Germany — EUR 46/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.788Z"
+    },
+    {
+      "id": 267,
+      "alert_id": 2,
+      "hotel_name": "H2 Hotel Düsseldorf City",
+      "price": 46,
+      "url": "https://www.booking.com/hotel/de/h2-dusseldorf-city-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=803282901_381357645_0_1_0_1199020&highlighted_blocks=803282901_381357645_0_1_0_1199020&matching_block_id=803282901_381357645_0_1_0_1199020&sr_pri_blocks=803282901_381357645_0_1_0_1199020_73772&from=searchresults",
+      "message": "🏨 H2 Hotel Düsseldorf City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 46/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.791Z"
+    },
+    {
+      "id": 268,
+      "alert_id": 2,
+      "hotel_name": "Novotel Duesseldorf Airport",
+      "price": 48,
+      "url": "https://www.booking.com/hotel/de/novotel-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv6fV0gbAAgHSAiRlMjM3MDJlZC1iMDk1LTQ4YjgtYWNkYS1mMGZkOTUxYmYxN2LYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=aed2949f41170556&srepoch=1783976898&all_sr_blocks=653017902_266350202_2_2_0&highlighted_blocks=653017902_266350202_2_2_0&matching_block_id=653017902_266350202_2_2_0&sr_pri_blocks=653017902_266350202_2_2_0__77103&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Novotel Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
+      "is_read": 0,
+      "created_at": "2026-07-13T21:08:22.794Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 29,
-    "notifications": 249
+    "price_history": 31,
+    "notifications": 269
   }
 }
