@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T06:20:27.388Z",
-      "last_price": 447,
+      "last_checked": "2026-07-14T08:36:54.187Z",
+      "last_price": 126,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T06:20:27.388Z"
+      "updated_at": "2026-07-14T08:36:54.187Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T06:20:41.414Z",
-      "last_price": 168,
+      "last_checked": "2026-07-14T08:37:08.022Z",
+      "last_price": 42,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T06:20:41.414Z"
+      "updated_at": "2026-07-14T08:37:08.022Z"
     }
   ],
   "price_history": [
@@ -361,6 +361,22 @@
       "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
       "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCsqrX0gbAAgHSAiRmN2ZiYWRlNC01ZjMxLTQxZDItOGZjYS02MWMwM2E1N2Y1YWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=03c62c99144f0886&srepoch=1784010038&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__67009&from=searchresults",
       "checked_at": "2026-07-14T06:20:41.411Z"
+    },
+    {
+      "id": 41,
+      "alert_id": 1,
+      "price": 126,
+      "hotel_name": "Apartament Paderewski",
+      "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKd6tfSBsACAdICJGQzYWVkNjFlLTc5OTAtNGY4Ny1hMzIxLTk0NzFhNjAyYTU2NNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=23133c8e2e4302aa&srepoch=1784018210&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
+      "checked_at": "2026-07-14T08:36:54.184Z"
+    },
+    {
+      "id": 42,
+      "alert_id": 2,
+      "price": 42,
+      "hotel_name": "25hours Hotel Das Tour",
+      "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCrerX0gbAAgHSAiQ4ZmQwZWEyNy1lOGQxLTRmNDctOTY5My1mMjlmZTM2MDZmYmPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=80653c96e14d04ce&srepoch=1784018227&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-14T08:37:08.019Z"
     }
   ],
   "notifications": [
@@ -3043,11 +3059,21 @@
       "message": "🏨 Novotel Duesseldorf Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
       "is_read": 0,
       "created_at": "2026-07-13T21:08:22.794Z"
+    },
+    {
+      "id": 269,
+      "alert_id": 1,
+      "hotel_name": "Apartament Paderewski",
+      "price": 126,
+      "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKd6tfSBsACAdICJGQzYWVkNjFlLTc5OTAtNGY4Ny1hMzIxLTk0NzFhNjAyYTU2NNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=23133c8e2e4302aa&srepoch=1784018210&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
+      "message": "🏨 Apartament Paderewski in Poznan, Greater Poland Voivodeship, Poland — PLN 126/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T08:36:54.192Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 41,
-    "notifications": 269
+    "price_history": 43,
+    "notifications": 270
   }
 }
