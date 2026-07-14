@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T08:36:54.187Z",
+      "last_checked": "2026-07-14T10:48:42.872Z",
       "last_price": 126,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T08:36:54.187Z"
+      "updated_at": "2026-07-14T10:48:42.872Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T08:37:08.022Z",
-      "last_price": 42,
+      "last_checked": "2026-07-14T10:48:55.601Z",
+      "last_price": 41,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T08:37:08.022Z"
+      "updated_at": "2026-07-14T10:48:55.601Z"
     }
   ],
   "price_history": [
@@ -377,6 +377,22 @@
       "hotel_name": "25hours Hotel Das Tour",
       "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCrerX0gbAAgHSAiQ4ZmQwZWEyNy1lOGQxLTRmNDctOTY5My1mMjlmZTM2MDZmYmPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=80653c96e14d04ce&srepoch=1784018227&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-14T08:37:08.019Z"
+    },
+    {
+      "id": 43,
+      "alert_id": 1,
+      "price": 126,
+      "hotel_name": "Apartament Paderewski",
+      "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKAqNjSBsACAdICJDdmMGViYzYwLTYzZjMtNDUyNS04N2U3LTIyY2I4ZmJhNTM2M9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1d9d4c00c5a90261&srepoch=1784026119&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
+      "checked_at": "2026-07-14T10:48:42.869Z"
+    },
+    {
+      "id": 44,
+      "alert_id": 2,
+      "price": 41,
+      "hotel_name": "H2 Hotel Düsseldorf City",
+      "url": "https://www.booking.com/hotel/de/h2-dusseldorf-city-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCj6jY0gbAAgHSAiQyM2Q5MTcwNS1iM2U3LTQ5YTYtOWYyNS1kMDU5ODQxNTI1NGHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f4c0749d4002a&srepoch=1784026132&all_sr_blocks=0_0_2_1_0&highlighted_blocks=0_0_2_1_0&matching_block_id=0_0_2_1_0&sr_pri_blocks=0_0_2_1_0__65737&from=searchresults",
+      "checked_at": "2026-07-14T10:48:55.598Z"
     }
   ],
   "notifications": [
@@ -3069,11 +3085,21 @@
       "message": "🏨 Apartament Paderewski in Poznan, Greater Poland Voivodeship, Poland — PLN 126/night",
       "is_read": 0,
       "created_at": "2026-07-14T08:36:54.192Z"
+    },
+    {
+      "id": 270,
+      "alert_id": 2,
+      "hotel_name": "Fair & the City",
+      "price": 53,
+      "url": "https://www.booking.com/hotel/de/fair-amp-the-city.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCj6jY0gbAAgHSAiQyM2Q5MTcwNS1iM2U3LTQ5YTYtOWYyNS1kMDU5ODQxNTI1NGHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=599f4c0749d4002a&srepoch=1784026132&all_sr_blocks=382356401_147206954_2_2_0&highlighted_blocks=382356401_147206954_2_2_0&matching_block_id=382356401_147206954_2_2_0&sr_pri_blocks=382356401_147206954_2_2_0__84000&from=searchresults",
+      "message": "🏨 Fair & the City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 53/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T10:48:55.606Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 43,
-    "notifications": 270
+    "price_history": 45,
+    "notifications": 271
   }
 }
