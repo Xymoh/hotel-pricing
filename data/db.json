@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T10:48:42.872Z",
+      "last_checked": "2026-07-14T12:14:54.673Z",
       "last_price": 126,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T10:48:42.872Z"
+      "updated_at": "2026-07-14T12:14:54.673Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T10:48:55.601Z",
+      "last_checked": "2026-07-14T12:15:06.777Z",
       "last_price": 41,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T10:48:55.601Z"
+      "updated_at": "2026-07-14T12:15:06.777Z"
     }
   ],
   "price_history": [
@@ -393,6 +393,22 @@
       "hotel_name": "H2 Hotel Düsseldorf City",
       "url": "https://www.booking.com/hotel/de/h2-dusseldorf-city-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCj6jY0gbAAgHSAiQyM2Q5MTcwNS1iM2U3LTQ5YTYtOWYyNS1kMDU5ODQxNTI1NGHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f4c0749d4002a&srepoch=1784026132&all_sr_blocks=0_0_2_1_0&highlighted_blocks=0_0_2_1_0&matching_block_id=0_0_2_1_0&sr_pri_blocks=0_0_2_1_0__65737&from=searchresults",
       "checked_at": "2026-07-14T10:48:55.598Z"
+    },
+    {
+      "id": 45,
+      "alert_id": 1,
+      "price": 126,
+      "hotel_name": "Apartament Paderewski",
+      "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK30NjSBsACAdICJDdmNjJkZTQ2LTZmMTEtNGZkNC04YjQ0LWZhMWJiZmQ3NjlkONgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=2092561b499b0e54&srepoch=1784031291&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
+      "checked_at": "2026-07-14T12:14:54.670Z"
+    },
+    {
+      "id": 46,
+      "alert_id": 2,
+      "price": 41,
+      "hotel_name": "H2 Hotel Düsseldorf City",
+      "url": "https://www.booking.com/hotel/de/h2-dusseldorf-city-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCxNDY0gbAAgHSAiQyYWQwZjk3NC1hNzY0LTRmNDYtYjAxOS1jMTJlZDFlZTFkNDjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b6a8562296860559&srepoch=1784031303&all_sr_blocks=0_0_2_1_0&highlighted_blocks=0_0_2_1_0&matching_block_id=0_0_2_1_0&sr_pri_blocks=0_0_2_1_0__65737&from=searchresults",
+      "checked_at": "2026-07-14T12:15:06.775Z"
     }
   ],
   "notifications": [
@@ -3099,7 +3115,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 45,
+    "price_history": 47,
     "notifications": 271
   }
 }
