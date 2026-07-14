@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T18:39:56.189Z",
-      "last_price": 378,
+      "last_checked": "2026-07-14T20:13:37.212Z",
+      "last_price": 123,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T18:39:56.189Z"
+      "updated_at": "2026-07-14T20:13:37.212Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T17:23:29.652Z",
+      "last_checked": "2026-07-14T20:13:52.555Z",
       "last_price": 42,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T17:23:29.652Z"
+      "updated_at": "2026-07-14T20:13:52.555Z"
     }
   ],
   "price_history": [
@@ -465,6 +465,22 @@
       "hotel_name": "Apartament Paderewski",
       "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIkCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL0hNrSBsACAdICJGIzNjFjOGQ3LWM4ZWUtNDcwMS05MzA5LTA0ZGE4MDViMjBiN9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=bb11833a9aa502ed&srepoch=1784054392&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
       "checked_at": "2026-07-14T18:39:56.186Z"
+    },
+    {
+      "id": 54,
+      "alert_id": 1,
+      "price": 123,
+      "hotel_name": "Poznań Lotnisko & Stadion Enea Premium Apartment 24H",
+      "url": "https://www.booking.com/hotel/pl/poznan-airport-amp-stadion-enea-premium-apartment-24h-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJUCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALosNrSBsACAdICJGJjNTU3ZDI5LTc2OTItNDM5ZS04Y2U4LTdhNGZiMjYxMmMwMNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=bdcb8e3492360901&srepoch=1784060013&all_sr_blocks=1685261101_440166799_2_0_0&highlighted_blocks=1685261101_440166799_2_0_0&matching_block_id=1685261101_440166799_2_0_0&sr_pri_blocks=1685261101_440166799_2_0_0__110383&from=searchresults",
+      "checked_at": "2026-07-14T20:13:37.208Z"
+    },
+    {
+      "id": 55,
+      "alert_id": 2,
+      "price": 42,
+      "hotel_name": "25hours Hotel Das Tour",
+      "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiVAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-bDa0gbAAgHSAiRjNGM5M2FhYi0wMTAyLTRhZjAtYTA5ZS1jYTY2YmE3YzhhZTjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=73d78e3c3f7d00f9&srepoch=1784060029&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-14T20:13:52.552Z"
     }
   ],
   "notifications": [
@@ -3197,11 +3213,31 @@
       "message": "🏨 Altstadt Bolker Original in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
       "is_read": 0,
       "created_at": "2026-07-14T14:25:07.294Z"
+    },
+    {
+      "id": 274,
+      "alert_id": 1,
+      "hotel_name": "Poznań Lotnisko & Stadion Enea Premium Apartment 24H",
+      "price": 123,
+      "url": "https://www.booking.com/hotel/pl/poznan-airport-amp-stadion-enea-premium-apartment-24h-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJUCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALosNrSBsACAdICJGJjNTU3ZDI5LTc2OTItNDM5ZS04Y2U4LTdhNGZiMjYxMmMwMNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=bdcb8e3492360901&srepoch=1784060013&all_sr_blocks=1685261101_440166799_2_0_0&highlighted_blocks=1685261101_440166799_2_0_0&matching_block_id=1685261101_440166799_2_0_0&sr_pri_blocks=1685261101_440166799_2_0_0__110383&from=searchresults",
+      "message": "🏨 Poznań Lotnisko & Stadion Enea Premium Apartment 24H in Poznan, Greater Poland Voivodeship, Poland — PLN 123/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T20:13:37.217Z"
+    },
+    {
+      "id": 275,
+      "alert_id": 1,
+      "hotel_name": "Ilonn Hotel",
+      "price": 200,
+      "url": "https://www.booking.com/hotel/pl/hotelilonnpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJUCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALosNrSBsACAdICJGJjNTU3ZDI5LTc2OTItNDM5ZS04Y2U4LTdhNGZiMjYxMmMwMNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=bdcb8e3492360901&srepoch=1784060013&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__180299&from=searchresults",
+      "message": "🏨 Ilonn Hotel in Poznan, Greater Poland Voivodeship, Poland — PLN 200/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T20:13:37.219Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 54,
-    "notifications": 274
+    "price_history": 56,
+    "notifications": 276
   }
 }
