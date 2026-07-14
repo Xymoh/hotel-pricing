@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T12:14:54.673Z",
-      "last_price": 126,
+      "last_checked": "2026-07-14T14:24:53.122Z",
+      "last_price": 30,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T12:14:54.673Z"
+      "updated_at": "2026-07-14T14:24:53.123Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T12:15:06.777Z",
-      "last_price": 41,
+      "last_checked": "2026-07-14T14:25:07.289Z",
+      "last_price": 42,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T12:15:06.777Z"
+      "updated_at": "2026-07-14T14:25:07.289Z"
     }
   ],
   "price_history": [
@@ -409,6 +409,22 @@
       "hotel_name": "H2 Hotel Düsseldorf City",
       "url": "https://www.booking.com/hotel/de/h2-dusseldorf-city-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCxNDY0gbAAgHSAiQyYWQwZjk3NC1hNzY0LTRmNDYtYjAxOS1jMTJlZDFlZTFkNDjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b6a8562296860559&srepoch=1784031303&all_sr_blocks=0_0_2_1_0&highlighted_blocks=0_0_2_1_0&matching_block_id=0_0_2_1_0&sr_pri_blocks=0_0_2_1_0__65737&from=searchresults",
       "checked_at": "2026-07-14T12:15:06.775Z"
+    },
+    {
+      "id": 47,
+      "alert_id": 1,
+      "price": 30,
+      "hotel_name": "Studio 54 Poznań - 24h self check-in",
+      "url": "https://www.booking.com/hotel/pl/studio-54-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsjdnSBsACAdICJGQ2MTU1MWNjLWIzODAtNDYwOS1iNTAyLWNmZTNlN2ViYjcwMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9da86556adaa0109&srepoch=1784039089&all_sr_blocks=1366663302_408938367_0_0_0&highlighted_blocks=1366663302_408938367_0_0_0&matching_block_id=1366663302_408938367_0_0_0&sr_pri_blocks=1366663302_408938367_0_0_0__27250&from=searchresults",
+      "checked_at": "2026-07-14T14:24:53.119Z"
+    },
+    {
+      "id": 48,
+      "alert_id": 2,
+      "price": 42,
+      "hotel_name": "Altstadt Bolker Original",
+      "url": "https://www.booking.com/hotel/de/altstadt-bolker-original.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCu43Z0gbAAgHSAiQyMDM5Y2E2Ny1mZTMwLTQ0MWYtODM2Ni1jMjQyMDhhMTk1MjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=7c1c655d685e04cd&srepoch=1784039104&all_sr_blocks=269528301_106022006_6_0_0&highlighted_blocks=269528301_106022006_6_0_0&matching_block_id=269528301_106022006_6_0_0&sr_pri_blocks=269528301_106022006_6_0_0__67477&from=searchresults",
+      "checked_at": "2026-07-14T14:25:07.286Z"
     }
   ],
   "notifications": [
@@ -3111,11 +3127,41 @@
       "message": "🏨 Fair & the City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 53/night",
       "is_read": 0,
       "created_at": "2026-07-14T10:48:55.606Z"
+    },
+    {
+      "id": 271,
+      "alert_id": 1,
+      "hotel_name": "Studio 54 Poznań - 24h self check-in",
+      "price": 30,
+      "url": "https://www.booking.com/hotel/pl/studio-54-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsjdnSBsACAdICJGQ2MTU1MWNjLWIzODAtNDYwOS1iNTAyLWNmZTNlN2ViYjcwMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9da86556adaa0109&srepoch=1784039089&all_sr_blocks=1366663302_408938367_0_0_0&highlighted_blocks=1366663302_408938367_0_0_0&matching_block_id=1366663302_408938367_0_0_0&sr_pri_blocks=1366663302_408938367_0_0_0__27250&from=searchresults",
+      "message": "🏨 Studio 54 Poznań - 24h self check-in in Poznan, Greater Poland Voivodeship, Poland — PLN 30/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T14:24:53.127Z"
+    },
+    {
+      "id": 272,
+      "alert_id": 1,
+      "hotel_name": "Hotel NH Poznan",
+      "price": 203,
+      "url": "https://www.booking.com/hotel/pl/nhpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsjdnSBsACAdICJGQ2MTU1MWNjLWIzODAtNDYwOS1iNTAyLWNmZTNlN2ViYjcwMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=9da86556adaa0109&srepoch=1784039089&all_sr_blocks=1337906_95137447_0_2_0&highlighted_blocks=1337906_95137447_0_2_0&matching_block_id=1337906_95137447_0_2_0&sr_pri_blocks=1337906_95137447_0_2_0__182917&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Hotel NH Poznan in Poznan, Greater Poland Voivodeship, Poland — PLN 203/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T14:24:53.132Z"
+    },
+    {
+      "id": 273,
+      "alert_id": 2,
+      "hotel_name": "Altstadt Bolker Original",
+      "price": 42,
+      "url": "https://www.booking.com/hotel/de/altstadt-bolker-original.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCu43Z0gbAAgHSAiQyMDM5Y2E2Ny1mZTMwLTQ0MWYtODM2Ni1jMjQyMDhhMTk1MjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=7c1c655d685e04cd&srepoch=1784039104&all_sr_blocks=269528301_106022006_6_0_0&highlighted_blocks=269528301_106022006_6_0_0&matching_block_id=269528301_106022006_6_0_0&sr_pri_blocks=269528301_106022006_6_0_0__67477&from=searchresults",
+      "message": "🏨 Altstadt Bolker Original in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
+      "is_read": 0,
+      "created_at": "2026-07-14T14:25:07.294Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 47,
-    "notifications": 271
+    "price_history": 49,
+    "notifications": 274
   }
 }
