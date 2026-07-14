@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T15:58:19.281Z",
+      "last_checked": "2026-07-14T17:23:16.142Z",
       "last_price": 33,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T15:58:19.281Z"
+      "updated_at": "2026-07-14T17:23:16.142Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T15:58:33.290Z",
+      "last_checked": "2026-07-14T17:23:29.652Z",
       "last_price": 42,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T15:58:33.290Z"
+      "updated_at": "2026-07-14T17:23:29.652Z"
     }
   ],
   "price_history": [
@@ -441,6 +441,22 @@
       "hotel_name": "25hours Hotel Das Tour",
       "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCoLnZ0gbAAgHSAiQzOThhZDFhNC1kN2ZkLTQ0YTYtODlhZS04NGEyODUwOGI3MGLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=8aeb7050b57b0ced&srepoch=1784044709&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-14T15:58:33.287Z"
+    },
+    {
+      "id": 51,
+      "alert_id": 1,
+      "price": 33,
+      "hotel_name": "Studio 54 Poznań - 24h self check-in",
+      "url": "https://www.booking.com/hotel/pl/studio-54-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL84NnSBsACAdICJDk0MDMzZDVlLTU3NDItNGM1My1iNmJmLWQ2NmE0NTg5N2U4NNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=81587a3e0c2d01c8&srepoch=1784049792&all_sr_blocks=1366663303_408938367_0_0_0&highlighted_blocks=1366663303_408938367_0_0_0&matching_block_id=1366663303_408938367_0_0_0&sr_pri_blocks=1366663303_408938367_0_0_0__29750&from=searchresults",
+      "checked_at": "2026-07-14T17:23:16.136Z"
+    },
+    {
+      "id": 52,
+      "alert_id": 2,
+      "price": 42,
+      "hotel_name": "25hours Hotel Das Tour",
+      "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCiuHZ0gbAAgHSAiQyZjJjYjRlNy1lNDk5LTQ4Y2QtYTRiMC04M2QwNzQyZGYzYzjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=7a697a45a4500d84&srepoch=1784049806&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-14T17:23:29.649Z"
     }
   ],
   "notifications": [
@@ -3177,7 +3193,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 51,
+    "price_history": 53,
     "notifications": 274
   }
 }
