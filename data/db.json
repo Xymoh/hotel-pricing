@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T03:58:27.709Z",
-      "last_price": 149,
+      "last_checked": "2026-07-14T06:20:27.388Z",
+      "last_price": 447,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-14T03:58:27.709Z"
+      "updated_at": "2026-07-14T06:20:27.388Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-14T03:58:39.128Z",
-      "last_price": 39,
+      "last_checked": "2026-07-14T06:20:41.414Z",
+      "last_price": 168,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-14T03:58:39.128Z"
+      "updated_at": "2026-07-14T06:20:41.414Z"
     }
   ],
   "price_history": [
@@ -345,6 +345,22 @@
       "hotel_name": "ibis Duesseldorf Airport",
       "url": "https://www.booking.com/hotel/de/ibis-duesseldorf-airport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC5-fW0gbAAgHSAiRhYTQ2ZWE3YS1mNWZkLTQ3NWQtYjViMC0yY2U0ODY5NGI5MzHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=96021bf34986021c&srepoch=1784001516&all_sr_blocks=653017703_266350148_2_2_0&highlighted_blocks=653017703_266350148_2_2_0&matching_block_id=653017703_266350148_2_2_0&sr_pri_blocks=653017703_266350148_2_2_0__62487&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-14T03:58:39.126Z"
+    },
+    {
+      "id": 39,
+      "alert_id": 1,
+      "price": 447,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIkCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKiqtfSBsACAdICJGFlZDhhMDlhLTQ5MGQtNGIzYy04ODY2LTcxZGEzN2Y2NmYwZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=7c312c91fb980447&srepoch=1784010024&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-14T06:20:27.385Z"
+    },
+    {
+      "id": 40,
+      "alert_id": 2,
+      "price": 168,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCsqrX0gbAAgHSAiRmN2ZiYWRlNC01ZjMxLTQxZDItOGZjYS02MWMwM2E1N2Y1YWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=03c62c99144f0886&srepoch=1784010038&all_sr_blocks=6061915_275602938_2_0_0&highlighted_blocks=6061915_275602938_2_0_0&matching_block_id=6061915_275602938_2_0_0&sr_pri_blocks=6061915_275602938_2_0_0__67009&from=searchresults",
+      "checked_at": "2026-07-14T06:20:41.411Z"
     }
   ],
   "notifications": [
@@ -3031,7 +3047,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 39,
+    "price_history": 41,
     "notifications": 269
   }
 }
