@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T08:13:47.505Z",
-      "last_price": 378,
+      "last_checked": "2026-07-15T10:21:21.463Z",
+      "last_price": 126,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-15T08:13:47.505Z"
+      "updated_at": "2026-07-15T10:21:21.463Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T08:13:58.380Z",
-      "last_price": 155,
+      "last_checked": "2026-07-15T10:21:36.567Z",
+      "last_price": 39,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-15T08:13:58.380Z"
+      "updated_at": "2026-07-15T10:21:36.567Z"
     }
   ],
   "price_history": [
@@ -569,6 +569,22 @@
       "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
       "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv4Ld0gbAAgHSAiQyNTY4ZjQyNC00ZWYyLTQ1MjYtYjJkNy0wMWQyYmRlZjE2YWTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a8ef39df19a70885&srepoch=1784103235&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62079&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-15T08:13:58.378Z"
+    },
+    {
+      "id": 67,
+      "alert_id": 1,
+      "price": 126,
+      "hotel_name": "Apartament Paderewski",
+      "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKYvt3SBsACAdICJGM1NjdjMmNiLWI2MzYtNDRkYS04ZjRjLWViMTcxZDllZmZkYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=06ca48cc9ef408fd&srepoch=1784110877&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
+      "checked_at": "2026-07-15T10:21:21.460Z"
+    },
+    {
+      "id": 68,
+      "alert_id": 2,
+      "price": 39,
+      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
+      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqb7d0gbAAgHSAiRlZjNkMzNkNi1lZDJlLTQ0MDctODc0My1iMTUyNjg4NDhiNjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=d78b48d4e71d02aa&srepoch=1784110893&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62938&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-15T10:21:36.564Z"
     }
   ],
   "notifications": [
@@ -3321,11 +3337,51 @@
       "message": "🏨 Ilonn Hotel in Poznan, Greater Poland Voivodeship, Poland — PLN 200/night",
       "is_read": 0,
       "created_at": "2026-07-14T20:13:37.219Z"
+    },
+    {
+      "id": 276,
+      "alert_id": 1,
+      "hotel_name": "Moon Hostel Poznań",
+      "price": 164,
+      "url": "https://www.booking.com/hotel/pl/moon-hostel-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKYvt3SBsACAdICJGM1NjdjMmNiLWI2MzYtNDRkYS04ZjRjLWViMTcxZDllZmZkYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=06ca48cc9ef408fd&srepoch=1784110877&all_sr_blocks=327193703_115134739_2_2_0_1411939&highlighted_blocks=327193703_115134739_2_2_0_1411939&matching_block_id=327193703_115134739_2_2_0_1411939&sr_pri_blocks=327193703_115134739_2_2_0_1411939_147215&from=searchresults",
+      "message": "🏨 Moon Hostel Poznań in Poznan, Greater Poland Voivodeship, Poland — PLN 164/night",
+      "is_read": 0,
+      "created_at": "2026-07-15T10:21:21.467Z"
+    },
+    {
+      "id": 277,
+      "alert_id": 2,
+      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
+      "price": 39,
+      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqb7d0gbAAgHSAiRlZjNkMzNkNi1lZDJlLTQ0MDctODc0My1iMTUyNjg4NDhiNjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=d78b48d4e71d02aa&srepoch=1784110893&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62938&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Motel One Düsseldorf-Hauptbahnhof in Dusseldorf, North Rhine-Westphalia, Germany — EUR 39/night",
+      "is_read": 0,
+      "created_at": "2026-07-15T10:21:36.572Z"
+    },
+    {
+      "id": 278,
+      "alert_id": 2,
+      "hotel_name": "The Cloud One Düsseldorf-KöBogen",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/the-cloud-one-dusseldorf-ko-bogen.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqb7d0gbAAgHSAiRlZjNkMzNkNi1lZDJlLTQ0MDctODc0My1iMTUyNjg4NDhiNjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=d78b48d4e71d02aa&srepoch=1784110893&all_sr_blocks=1005527102_373292699_2_2_0&highlighted_blocks=1005527102_373292699_2_2_0&matching_block_id=1005527102_373292699_2_2_0&sr_pri_blocks=1005527102_373292699_2_2_0__68131&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 The Cloud One Düsseldorf-KöBogen in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-15T10:21:36.575Z"
+    },
+    {
+      "id": 279,
+      "alert_id": 2,
+      "hotel_name": "NH Düsseldorf City",
+      "price": 52,
+      "url": "https://www.booking.com/hotel/de/nhdusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqb7d0gbAAgHSAiRlZjNkMzNkNi1lZDJlLTQ0MDctODc0My1iMTUyNjg4NDhiNjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=d78b48d4e71d02aa&srepoch=1784110893&all_sr_blocks=6058805_0_2_0_0&highlighted_blocks=6058805_0_2_0_0&matching_block_id=6058805_0_2_0_0&sr_pri_blocks=6058805_0_2_0_0__83467&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 NH Düsseldorf City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
+      "is_read": 0,
+      "created_at": "2026-07-15T10:21:36.579Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 67,
-    "notifications": 276
+    "price_history": 69,
+    "notifications": 280
   }
 }
