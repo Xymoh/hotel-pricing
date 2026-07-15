@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T14:03:32.708Z",
+      "last_checked": "2026-07-15T17:47:57.162Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-15T14:03:32.708Z"
+      "updated_at": "2026-07-15T17:47:57.162Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T14:03:46.513Z",
-      "last_price": 39,
+      "last_checked": "2026-07-15T17:48:10.499Z",
+      "last_price": 38,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-15T14:03:46.513Z"
+      "updated_at": "2026-07-15T17:48:10.499Z"
     }
   ],
   "price_history": [
@@ -617,6 +617,22 @@
       "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
       "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCu6be0gbAAgHSAiQxYzRiZjM0OS0wOTliLTRiZGMtYjhjYS0zZDhlMGJjODAyZDTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=4ac262dd86c40726&srepoch=1784124223&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62938&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-15T14:03:46.510Z"
+    },
+    {
+      "id": 73,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALEj9_SBsACAdICJGU0YjFiNzc2LTFjNjgtNGM4Yi04M2M2LWMzMzllNWE1NTQ2ZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b1487d22b38f024e&srepoch=1784137673&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-15T17:47:57.157Z"
+    },
+    {
+      "id": 74,
+      "alert_id": 2,
+      "price": 38,
+      "hotel_name": "HENRI Hotel Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/henri-dusseldorf-downtown.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC04_f0gbAAgHSAiRhMDQ4ZGI4Zi01MjU4LTRkZDgtYTRiMS00ZjRlMGI4NDMzZTjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9aec7d29b45d034a&srepoch=1784137687&all_sr_blocks=384677302_126332139_0_2_0_262947&highlighted_blocks=384677302_126332139_0_2_0_262947&matching_block_id=384677302_126332139_0_2_0_262947&sr_pri_blocks=384677302_126332139_0_2_0_262947_60444&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-15T17:48:10.496Z"
     }
   ],
   "notifications": [
@@ -3419,11 +3435,21 @@
       "message": "🏨 Hotel Arosa Düsseldorf Oberkassel in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
       "is_read": 0,
       "created_at": "2026-07-15T14:03:46.518Z"
+    },
+    {
+      "id": 281,
+      "alert_id": 2,
+      "hotel_name": "HENRI Hotel Düsseldorf",
+      "price": 38,
+      "url": "https://www.booking.com/hotel/de/henri-dusseldorf-downtown.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC04_f0gbAAgHSAiRhMDQ4ZGI4Zi01MjU4LTRkZDgtYTRiMS00ZjRlMGI4NDMzZTjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9aec7d29b45d034a&srepoch=1784137687&all_sr_blocks=384677302_126332139_0_2_0_262947&highlighted_blocks=384677302_126332139_0_2_0_262947&matching_block_id=384677302_126332139_0_2_0_262947&sr_pri_blocks=384677302_126332139_0_2_0_262947_60444&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 HENRI Hotel Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 38/night",
+      "is_read": 0,
+      "created_at": "2026-07-15T17:48:10.504Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 73,
-    "notifications": 281
+    "price_history": 75,
+    "notifications": 282
   }
 }
