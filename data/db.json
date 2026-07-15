@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T05:53:47.421Z",
-      "last_price": 126,
+      "last_checked": "2026-07-15T08:13:47.505Z",
+      "last_price": 378,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-15T05:53:47.421Z"
+      "updated_at": "2026-07-15T08:13:47.505Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T05:54:01.356Z",
-      "last_price": 42,
+      "last_checked": "2026-07-15T08:13:58.380Z",
+      "last_price": 155,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-15T05:54:01.356Z"
+      "updated_at": "2026-07-15T08:13:58.380Z"
     }
   ],
   "price_history": [
@@ -553,6 +553,22 @@
       "hotel_name": "25hours Hotel Das Tour",
       "url": "https://www.booking.com/hotel/de/25hours-das-tour.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8cDc0gbAAgHSAiQwNTMxNWJhOC0yYjI5LTQ4MWEtYjBmZS00NzlkMWUwOTZhZmLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1e5a297845ce0567&srepoch=1784094838&all_sr_blocks=280867110_107194577_2_2_0&highlighted_blocks=280867110_107194577_2_2_0&matching_block_id=280867110_107194577_2_2_0&sr_pri_blocks=280867110_107194577_2_2_0__67486&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-15T05:54:01.353Z"
+    },
+    {
+      "id": 65,
+      "alert_id": 1,
+      "price": 378,
+      "hotel_name": "Apartament Paderewski",
+      "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIkCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKzgt3SBsACAdICJDBiZmYwZjE1LWUwYjktNDc5ZC1hY2M1LWE0ZjY1OGEyZWJiN9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=54b139d9c881079c&srepoch=1784103223&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
+      "checked_at": "2026-07-15T08:13:47.502Z"
+    },
+    {
+      "id": 66,
+      "alert_id": 2,
+      "price": 155,
+      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
+      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCv4Ld0gbAAgHSAiQyNTY4ZjQyNC00ZWYyLTQ1MjYtYjJkNy0wMWQyYmRlZjE2YWTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a8ef39df19a70885&srepoch=1784103235&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62079&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-15T08:13:58.378Z"
     }
   ],
   "notifications": [
@@ -3309,7 +3325,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 65,
+    "price_history": 67,
     "notifications": 276
   }
 }
