@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T12:00:14.267Z",
-      "last_price": 126,
+      "last_checked": "2026-07-15T14:03:32.708Z",
+      "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-15T12:00:14.267Z"
+      "updated_at": "2026-07-15T14:03:32.708Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-15T12:00:25.941Z",
+      "last_checked": "2026-07-15T14:03:46.513Z",
       "last_price": 39,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-15T12:00:25.941Z"
+      "updated_at": "2026-07-15T14:03:46.513Z"
     }
   ],
   "price_history": [
@@ -601,6 +601,22 @@
       "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
       "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0uzd0gbAAgHSAiRmNWU1YzRmOS0xYmJkLTRmNGEtYjBhYS0yNTY2NTA0MGM4MjnYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=dbef54694883061a&srepoch=1784116822&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62938&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-15T12:00:25.937Z"
+    },
+    {
+      "id": 71,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKspt7SBsACAdICJGMwMGVhMDEyLTk0NTktNDJiZC1iODJlLTc4N2ExMmI0NDY5M9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b77462d6c77d070a&srepoch=1784124209&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-15T14:03:32.704Z"
+    },
+    {
+      "id": 72,
+      "alert_id": 2,
+      "price": 39,
+      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
+      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCu6be0gbAAgHSAiQxYzRiZjM0OS0wOTliLTRiZGMtYjhjYS0zZDhlMGJjODAyZDTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=4ac262dd86c40726&srepoch=1784124223&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__62938&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-15T14:03:46.510Z"
     }
   ],
   "notifications": [
@@ -3393,11 +3409,21 @@
       "message": "🏨 NH Düsseldorf City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 52/night",
       "is_read": 0,
       "created_at": "2026-07-15T10:21:36.579Z"
+    },
+    {
+      "id": 280,
+      "alert_id": 2,
+      "hotel_name": "Hotel Arosa Düsseldorf Oberkassel",
+      "price": 48,
+      "url": "https://www.booking.com/hotel/de/arosa.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCu6be0gbAAgHSAiQxYzRiZjM0OS0wOTliLTRiZGMtYjhjYS0zZDhlMGJjODAyZDTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=4ac262dd86c40726&srepoch=1784124223&all_sr_blocks=7131403_338444063_2_2_0&highlighted_blocks=7131403_338444063_2_2_0&matching_block_id=7131403_338444063_2_2_0&sr_pri_blocks=7131403_338444063_2_2_0__76521&from=searchresults",
+      "message": "🏨 Hotel Arosa Düsseldorf Oberkassel in Dusseldorf, North Rhine-Westphalia, Germany — EUR 48/night",
+      "is_read": 0,
+      "created_at": "2026-07-15T14:03:46.518Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 71,
-    "notifications": 280
+    "price_history": 73,
+    "notifications": 281
   }
 }
