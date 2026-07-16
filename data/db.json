@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-16T11:41:24.124Z",
+      "last_checked": "2026-07-16T13:55:22.229Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-16T11:41:24.124Z"
+      "updated_at": "2026-07-16T13:55:22.229Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-16T11:41:36.111Z",
-      "last_price": 38,
+      "last_checked": "2026-07-16T13:55:34.416Z",
+      "last_price": 40,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-16T11:41:36.111Z"
+      "updated_at": "2026-07-16T13:55:34.416Z"
     }
   ],
   "price_history": [
@@ -769,6 +769,22 @@
       "hotel_name": "HENRI Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/henri-dusseldorf-downtown.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC6Ibj0gbAAgHSAiQ3YjlhNDFhMC03OGIzLTQwZDMtYTc0ZC1iMzYzZjJiNjdhYzjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f5bc52344ecc015c&srepoch=1784202093&all_sr_blocks=384677302_126332139_0_2_0_262947&highlighted_blocks=384677302_126332139_0_2_0_262947&matching_block_id=384677302_126332139_0_2_0_262947&sr_pri_blocks=384677302_126332139_0_2_0_262947_60444&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-16T11:41:36.107Z"
+    },
+    {
+      "id": 92,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALCxePSBsACAdICJDY0ZmZlN2FmLTdmODUtNDBjNi05ZWNkLWYyZGFkODQzODI0Y9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=fb3861e148090791&srepoch=1784210118&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-16T13:55:22.224Z"
+    },
+    {
+      "id": 93,
+      "alert_id": 2,
+      "price": 40,
+      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
+      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCz8Xj0gbAAgHSAiRhY2M0NjA3My01MDM1LTQ0Y2UtYWZlYi1hMDQ1NzFmNjJmY2HYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=67e961e73db007f0&srepoch=1784210131&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__63110&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-16T13:55:34.410Z"
     }
   ],
   "notifications": [
@@ -3585,7 +3601,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 92,
+    "price_history": 94,
     "notifications": 282
   }
 }
