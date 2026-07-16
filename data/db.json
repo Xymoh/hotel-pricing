@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-16T18:41:00.971Z",
+      "last_checked": "2026-07-16T20:03:40.259Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-16T18:41:00.971Z"
+      "updated_at": "2026-07-16T20:03:40.259Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-16T18:41:13.275Z",
-      "last_price": 40,
+      "last_checked": "2026-07-16T20:03:54.207Z",
+      "last_price": 18,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-16T18:41:13.275Z"
+      "updated_at": "2026-07-16T20:03:54.207Z"
     }
   ],
   "price_history": [
@@ -833,6 +833,22 @@
       "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
       "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwMvk0gbAAgHSAiQyNDhmNDdmMS1mMWE4LTRhNjctODkyOC02N2I2ZGNjYTZkMzDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=0f0b8360b86e0802&srepoch=1784227270&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__63110&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-16T18:41:13.272Z"
+    },
+    {
+      "id": 100,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKU8uTSBsACAdICJDQ3ZTY5ZDA3LTg3OTgtNGI4MC05ZGNiLWY5NThhNDgzYzc4ZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=83418d0a8f270162&srepoch=1784232217&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-16T20:03:40.254Z"
+    },
+    {
+      "id": 101,
+      "alert_id": 2,
+      "price": 18,
+      "hotel_name": "Helles, gepflegtes Souterrain Apartment in ruhiger Lage",
+      "url": "https://www.booking.com/hotel/de/helles-gepflegtes-souterrain-apartment-in-ruhiger-lage.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCovLk0gbAAgHSAiQxM2EwODc2Zi04Y2NmLTRjYmItYjFiZi03OTJhYWJlYjAxNGPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=08ef8d116eb504f8&srepoch=1784232231&all_sr_blocks=1483440501_419838945_2_0_0&highlighted_blocks=1483440501_419838945_2_0_0&matching_block_id=1483440501_419838945_2_0_0&sr_pri_blocks=1483440501_419838945_2_0_0__29237&from=searchresults",
+      "checked_at": "2026-07-16T20:03:54.203Z"
     }
   ],
   "notifications": [
@@ -3649,7 +3665,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 100,
+    "price_history": 102,
     "notifications": 282
   }
 }
