@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-16T01:01:31.619Z",
+      "last_checked": "2026-07-16T04:39:10.947Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-16T01:01:31.619Z"
+      "updated_at": "2026-07-16T04:39:10.947Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-16T01:01:45.895Z",
+      "last_checked": "2026-07-16T04:39:25.621Z",
       "last_price": 38,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-16T01:01:45.895Z"
+      "updated_at": "2026-07-16T04:39:25.621Z"
     }
   ],
   "price_history": [
@@ -705,6 +705,22 @@
       "hotel_name": "HENRI Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/henri-dusseldorf-downtown.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8trg0gbAAgHSAiQwM2Y1ZWRiOC0zNTJjLTQ1MjctYTJiZS1jMmMzODk5NjY1ZTnYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=5aa8073931c80713&srepoch=1784163702&all_sr_blocks=384677302_126332139_0_2_0_262947&highlighted_blocks=384677302_126332139_0_2_0_262947&matching_block_id=384677302_126332139_0_2_0_262947&sr_pri_blocks=384677302_126332139_0_2_0_262947_60444&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-16T01:01:45.891Z"
+    },
+    {
+      "id": 84,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALmwOHSBsACAdICJDI3Y2UwOGU2LWUyOWItNDU4OC1iYTRjLTA5MTM3YjFkODAwY9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=8ecf20b3a4390183&srepoch=1784176747&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-16T04:39:10.944Z"
+    },
+    {
+      "id": 85,
+      "alert_id": 2,
+      "price": 38,
+      "hotel_name": "HENRI Hotel Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/henri-dusseldorf-downtown.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9cDh0gbAAgHSAiRjMzA3NTc0Yi1lMThhLTQwYjktOWZjYi1hYjlkYmFiODc2NmHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c13720bae0fb08ae&srepoch=1784176762&all_sr_blocks=384677302_126332139_0_2_0_262947&highlighted_blocks=384677302_126332139_0_2_0_262947&matching_block_id=384677302_126332139_0_2_0_262947&sr_pri_blocks=384677302_126332139_0_2_0_262947_60444&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-16T04:39:25.616Z"
     }
   ],
   "notifications": [
@@ -3521,7 +3537,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 84,
+    "price_history": 86,
     "notifications": 282
   }
 }
