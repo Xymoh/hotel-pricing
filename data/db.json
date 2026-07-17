@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-17T03:47:34.557Z",
-      "last_price": 149,
+      "last_checked": "2026-07-17T06:18:43.638Z",
+      "last_price": 148,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-17T03:47:34.557Z"
+      "updated_at": "2026-07-17T06:18:43.638Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-17T03:47:48.448Z",
-      "last_price": 40,
+      "last_checked": "2026-07-17T06:19:00.060Z",
+      "last_price": 41,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-17T03:47:48.448Z"
+      "updated_at": "2026-07-17T06:19:00.060Z"
     }
   ],
   "price_history": [
@@ -913,6 +913,22 @@
       "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
       "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC3Mvm0gbAAgHSAiRmODY1OGNhNS1iNzY5LTQ3YjYtOThlZi1hN2VkNDc4MGE1YTjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=256f1aae7e9b00eb&srepoch=1784260065&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__63110&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-17T03:47:48.445Z"
+    },
+    {
+      "id": 110,
+      "alert_id": 1,
+      "price": 148,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK7kufSBsACAdICJDE1ZGFkMTFkLTYyNjUtNGQ0OC04ZWE2LTFjYzZjNGYzYjJmNtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f6a12c5d1a0204d2&srepoch=1784269120&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
+      "checked_at": "2026-07-17T06:18:43.626Z"
+    },
+    {
+      "id": 111,
+      "alert_id": 2,
+      "price": 41,
+      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
+      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy5Ln0gbAAgHSAiRkY2UxMjA0Yy1mZjQ1LTRhYTktODkxMS1jNTc4NTg1M2VkNmHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=61212c65dcf700dc&srepoch=1784269136&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__65088&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-17T06:19:00.056Z"
     }
   ],
   "notifications": [
@@ -3735,11 +3751,21 @@
       "message": "🏨 Self Check-in Haus - 15min zum Hbf und Messe in Dusseldorf, North Rhine-Westphalia, Germany — EUR 42/night",
       "is_read": 0,
       "created_at": "2026-07-17T00:05:47.242Z"
+    },
+    {
+      "id": 283,
+      "alert_id": 1,
+      "hotel_name": "Novotel Poznań Malta",
+      "price": 148,
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK7kufSBsACAdICJDE1ZGFkMTFkLTYyNjUtNGQ0OC04ZWE2LTFjYzZjNGYzYjJmNtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f6a12c5d1a0204d2&srepoch=1784269120&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
+      "message": "🏨 Novotel Poznań Malta in Poznan, Greater Poland Voivodeship, Poland — PLN 148/night",
+      "is_read": 0,
+      "created_at": "2026-07-17T06:18:43.670Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 110,
-    "notifications": 283
+    "price_history": 112,
+    "notifications": 284
   }
 }
