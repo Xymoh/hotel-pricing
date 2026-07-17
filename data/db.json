@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-17T14:13:11.620Z",
+      "last_checked": "2026-07-17T15:56:13.748Z",
       "last_price": 148,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-17T14:13:11.620Z"
+      "updated_at": "2026-07-17T15:56:13.748Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-17T14:13:25.800Z",
+      "last_checked": "2026-07-17T15:56:28.682Z",
       "last_price": 12,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-17T14:13:25.800Z"
+      "updated_at": "2026-07-17T15:56:28.682Z"
     }
   ],
   "price_history": [
@@ -993,6 +993,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_vDo0gbAAgHSAiQ1ZTA5NDhlNi05ZjhmLTRhMmYtYTEzZi0xNGNiYjJhMDA3NDHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=174663fff7470102&srepoch=1784297602&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__9198%2C35136502_433690902_0_1_0__9198&from=searchresults",
       "checked_at": "2026-07-17T14:13:25.794Z"
+    },
+    {
+      "id": 120,
+      "alert_id": 1,
+      "price": 148,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKVoenSBsACAdICJDQzY2ZmOTc1LWM0ZDctNDgyOS1iMmM2LWIwOWU3N2M1NzZkNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=ff04700accc80143&srepoch=1784303769&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
+      "checked_at": "2026-07-17T15:56:13.743Z"
+    },
+    {
+      "id": 121,
+      "alert_id": 2,
+      "price": 12,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpaHp0gbAAgHSAiQzZjdkMGE5Ni0zNDZjLTQyZDgtYTQ1NS0wYWZhOGU4YWE2NjLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f56c7012672005ea&srepoch=1784303785&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__9198%2C35136502_433690902_0_1_0__9198&from=searchresults",
+      "checked_at": "2026-07-17T15:56:28.610Z"
     }
   ],
   "notifications": [
@@ -3835,11 +3851,31 @@
       "message": "🏨 Backpackers Düsseldorf - SELF CHECK-IN in Dusseldorf, North Rhine-Westphalia, Germany — EUR 12/night",
       "is_read": 0,
       "created_at": "2026-07-17T08:35:43.911Z"
+    },
+    {
+      "id": 285,
+      "alert_id": 1,
+      "hotel_name": "Hotel NH Poznan",
+      "price": 184,
+      "url": "https://www.booking.com/hotel/pl/nhpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKVoenSBsACAdICJDQzY2ZmOTc1LWM0ZDctNDgyOS1iMmM2LWIwOWU3N2M1NzZkNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=ff04700accc80143&srepoch=1784303769&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__165262&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Hotel NH Poznan in Poznan, Greater Poland Voivodeship, Poland — PLN 184/night",
+      "is_read": 0,
+      "created_at": "2026-07-17T15:56:13.755Z"
+    },
+    {
+      "id": 286,
+      "alert_id": 1,
+      "hotel_name": "Apartamencik Super",
+      "price": 216,
+      "url": "https://www.booking.com/hotel/pl/apartamencik-super-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKVoenSBsACAdICJDQzY2ZmOTc1LWM0ZDctNDgyOS1iMmM2LWIwOWU3N2M1NzZkNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=ff04700accc80143&srepoch=1784303769&all_sr_blocks=794702401_339555512_3_0_0&highlighted_blocks=794702401_339555512_3_0_0&matching_block_id=794702401_339555512_3_0_0&sr_pri_blocks=794702401_339555512_3_0_0__210444&from=searchresults",
+      "message": "🏨 Apartamencik Super in Poznan, Greater Poland Voivodeship, Poland — PLN 216/night",
+      "is_read": 0,
+      "created_at": "2026-07-17T15:56:13.758Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 120,
-    "notifications": 285
+    "price_history": 122,
+    "notifications": 287
   }
 }
