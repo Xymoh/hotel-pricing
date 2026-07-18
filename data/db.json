@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-18T17:32:57.931Z",
-      "last_price": 148,
+      "last_checked": "2026-07-18T19:07:15.995Z",
+      "last_price": 140,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-18T17:32:57.931Z"
+      "updated_at": "2026-07-18T19:07:15.995Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-18T17:33:10.988Z",
+      "last_checked": "2026-07-18T19:07:29.519Z",
       "last_price": 13,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-18T17:33:10.988Z"
+      "updated_at": "2026-07-18T19:07:29.519Z"
     }
   ],
   "price_history": [
@@ -1273,6 +1273,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCz_Hu0gbAAgHSAiRiMjM5ZjllNS01NDgwLTQ5ODgtYjA3My1lM2E0NmJjY2Y0MjHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=97687b674c1c0bd3&srepoch=1784395988&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
       "checked_at": "2026-07-18T17:33:10.983Z"
+    },
+    {
+      "id": 155,
+      "alert_id": 1,
+      "price": 140,
+      "hotel_name": "Hotel HP Park Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/hpparkpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALbne_SBsACAdICJGMxMDJhNGNkLTQ3NmEtNDM1NS05NjYzLWIyYmM2MzhlODVjM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e5b1866dca2b0669&srepoch=1784401632&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__125928&from=searchresults",
+      "checked_at": "2026-07-18T19:07:15.990Z"
+    },
+    {
+      "id": 156,
+      "alert_id": 2,
+      "price": 13,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC6Z3v0gbAAgHSAiQ3MWZiODgxMi00YTdkLTRlNmMtOGYzNC0xN2JlOTI3N2U3N2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a1a686747d2303bf&srepoch=1784401646&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
+      "checked_at": "2026-07-18T19:07:29.514Z"
     }
   ],
   "notifications": [
@@ -4145,11 +4161,31 @@
       "message": "🏨 Ilonn Hotel in Poznan, Greater Poland Voivodeship, Poland — PLN 192/night",
       "is_read": 0,
       "created_at": "2026-07-17T21:21:56.793Z"
+    },
+    {
+      "id": 288,
+      "alert_id": 1,
+      "hotel_name": "Hotel HP Park Poznań Malta",
+      "price": 140,
+      "url": "https://www.booking.com/hotel/pl/hpparkpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALbne_SBsACAdICJGMxMDJhNGNkLTQ3NmEtNDM1NS05NjYzLWIyYmM2MzhlODVjM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e5b1866dca2b0669&srepoch=1784401632&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__125928&from=searchresults",
+      "message": "🏨 Hotel HP Park Poznań Malta in Poznan, Greater Poland Voivodeship, Poland — PLN 140/night",
+      "is_read": 0,
+      "created_at": "2026-07-18T19:07:16.001Z"
+    },
+    {
+      "id": 289,
+      "alert_id": 1,
+      "hotel_name": "Ilonn Hotel",
+      "price": 187,
+      "url": "https://www.booking.com/hotel/pl/hotelilonnpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALbne_SBsACAdICJGMxMDJhNGNkLTQ3NmEtNDM1NS05NjYzLWIyYmM2MzhlODVjM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=e5b1866dca2b0669&srepoch=1784401632&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__167898&from=searchresults",
+      "message": "🏨 Ilonn Hotel in Poznan, Greater Poland Voivodeship, Poland — PLN 187/night",
+      "is_read": 0,
+      "created_at": "2026-07-18T19:07:16.005Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 155,
-    "notifications": 288
+    "price_history": 157,
+    "notifications": 290
   }
 }
