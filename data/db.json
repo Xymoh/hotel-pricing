@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-18T20:12:58.205Z",
-      "last_price": 146,
+      "last_checked": "2026-07-18T21:24:22.803Z",
+      "last_price": 148,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-18T20:12:58.205Z"
+      "updated_at": "2026-07-18T21:24:22.803Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-18T20:13:12.293Z",
+      "last_checked": "2026-07-18T21:24:37.015Z",
       "last_price": 13,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-18T20:13:12.294Z"
+      "updated_at": "2026-07-18T21:24:37.015Z"
     }
   ],
   "price_history": [
@@ -1305,6 +1305,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0Lzv0gbAAgHSAiQ5YzUwMDA3My1kMTJhLTQ0MzItODY4MS02OGQ4NzViYzI2NGHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=ab208e2837600287&srepoch=1784405589&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
       "checked_at": "2026-07-18T20:13:12.290Z"
+    },
+    {
+      "id": 159,
+      "alert_id": 1,
+      "price": 148,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL-3e_SBsACAdICJDRkNDhlZWMzLWQ1MjQtNDhjYi1hZDJjLTZkNGE1YzBiYTUyYtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=7804967fc8ec0009&srepoch=1784409859&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
+      "checked_at": "2026-07-18T21:24:22.798Z"
+    },
+    {
+      "id": 160,
+      "alert_id": 2,
+      "price": 13,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCjd7v0gbAAgHSAiRjMmU1MzRiZi0zYmFjLTRlMjUtOTgxYi1jNzc4ZTdmOGEzNzHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a0109686c9f8037d&srepoch=1784409874&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
+      "checked_at": "2026-07-18T21:24:37.012Z"
     }
   ],
   "notifications": [
@@ -4201,7 +4217,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 159,
+    "price_history": 161,
     "notifications": 290
   }
 }
