@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-19T18:02:58.602Z",
+      "last_checked": "2026-07-19T19:41:45.136Z",
       "last_price": 47,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-19T18:02:58.602Z"
+      "updated_at": "2026-07-19T19:41:45.136Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-19T18:03:12.371Z",
+      "last_checked": "2026-07-19T19:41:56.144Z",
       "last_price": 13,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-19T18:03:12.371Z"
+      "updated_at": "2026-07-19T19:41:56.144Z"
     }
   ],
   "price_history": [
@@ -1505,6 +1505,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC2aL00gbAAgHSAiQzZmQzNzI0ZC1jODk5LTRhYjYtYjkzOC1kODhhNmJkODRlZDLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=23137eec9d9d020e&srepoch=1784484189&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
       "checked_at": "2026-07-19T18:03:12.367Z"
+    },
+    {
+      "id": 184,
+      "alert_id": 1,
+      "price": 47,
+      "hotel_name": "Pet-friendly City Room Poznan - Tram 4 min to Old Town",
+      "url": "https://www.booking.com/hotel/pl/pet-friendly-city-room-poznan-tram-4-min-to-old-town.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLQCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALw0PTSBsACAdICJGMxNWVhMzIxLWFmODMtNGIwZS1iYWQ2LTk4N2JkZjU0YWM3Y9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=2e528a78aff108be&srepoch=1784490102&all_sr_blocks=1691843201_440838565_2_0_0&highlighted_blocks=1691843201_440838565_2_0_0&matching_block_id=1691843201_440838565_2_0_0&sr_pri_blocks=1691843201_440838565_2_0_0__42500&from=searchresults",
+      "checked_at": "2026-07-19T19:41:45.132Z"
+    },
+    {
+      "id": 185,
+      "alert_id": 2,
+      "price": 13,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_dD00gbAAgHSAiRhMTY3NGFiZi1kYjc0LTQ2ZWItOTQyNS01MGQ5ZmY5MjcwODTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=4e488a7e4e9708b1&srepoch=1784490115&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
+      "checked_at": "2026-07-19T19:41:56.140Z"
     }
   ],
   "notifications": [
@@ -4421,7 +4437,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 184,
+    "price_history": 186,
     "notifications": 292
   }
 }
