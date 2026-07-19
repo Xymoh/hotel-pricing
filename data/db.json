@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-19T15:31:59.211Z",
-      "last_price": 148,
+      "last_checked": "2026-07-19T18:02:58.602Z",
+      "last_price": 47,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-19T15:31:59.211Z"
+      "updated_at": "2026-07-19T18:02:58.602Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-19T16:59:47.636Z",
+      "last_checked": "2026-07-19T18:03:12.371Z",
       "last_price": 13,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-19T16:59:47.636Z"
+      "updated_at": "2026-07-19T18:03:12.371Z"
     }
   ],
   "price_history": [
@@ -1489,6 +1489,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-4T00gbAAgHSAiQ2Mjk5N2FkNS0yYmQ0LTQ4NGYtYjc2NC00YmVhMDBhNjM3NGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=0cab777d5a241712&srepoch=1784480384&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
       "checked_at": "2026-07-19T16:59:47.631Z"
+    },
+    {
+      "id": 182,
+      "alert_id": 1,
+      "price": 47,
+      "hotel_name": "Pet-friendly City Room Poznan - Tram 4 min to Old Town",
+      "url": "https://www.booking.com/hotel/pl/pet-friendly-city-room-poznan-tram-4-min-to-old-town.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALKovTSBsACAdICJGVjMzRlMGIzLTM4N2EtNGRkNy04YTAwLWM0OWQ0ZjcwMGFmOdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=20aa7ee53888089a&srepoch=1784484174&all_sr_blocks=1691843201_440838565_2_0_0&highlighted_blocks=1691843201_440838565_2_0_0&matching_block_id=1691843201_440838565_2_0_0&sr_pri_blocks=1691843201_440838565_2_0_0__42500&from=searchresults",
+      "checked_at": "2026-07-19T18:02:58.597Z"
+    },
+    {
+      "id": 183,
+      "alert_id": 2,
+      "price": 13,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC2aL00gbAAgHSAiQzZmQzNzI0ZC1jODk5LTRhYjYtYjkzOC1kODhhNmJkODRlZDLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=23137eec9d9d020e&srepoch=1784484189&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
+      "checked_at": "2026-07-19T18:03:12.367Z"
     }
   ],
   "notifications": [
@@ -4391,11 +4407,21 @@
       "message": "🏨 Hotel Schumacher Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 36/night",
       "is_read": 0,
       "created_at": "2026-07-18T22:24:07.164Z"
+    },
+    {
+      "id": 291,
+      "alert_id": 1,
+      "hotel_name": "Pet-friendly City Room Poznan - Tram 4 min to Old Town",
+      "price": 47,
+      "url": "https://www.booking.com/hotel/pl/pet-friendly-city-room-poznan-tram-4-min-to-old-town.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALKovTSBsACAdICJGVjMzRlMGIzLTM4N2EtNGRkNy04YTAwLWM0OWQ0ZjcwMGFmOdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=20aa7ee53888089a&srepoch=1784484174&all_sr_blocks=1691843201_440838565_2_0_0&highlighted_blocks=1691843201_440838565_2_0_0&matching_block_id=1691843201_440838565_2_0_0&sr_pri_blocks=1691843201_440838565_2_0_0__42500&from=searchresults",
+      "message": "🏨 Pet-friendly City Room Poznan - Tram 4 min to Old Town in Poznan, Greater Poland Voivodeship, Poland — PLN 47/night",
+      "is_read": 0,
+      "created_at": "2026-07-19T18:02:58.607Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 182,
-    "notifications": 291
+    "price_history": 184,
+    "notifications": 292
   }
 }
