@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-20T10:13:42.480Z",
+      "last_checked": "2026-07-20T12:32:41.048Z",
       "last_price": 148,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-20T10:13:42.480Z"
+      "updated_at": "2026-07-20T12:32:41.048Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-20T10:13:54.524Z",
+      "last_checked": "2026-07-20T12:32:54.994Z",
       "last_price": 16,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-20T10:13:54.524Z"
+      "updated_at": "2026-07-20T12:32:54.994Z"
     }
   ],
   "price_history": [
@@ -1633,6 +1633,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC2un30gbAAgHSAiQyMmZjYjBkNS0yODQ2LTQzMDMtYTlkYS0wOWYxZGYxYmUxZDnYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=506647ededf90026&srepoch=1784542431&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__12958%2C35136502_433690902_0_1_0__12958&from=searchresults",
       "checked_at": "2026-07-20T10:13:54.520Z"
+    },
+    {
+      "id": 200,
+      "alert_id": 1,
+      "price": 148,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALgqvjSBsACAdICJDVhZDNjYWRkLTdjMmUtNDg5YS04ZDg5LTUyNTA3MTE2OTAyMdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=ff045830fdb50243&srepoch=1784550757&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
+      "checked_at": "2026-07-20T12:32:41.044Z"
+    },
+    {
+      "id": 201,
+      "alert_id": 2,
+      "price": 16,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7qr40gbAAgHSAiQ3YWFiZmIyOC05NTkxLTRkYjYtOTFhNS0yNTk3ZTBkZjk3MDnYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=925d58372c6d01f5&srepoch=1784550773&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__12958%2C35136502_433690902_0_1_0__12958&from=searchresults",
+      "checked_at": "2026-07-20T12:32:54.987Z"
     }
   ],
   "notifications": [
@@ -4545,11 +4561,21 @@
       "message": "🏨 Pet-friendly City Room Poznan - Tram 4 min to Old Town in Poznan, Greater Poland Voivodeship, Poland — PLN 47/night",
       "is_read": 0,
       "created_at": "2026-07-19T18:02:58.607Z"
+    },
+    {
+      "id": 292,
+      "alert_id": 2,
+      "hotel_name": "Townhouse Düsseldorf",
+      "price": 39,
+      "url": "https://www.booking.com/hotel/de/townhouse-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7qr40gbAAgHSAiQ3YWFiZmIyOC05NTkxLTRkYjYtOTFhNS0yNTk3ZTBkZjk3MDnYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=925d58372c6d01f5&srepoch=1784550773&all_sr_blocks=35121709_106114709_2_2_0&highlighted_blocks=35121709_106114709_2_2_0&matching_block_id=35121709_106114709_2_2_0&sr_pri_blocks=35121709_106114709_2_2_0__62251&from=searchresults",
+      "message": "🏨 Townhouse Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 39/night",
+      "is_read": 0,
+      "created_at": "2026-07-20T12:32:55.001Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 200,
-    "notifications": 292
+    "price_history": 202,
+    "notifications": 293
   }
 }
