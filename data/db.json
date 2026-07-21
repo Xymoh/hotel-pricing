@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-21T14:35:16.541Z",
-      "last_price": 447,
+      "last_checked": "2026-07-21T16:24:09.049Z",
+      "last_price": 140,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-21T14:35:16.541Z"
+      "updated_at": "2026-07-21T16:24:09.049Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-21T14:35:30.651Z",
-      "last_price": 71,
+      "last_checked": "2026-07-21T16:24:24.392Z",
+      "last_price": 18,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-21T14:35:30.651Z"
+      "updated_at": "2026-07-21T16:24:24.392Z"
     }
   ],
   "price_history": [
@@ -1833,6 +1833,22 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqof-0gbAAgHSAiQ2NGI5NTVjNy00YjM2LTQxZGQtYjAzYy1mMDNjYjcwZDJkMDTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=47ad66957ab00853&srepoch=1784644527&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
       "checked_at": "2026-07-21T14:35:30.648Z"
+    },
+    {
+      "id": 225,
+      "alert_id": 1,
+      "price": 140,
+      "hotel_name": "Hotel HP Park Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/hpparkpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKguv7SBsACAdICJGM1NDQwNmM4LWY1ZjgtNDY3ZS1hNWEwLWM4MjdjODk0ZjUzZdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c55973503f2f08de&srepoch=1784651045&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__125943&from=searchresults",
+      "checked_at": "2026-07-21T16:24:09.044Z"
+    },
+    {
+      "id": 226,
+      "alert_id": 2,
+      "price": 18,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCsbr-0gbAAgHSAiQ5N2ZlZTQ4NC1jNTc1LTQ3MTEtODE0Ny04YmMxNmEwODU4MWPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=590873584bae0433&srepoch=1784651061&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
+      "checked_at": "2026-07-21T16:24:24.388Z"
     }
   ],
   "notifications": [
@@ -4755,11 +4771,41 @@
       "message": "🏨 Townhouse Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 39/night",
       "is_read": 0,
       "created_at": "2026-07-20T12:32:55.001Z"
+    },
+    {
+      "id": 293,
+      "alert_id": 1,
+      "hotel_name": "Hotel Włoski Italia Boutique Old Town Poznań",
+      "price": 215,
+      "url": "https://www.booking.com/hotel/pl/wloski.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKguv7SBsACAdICJGM1NDQwNmM4LWY1ZjgtNDY3ZS1hNWEwLWM4MjdjODk0ZjUzZdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=c55973503f2f08de&srepoch=1784651045&all_sr_blocks=18681008_89066003_0_2_0&highlighted_blocks=18681008_89066003_0_2_0&matching_block_id=18681008_89066003_0_2_0&sr_pri_blocks=18681008_89066003_0_2_0__193540&from=searchresults",
+      "message": "🏨 Hotel Włoski Italia Boutique Old Town Poznań in Poznan, Greater Poland Voivodeship, Poland — PLN 215/night",
+      "is_read": 0,
+      "created_at": "2026-07-21T16:24:09.055Z"
+    },
+    {
+      "id": 294,
+      "alert_id": 2,
+      "hotel_name": "acora Düsseldorf Living the City",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/acorahotel.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCsbr-0gbAAgHSAiQ5N2ZlZTQ4NC1jNTc1LTQ3MTEtODE0Ny04YmMxNmEwODU4MWPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=590873584bae0433&srepoch=1784651061&all_sr_blocks=6075502_372572406_0_2_0&highlighted_blocks=6075502_372572406_0_2_0&matching_block_id=6075502_372572406_0_2_0&sr_pri_blocks=6075502_372572406_0_2_0__68215&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 acora Düsseldorf Living the City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-21T16:24:24.397Z"
+    },
+    {
+      "id": 295,
+      "alert_id": 2,
+      "hotel_name": "Wyndham Garden Düsseldorf City Centre Königsallee",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/fourpointscentrduess.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCsbr-0gbAAgHSAiQ5N2ZlZTQ4NC1jNTc1LTQ3MTEtODE0Ny04YmMxNmEwODU4MWPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=590873584bae0433&srepoch=1784651061&all_sr_blocks=6188402_100931248_0_2_0_1381136&highlighted_blocks=6188402_100931248_0_2_0_1381136&matching_block_id=6188402_100931248_0_2_0_1381136&sr_pri_blocks=6188402_100931248_0_2_0_1381136_68486&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Wyndham Garden Düsseldorf City Centre Königsallee in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night",
+      "is_read": 0,
+      "created_at": "2026-07-21T16:24:24.401Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 225,
-    "notifications": 293
+    "price_history": 227,
+    "notifications": 296
   }
 }
