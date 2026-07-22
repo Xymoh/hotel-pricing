@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-22T19:22:57.993Z",
+      "last_checked": "2026-07-22T20:39:07.096Z",
       "last_price": 149,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-22T19:22:57.993Z"
+      "updated_at": "2026-07-22T20:39:07.096Z"
     },
     {
       "id": 2,
@@ -2033,6 +2033,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCl7GE0wbAAgHSAiQ4NzE5MWUwNS01NDZlLTQ0NWUtOGQ5Mi02MGUxYzhiYmVhYjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=64f2884ba9d40385&srepoch=1784748188&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
       "checked_at": "2026-07-22T19:23:11.596Z"
+    },
+    {
+      "id": 250,
+      "alert_id": 1,
+      "price": 149,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLcCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALi1ITTBsACAdICJDhhMTY0ZjViLThlNjgtNDYyZi04M2UzLTgyZmNjM2YwOWY4M9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=ad05913162140061&srepoch=1784752743&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-22T20:39:07.091Z"
     }
   ],
   "notifications": [
@@ -4999,7 +5007,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 250,
+    "price_history": 251,
     "notifications": 297
   }
 }
