@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-22T12:13:08.473Z",
-      "last_price": 18,
+      "last_checked": "2026-07-22T14:35:16.996Z",
+      "last_price": 71,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-22T12:13:08.473Z"
+      "updated_at": "2026-07-22T14:35:16.996Z"
     }
   ],
   "price_history": [
@@ -1977,6 +1977,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCzeeC0wbAAgHSAiRiOGVlMDNjYy1lZjI0LTQyZDAtYTVjMC01ODQyOGQwY2JjMjHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=af3e55e60c020ab4&srepoch=1784722385&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
       "checked_at": "2026-07-22T12:13:08.467Z"
+    },
+    {
+      "id": 243,
+      "alert_id": 2,
+      "price": 71,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCm6qD0wbAAgHSAiRiOWJjODNkNy00NDc2LTRkNDQtOTZmZi01YzQ5MGJlOWMxMmbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=92e1668d69e50937&srepoch=1784730913&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
+      "checked_at": "2026-07-22T14:35:16.990Z"
     }
   ],
   "notifications": [
@@ -4943,7 +4951,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 243,
+    "price_history": 244,
     "notifications": 297
   }
 }
