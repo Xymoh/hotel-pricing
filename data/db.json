@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-23T19:56:17.355Z",
-      "last_price": 140,
+      "last_checked": "2026-07-23T21:07:56.712Z",
+      "last_price": 146,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-23T19:56:17.355Z"
+      "updated_at": "2026-07-23T21:07:56.712Z"
     },
     {
       "id": 2,
@@ -2217,6 +2217,14 @@
       "hotel_name": "Limehome Düsseldorf Bahlenstr",
       "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC5eOJ0wbAAgHSAiQ3MGQwMjU0ZC02OWExLTQyZjUtOGY3YS04MjIzNDhkYjQyNGLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=4c0f8c322f4914c5&srepoch=1784836586&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
       "checked_at": "2026-07-23T19:56:29.714Z"
+    },
+    {
+      "id": 273,
+      "alert_id": 1,
+      "price": 146,
+      "hotel_name": "Hotel HP Park Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/hpparkpoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKkhYrTBsACAdICJDNlODU5NDBlLWYwNzctNDBiNS1iMGYyLWQ2YjdjYzRjODc3ONgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a2ff9492adab0500&srepoch=1784840873&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__131141&from=searchresults",
+      "checked_at": "2026-07-23T21:07:56.706Z"
     }
   ],
   "notifications": [
@@ -5193,7 +5201,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 273,
+    "price_history": 274,
     "notifications": 298
   }
 }
