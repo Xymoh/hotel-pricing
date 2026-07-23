@@ -15,10 +15,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-23T16:58:29.623Z",
-      "last_price": 149,
+      "last_checked": "2026-07-23T18:18:38.710Z",
+      "last_price": 447,
       "created_at": "2026-07-11T18:31:19.869Z",
-      "updated_at": "2026-07-23T16:58:29.623Z"
+      "updated_at": "2026-07-23T18:18:38.710Z"
     },
     {
       "id": 2,
@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-23T16:58:42.237Z",
-      "last_price": 39,
+      "last_checked": "2026-07-23T18:18:50.166Z",
+      "last_price": 157,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-23T16:58:42.237Z"
+      "updated_at": "2026-07-23T18:18:50.166Z"
     }
   ],
   "price_history": [
@@ -2185,6 +2185,22 @@
       "hotel_name": "Limehome Düsseldorf Bahlenstr",
       "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCupCJ0wbAAgHSAiQ1YzU2ZGQyZS1mOWM4LTQ4ZmMtOTg4YS1jNzU0YTgyOTY2MTXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=d8b9775dee3f0457&srepoch=1784825919&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
       "checked_at": "2026-07-23T16:58:42.231Z"
+    },
+    {
+      "id": 269,
+      "alert_id": 1,
+      "price": 447,
+      "hotel_name": "Novotel Poznań Malta",
+      "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIkCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL2tYnTBsACAdICJDFkZTk5MmE1LWJlYjItNDAxMi04ZjdiLWY4NWNkNzMxNGU4MNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=5ec980bbfe810557&srepoch=1784830715&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
+      "checked_at": "2026-07-23T18:18:38.704Z"
+    },
+    {
+      "id": 270,
+      "alert_id": 2,
+      "price": 157,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCgraJ0wbAAgHSAiRkMzE1ZGVmMC0wOTFkLTRhMDctOGY1NS1jZjgyNjg3YWI1NWPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=af3e80c12c64034d&srepoch=1784830726&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
+      "checked_at": "2026-07-23T18:18:50.162Z"
     }
   ],
   "notifications": [
@@ -5161,7 +5177,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 269,
+    "price_history": 271,
     "notifications": 298
   }
 }
