@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-24T06:27:29.603Z",
-      "last_price": 42,
+      "last_checked": "2026-07-24T09:05:33.116Z",
+      "last_price": 169,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-24T06:27:29.603Z"
+      "updated_at": "2026-07-24T09:05:33.116Z"
     }
   ],
   "price_history": [
@@ -2273,6 +2273,14 @@
       "hotel_name": "Van der Valk Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/van-der-valk-airporthotel-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCyouM0wbAAgHSAiQ1OTU1M2MxNy00YWRjLTRhOWEtOWVmMS0yZWE0OGMyYTZmNjHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=8bbd2d659f990175&srepoch=1784874446&all_sr_blocks=24663702_90860864_2_2_0_1140079&highlighted_blocks=24663702_90860864_2_2_0_1140079&matching_block_id=24663702_90860864_2_2_0_1140079&sr_pri_blocks=24663702_90860864_2_2_0_1140079_67469&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-07-24T06:27:29.598Z"
+    },
+    {
+      "id": 280,
+      "alert_id": 2,
+      "price": 169,
+      "hotel_name": "Van der Valk Hotel Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/van-der-valk-airporthotel-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC1dWM0wbAAgHSAiQ3YzdjMWZiOC1lNmNhLTQ0ZjgtODlmNy0yN2FkNmNiNGE3N2bYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=368a3fea094b014b&srepoch=1784883929&all_sr_blocks=24663702_90860864_2_2_0_1140079&highlighted_blocks=24663702_90860864_2_2_0_1140079&matching_block_id=24663702_90860864_2_2_0_1140079&sr_pri_blocks=24663702_90860864_2_2_0_1140079_67469&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-24T09:05:33.110Z"
     }
   ],
   "notifications": [
@@ -5259,7 +5267,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 280,
+    "price_history": 281,
     "notifications": 299
   }
 }
