@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-25T18:03:35.637Z",
+      "last_checked": "2026-07-25T19:44:37.412Z",
       "last_price": 39,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-25T18:03:35.637Z"
+      "updated_at": "2026-07-25T19:44:37.412Z"
     }
   ],
   "price_history": [
@@ -2433,6 +2433,14 @@
       "hotel_name": "Limehome Düsseldorf Bahlenstr",
       "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7_ST0wbAAgHSAiRjM2UwOTg0My1hMDBmLTRlODgtYjZiMC0wYTkwOTE3OTdlNDfYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=65a97ef789c004f3&srepoch=1785002611&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
       "checked_at": "2026-07-25T18:03:35.631Z"
+    },
+    {
+      "id": 300,
+      "alert_id": 2,
+      "price": 39,
+      "hotel_name": "Limehome Düsseldorf Bahlenstr",
+      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnaSU0wbAAgHSAiQ2OWYyMmIzYS0wZDQxLTQ3YjItOTNiNy04MWM4ZmU0YzBiODHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=4c9e8ace6b6405ae&srepoch=1785008674&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
+      "checked_at": "2026-07-25T19:44:37.406Z"
     }
   ],
   "notifications": [
@@ -5429,7 +5437,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 300,
+    "price_history": 301,
     "notifications": 300
   }
 }
