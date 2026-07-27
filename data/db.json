@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-27T00:08:55.562Z",
+      "last_checked": "2026-07-27T04:13:49.901Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-27T00:08:55.562Z"
+      "updated_at": "2026-07-27T04:13:49.901Z"
     }
   ],
   "price_history": [
@@ -2561,6 +2561,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiPAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCj8Oa0wbAAgHSAiQ1M2E5MjFmMy1kMDZmLTQwZmUtYjFmMy02ODJiNDIzYWI3N2bYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=888301073567008e&srepoch=1785110932&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-07-27T00:08:55.556Z"
+    },
+    {
+      "id": 316,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9bWb0wbAAgHSAiQ5YWRhZTJmMC1mZDAzLTQ4NjQtYTdkOS0zNDhhOTJjZGNmYTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b2651dba4aa40072&srepoch=1785125626&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-07-27T04:13:49.895Z"
     }
   ],
   "notifications": [
@@ -5593,11 +5601,61 @@
       "message": "🏨 Ruby Leni Hotel Dusseldorf by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 36/night",
       "is_read": 0,
       "created_at": "2026-07-27T00:08:55.585Z"
+    },
+    {
+      "id": 304,
+      "alert_id": 2,
+      "hotel_name": "Holiday Inn Express Düsseldorf - Hauptbahnhof by IHG",
+      "price": 25,
+      "url": "https://www.booking.com/hotel/de/holiday-inn-express-dusseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9bWb0wbAAgHSAiQ5YWRhZTJmMC1mZDAzLTQ4NjQtYTdkOS0zNDhhOTJjZGNmYTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=price&srpvid=b2651dba4aa40072&srepoch=1785125626&all_sr_blocks=716349101_373859238_2_1_0&highlighted_blocks=716349101_373859238_2_1_0&matching_block_id=716349101_373859238_2_1_0&sr_pri_blocks=716349101_373859238_2_1_0__39813&from=searchresults",
+      "message": "🏨 Holiday Inn Express Düsseldorf - Hauptbahnhof by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 25/night",
+      "is_read": 0,
+      "created_at": "2026-07-27T04:13:49.909Z"
+    },
+    {
+      "id": 305,
+      "alert_id": 2,
+      "hotel_name": "Garner Hotel Dusseldorf - Main Station by IHG",
+      "price": 26,
+      "url": "https://www.booking.com/hotel/de/garner-hotel-dusseldorf-mainstation.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9bWb0wbAAgHSAiQ5YWRhZTJmMC1mZDAzLTQ4NjQtYTdkOS0zNDhhOTJjZGNmYTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=b2651dba4aa40072&srepoch=1785125626&all_sr_blocks=38183427_373117074_2_2_0&highlighted_blocks=38183427_373117074_2_2_0&matching_block_id=38183427_373117074_2_2_0&sr_pri_blocks=38183427_373117074_2_2_0__41551&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Garner Hotel Dusseldorf - Main Station by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 26/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-07-27T04:13:49.914Z"
+    },
+    {
+      "id": 306,
+      "alert_id": 2,
+      "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
+      "price": 31,
+      "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9bWb0wbAAgHSAiQ5YWRhZTJmMC1mZDAzLTQ4NjQtYTdkOS0zNDhhOTJjZGNmYTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=b2651dba4aa40072&srepoch=1785125626&all_sr_blocks=635268804_296860626_2_2_0&highlighted_blocks=635268804_296860626_2_2_0&matching_block_id=635268804_296860626_2_2_0&sr_pri_blocks=635268804_296860626_2_2_0__48772&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Holiday Inn - the niu, Seven Dusseldorf Ost by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 31/night",
+      "is_read": 0,
+      "created_at": "2026-07-27T04:13:49.919Z"
+    },
+    {
+      "id": 307,
+      "alert_id": 2,
+      "hotel_name": "Holiday Inn - the niu Tab Dusseldorf Main Station by IHG",
+      "price": 32,
+      "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-tab-dusseldorf-main-station.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9bWb0wbAAgHSAiQ5YWRhZTJmMC1mZDAzLTQ4NjQtYTdkOS0zNDhhOTJjZGNmYTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=b2651dba4aa40072&srepoch=1785125626&all_sr_blocks=635270704_406732698_2_2_0&highlighted_blocks=635270704_406732698_2_2_0&matching_block_id=635270704_406732698_2_2_0&sr_pri_blocks=635270704_406732698_2_2_0__50654&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Holiday Inn - the niu Tab Dusseldorf Main Station by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 32/night",
+      "is_read": 0,
+      "created_at": "2026-07-27T04:13:49.924Z"
+    },
+    {
+      "id": 308,
+      "alert_id": 2,
+      "hotel_name": "Ruby Coco Hotel Dusseldorf by IHG",
+      "price": 34,
+      "url": "https://www.booking.com/hotel/de/ruby-coco-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9bWb0wbAAgHSAiQ5YWRhZTJmMC1mZDAzLTQ4NjQtYTdkOS0zNDhhOTJjZGNmYTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=b2651dba4aa40072&srepoch=1785125626&all_sr_blocks=316755711_432880126_2_2_0&highlighted_blocks=316755711_432880126_2_2_0&matching_block_id=316755711_432880126_2_2_0&sr_pri_blocks=316755711_432880126_2_2_0__53869&from=searchresults",
+      "message": "🏨 Ruby Coco Hotel Dusseldorf by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 34/night",
+      "is_read": 0,
+      "created_at": "2026-07-27T04:13:49.930Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 316,
-    "notifications": 304
+    "price_history": 317,
+    "notifications": 309
   }
 }
