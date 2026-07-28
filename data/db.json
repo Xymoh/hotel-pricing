@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-28T10:07:39.302Z",
-      "last_price": 74,
+      "last_checked": "2026-07-28T12:21:53.675Z",
+      "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-28T10:07:39.302Z"
+      "updated_at": "2026-07-28T12:21:53.675Z"
     }
   ],
   "price_history": [
@@ -2649,6 +2649,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC4v6h0wbAAgHSAiQyMjg4OGIyOS00YjY2LTQ5YjEtYmNkNy1iMWI5NjBiOGU1MGbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=0045473111ba0014&srepoch=1785233256&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-07-28T10:07:39.297Z"
+    },
+    {
+      "id": 327,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC2r2i0wbAAgHSAiQ0NmZkMjUzOS00YTFjLTQ5MWEtODM0YS0zMzE5ZjBhOTk2MTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=afa656ed4b480039&srepoch=1785241310&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-07-28T12:21:53.669Z"
     }
   ],
   "notifications": [
@@ -5781,11 +5789,21 @@
       "message": "🏨 Holiday Inn - the niu Tab Dusseldorf Main Station by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 31/night",
       "is_read": 0,
       "created_at": "2026-07-28T04:12:40.302Z"
+    },
+    {
+      "id": 314,
+      "alert_id": 2,
+      "hotel_name": "THE FRITZ Düsseldorf",
+      "price": 33,
+      "url": "https://www.booking.com/hotel/de/the-fritz-dusseldorf-konigsallee.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC2r2i0wbAAgHSAiQ0NmZkMjUzOS00YTFjLTQ5MWEtODM0YS0zMzE5ZjBhOTk2MTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=afa656ed4b480039&srepoch=1785241310&all_sr_blocks=6807502_95526018_2_2_0&highlighted_blocks=6807502_95526018_2_2_0&matching_block_id=6807502_95526018_2_2_0&sr_pri_blocks=6807502_95526018_2_2_0__53013&from=searchresults",
+      "message": "🏨 THE FRITZ Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 33/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-07-28T12:21:53.681Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 327,
-    "notifications": 314
+    "price_history": 328,
+    "notifications": 315
   }
 }
