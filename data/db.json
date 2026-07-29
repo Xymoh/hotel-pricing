@@ -35,21 +35,13 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-29T12:29:36.635Z",
+      "last_checked": "2026-07-29T14:54:56.798Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-29T12:29:36.635Z"
+      "updated_at": "2026-07-29T14:54:56.798Z"
     }
   ],
   "price_history": [
-    {
-      "id": 5,
-      "alert_id": 2,
-      "price": 25,
-      "hotel_name": "Limehome Düsseldorf Bahlenstr",
-      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC79HL0gbAAgHSAiRmNDlhOTFhNS02M2QwLTQxZmItYmE4Yi1iZjhmYWVhZDg3ZjPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=75f607f743760570&srepoch=1783818484&all_sr_blocks=1212816901_393497237_2_0_0&highlighted_blocks=1212816901_393497237_2_0_0&matching_block_id=1212816901_393497237_2_0_0&sr_pri_blocks=1212816901_393497237_2_0_0__39380&from=searchresults",
-      "checked_at": "2026-07-12T01:08:07.185Z"
-    },
     {
       "id": 6,
       "alert_id": 2,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCp-Sn0wbAAgHSAiQ5OWZjODQ4ZC01YmQzLTRkYmUtOWEzZC03MWI3YmMxZTdiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=fa0d57d32f281319&srepoch=1785328173&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-07-29T12:29:36.629Z"
+    },
+    {
+      "id": 337,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCuaio0wbAAgHSAiQyMDY3NWExYi1iNzE4LTQyNzEtODQ3ZC04NTdhZjY0NTE0MTPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1ef968dc2e931982&srepoch=1785336893&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-07-29T14:54:56.792Z"
     }
   ],
   "notifications": [
@@ -5853,7 +5853,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 337,
+    "price_history": 338,
     "notifications": 316
   }
 }
