@@ -35,21 +35,13 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-07-30T20:16:29.739Z",
-      "last_price": 19,
+      "last_checked": "2026-07-30T21:43:32.200Z",
+      "last_price": 31,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-07-30T20:16:29.739Z"
+      "updated_at": "2026-07-30T21:43:32.200Z"
     }
   ],
   "price_history": [
-    {
-      "id": 21,
-      "alert_id": 2,
-      "price": 30,
-      "hotel_name": "Limehome Düsseldorf Bahlenstr",
-      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9JfS0gbAAgHSAiRkNDRlNGE3NS00OTYzLTQ3MTktOWYyNC1kOTc1NGVlYjMyY2TYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=fb3830bae8000179&srepoch=1783925753&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__48580&from=searchresults",
-      "checked_at": "2026-07-13T06:55:56.128Z"
-    },
     {
       "id": 22,
       "alert_id": 1,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiwAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCleKu0wbAAgHSAiQwMTExM2MzNi0zZTU0LTQ1MzMtOWUwMS0xNDIxMDE0YTExZjDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a0108e8adc1308cf&srepoch=1785442586&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-07-30T20:16:29.732Z"
+    },
+    {
+      "id": 353,
+      "alert_id": 2,
+      "price": 31,
+      "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
+      "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_Iqv0wbAAgHSAiRkZDhhZDQzMC01Mjk0LTQyZjUtOTFiNS1iNTBiOTNjMDRmYzDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=d8b998be6da0040d&srepoch=1785447809&all_sr_blocks=635268805_296860626_2_2_0&highlighted_blocks=635268805_296860626_2_2_0&matching_block_id=635268805_296860626_2_2_0&sr_pri_blocks=635268805_296860626_2_2_0__48772&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-07-30T21:43:32.195Z"
     }
   ],
   "notifications": [
@@ -5863,7 +5863,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 353,
+    "price_history": 354,
     "notifications": 317
   }
 }
