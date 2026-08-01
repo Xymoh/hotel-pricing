@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-01T08:28:43.501Z",
+      "last_checked": "2026-08-01T10:18:21.216Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-01T08:28:43.501Z"
+      "updated_at": "2026-08-01T10:18:21.216Z"
     }
   ],
   "price_history": [
@@ -153,14 +153,6 @@
       "hotel_name": "Studio 54 Poznań - 24h self check-in",
       "url": "https://www.booking.com/hotel/pl/studio-54-poznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKsjdnSBsACAdICJGQ2MTU1MWNjLWIzODAtNDYwOS1iNTAyLWNmZTNlN2ViYjcwMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9da86556adaa0109&srepoch=1784039089&all_sr_blocks=1366663302_408938367_0_0_0&highlighted_blocks=1366663302_408938367_0_0_0&matching_block_id=1366663302_408938367_0_0_0&sr_pri_blocks=1366663302_408938367_0_0_0__27250&from=searchresults",
       "checked_at": "2026-07-14T14:24:53.119Z"
-    },
-    {
-      "id": 48,
-      "alert_id": 2,
-      "price": 42,
-      "hotel_name": "Altstadt Bolker Original",
-      "url": "https://www.booking.com/hotel/de/altstadt-bolker-original.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCu43Z0gbAAgHSAiQyMDM5Y2E2Ny1mZTMwLTQ0MWYtODM2Ni1jMjQyMDhhMTk1MjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=7c1c655d685e04cd&srepoch=1784039104&all_sr_blocks=269528301_106022006_6_0_0&highlighted_blocks=269528301_106022006_6_0_0&matching_block_id=269528301_106022006_6_0_0&sr_pri_blocks=269528301_106022006_6_0_0__67477&from=searchresults",
-      "checked_at": "2026-07-14T14:25:07.286Z"
     },
     {
       "id": 49,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCs9y20wbAAgHSAiQ5MDY3MTE2MS1iZWUxLTQwZjEtYjcyZC1mYmRjMGRkZTkzMmbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9abb3b9947170bde&srepoch=1785572920&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-08-01T08:28:43.495Z"
+    },
+    {
+      "id": 366,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC5I-30wbAAgHSAiQ4YjQ2YjZkNy1lZmM1LTQxYzEtYmMyOC04Y2QxMDJkOGFiYjnYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=77054872a301077f&srepoch=1785579497&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-01T10:18:21.209Z"
     }
   ],
   "notifications": [
@@ -5873,7 +5873,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 366,
+    "price_history": 367,
     "notifications": 318
   }
 }
