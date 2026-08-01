@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-01T05:57:00.062Z",
+      "last_checked": "2026-08-01T08:28:43.501Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-01T05:57:00.062Z"
+      "updated_at": "2026-08-01T08:28:43.501Z"
     }
   ],
   "price_history": [
@@ -145,14 +145,6 @@
       "hotel_name": "Apartament Paderewski",
       "url": "https://www.booking.com/hotel/pl/poznan-za-pol-ceny.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK30NjSBsACAdICJDdmNjJkZTQ2LTZmMTEtNGZkNC04YjQ0LWZhMWJiZmQ3NjlkONgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=2092561b499b0e54&srepoch=1784031291&all_sr_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&highlighted_blocks=603367203_273255129_1_0_0_130881%2C603367203_273255129_1_0_0_130881&matching_block_id=603367203_273255129_1_0_0_130881&sr_pri_blocks=603367203_273255129_1_0_0_130881_56700%2C603367203_273255129_1_0_0_130881_56700&from=searchresults",
       "checked_at": "2026-07-14T12:14:54.670Z"
-    },
-    {
-      "id": 46,
-      "alert_id": 2,
-      "price": 41,
-      "hotel_name": "H2 Hotel Düsseldorf City",
-      "url": "https://www.booking.com/hotel/de/h2-dusseldorf-city-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCxNDY0gbAAgHSAiQyYWQwZjk3NC1hNzY0LTRmNDYtYjAxOS1jMTJlZDFlZTFkNDjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b6a8562296860559&srepoch=1784031303&all_sr_blocks=0_0_2_1_0&highlighted_blocks=0_0_2_1_0&matching_block_id=0_0_2_1_0&sr_pri_blocks=0_0_2_1_0__65737&from=searchresults",
-      "checked_at": "2026-07-14T12:15:06.775Z"
     },
     {
       "id": 47,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi3AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpJW20wbAAgHSAiQ3NGI1ODg3Yi0xOWJhLTQ3YzAtOGIyMy0yY2I1YWQ4MWI1MDTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=01fd29d241d80195&srepoch=1785563816&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-08-01T05:57:00.058Z"
+    },
+    {
+      "id": 365,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCs9y20wbAAgHSAiQ5MDY3MTE2MS1iZWUxLTQwZjEtYjcyZC1mYmRjMGRkZTkzMmbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9abb3b9947170bde&srepoch=1785572920&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-01T08:28:43.495Z"
     }
   ],
   "notifications": [
@@ -5873,7 +5873,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 365,
+    "price_history": 366,
     "notifications": 318
   }
 }
