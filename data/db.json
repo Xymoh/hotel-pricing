@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-02T21:59:52.743Z",
+      "last_checked": "2026-08-02T23:03:00.335Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-02T21:59:52.743Z"
+      "updated_at": "2026-08-02T23:03:00.335Z"
     }
   ],
   "price_history": [
@@ -361,14 +361,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL8pOTSBsACAdICJDRiMDFjMWU0LWM1ZDUtNDMxOS05ZjIzLTExYTk1YTIxOGQ2ZNgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e6a979bef7560360&srepoch=1784222337&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-16T17:19:00.862Z"
-    },
-    {
-      "id": 97,
-      "alert_id": 2,
-      "price": 40,
-      "hotel_name": "Motel One Düsseldorf-Hauptbahnhof",
-      "url": "https://www.booking.com/hotel/de/motel-one-da1-4sseldorf-hauptbahnhof.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCi6Xk0gbAAgHSAiQ3MjFiOTY0Zi1hYWFkLTQwN2EtODY5My1hMTVkZWRmZTM1MGLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=1c7f79c5917b02f6&srepoch=1784222352&all_sr_blocks=49901602_421472611_2_2_0&highlighted_blocks=49901602_421472611_2_2_0&matching_block_id=49901602_421472611_2_2_0&sr_pri_blocks=49901602_421472611_2_2_0__63110&from_sustainable_property_sr=1&from=searchresults",
-      "checked_at": "2026-07-16T17:19:15.273Z"
     },
     {
       "id": 98,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0Pu-0wbAAgHSAiRlMjUwNWFkNy01MTE0LTQ1ZDUtYjRjMS01MGMwYjUzYTFmNjLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=0dd09aa88ba50b09&srepoch=1785707989&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-08-02T21:59:52.736Z"
+    },
+    {
+      "id": 389,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnJm_0wbAAgHSAiRiODhiM2E5Yi1jMGMxLTQ3NTgtYjgwZC1lZjViZmIxYmQ2ZjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3f53a20e159c057c&srepoch=1785711777&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-02T23:03:00.329Z"
     }
   ],
   "notifications": [
@@ -5903,7 +5903,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 389,
+    "price_history": 390,
     "notifications": 321
   }
 }
