@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-02T14:08:55.891Z",
-      "last_price": 73,
+      "last_checked": "2026-08-02T15:38:45.428Z",
+      "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-02T14:08:55.891Z"
+      "updated_at": "2026-08-02T15:38:45.428Z"
     }
   ],
   "price_history": [
@@ -313,14 +313,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALmwOHSBsACAdICJDI3Y2UwOGU2LWUyOWItNDU4OC1iYTRjLTA5MTM3YjFkODAwY9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=8ecf20b3a4390183&srepoch=1784176747&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-16T04:39:10.944Z"
-    },
-    {
-      "id": 85,
-      "alert_id": 2,
-      "price": 38,
-      "hotel_name": "HENRI Hotel Düsseldorf",
-      "url": "https://www.booking.com/hotel/de/henri-dusseldorf-downtown.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9cDh0gbAAgHSAiRjMzA3NTc0Yi1lMThhLTQwYjktOWZjYi1hYjlkYmFiODc2NmHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c13720bae0fb08ae&srepoch=1784176762&all_sr_blocks=384677302_126332139_0_2_0_262947&highlighted_blocks=384677302_126332139_0_2_0_262947&matching_block_id=384677302_126332139_0_2_0_262947&sr_pri_blocks=384677302_126332139_0_2_0_262947_60444&from_sustainable_property_sr=1&from=searchresults",
-      "checked_at": "2026-07-16T04:39:25.616Z"
     },
     {
       "id": 86,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Privatzimmer Schönfelder",
       "url": "https://www.booking.com/hotel/de/privatzimmer-schonfelder.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC75690wbAAgHSAiQxOTQwZTRlYy05ZWVmLTQxMDMtOTMwOC1mMWFiZDcwMTU4NmHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=26426377db3800b6&srepoch=1785679732&all_sr_blocks=422549501_401188922_2_0_0&highlighted_blocks=422549501_401188922_2_0_0&matching_block_id=422549501_401188922_2_0_0&sr_pri_blocks=422549501_401188922_2_0_0__29070&from=searchresults",
       "checked_at": "2026-08-02T14:08:55.885Z"
+    },
+    {
+      "id": 383,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_ci90wbAAgHSAiQ5MDViYzk2Ni1mNjEwLTQwNGMtYTJkNi1hYmNiOTA3NmQ2OWXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=19586dfe5987039b&srepoch=1785685122&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-02T15:38:45.422Z"
     }
   ],
   "notifications": [
@@ -5879,11 +5879,21 @@
       "message": "🏨 Privatzimmer Schönfelder in Dusseldorf, North Rhine-Westphalia, Germany — EUR 73/night (Genius)",
       "is_read": 0,
       "created_at": "2026-08-02T14:08:55.899Z"
+    },
+    {
+      "id": 319,
+      "alert_id": 2,
+      "hotel_name": "Candlewood Suites Düsseldorf Airport by IHG",
+      "price": 35,
+      "url": "https://www.booking.com/hotel/de/candlewood-suites-duesseldorfairport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_ci90wbAAgHSAiQ5MDViYzk2Ni1mNjEwLTQwNGMtYTJkNi1hYmNiOTA3NmQ2OWXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=19586dfe5987039b&srepoch=1785685122&all_sr_blocks=843346106_370893576_2_0_0&highlighted_blocks=843346106_370893576_2_0_0&matching_block_id=843346106_370893576_2_0_0&sr_pri_blocks=843346106_370893576_2_0_0__55985&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Candlewood Suites Düsseldorf Airport by IHG in Dusseldorf, North Rhine-Westphalia, Germany — EUR 35/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-08-02T15:38:45.436Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 383,
-    "notifications": 319
+    "price_history": 384,
+    "notifications": 320
   }
 }
