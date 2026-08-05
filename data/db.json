@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-05T21:47:28.187Z",
+      "last_checked": "2026-08-05T23:01:02.598Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-05T21:47:28.187Z"
+      "updated_at": "2026-08-05T23:01:02.598Z"
     }
   ],
   "price_history": [
@@ -585,14 +585,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALj0u7SBsACAdICJGY2NzM4NjQ3LTFhMTEtNDNhNS1iNTA3LWE0YWNlNThhNThhMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=343473b1419f072d&srepoch=1784392040&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
       "checked_at": "2026-07-18T16:27:24.202Z"
-    },
-    {
-      "id": 152,
-      "alert_id": 2,
-      "price": 13,
-      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
-      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8tLu0gbAAgHSAiRlYjNjNTk5NC1lMDNkLTRjOTItOWI3My05MTA4NzJhZWNkYjPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=369e73b994ab0693&srepoch=1784392055&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
-      "checked_at": "2026-07-18T16:27:38.126Z"
     },
     {
       "id": 153,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC597O0wbAAgHSAiQ1ZTc1NmY5MS1kZDc3LTQ2MGYtOGQxMS0wNjcyMzU1NzJmMzLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f01c9933a0be0c9a&srepoch=1785966444&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-08-05T21:47:28.179Z"
+    },
+    {
+      "id": 416,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpoHP0wbAAgHSAiRhZTQ2YzdmMC0zYWNmLTRhYWEtOGE3Zi0yMTg5ZjI0YTJhMWHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=635ea1d3f7f2020b&srepoch=1785970859&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-05T23:01:02.593Z"
     }
   ],
   "notifications": [
@@ -5949,11 +5949,21 @@
       "message": "🏨 Living Hotel Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 37/night",
       "is_read": 0,
       "created_at": "2026-08-05T20:09:14.679Z"
+    },
+    {
+      "id": 326,
+      "alert_id": 2,
+      "hotel_name": "Atomis Hotel Düsseldorf City",
+      "price": 34,
+      "url": "https://www.booking.com/hotel/de/victoria-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpoHP0wbAAgHSAiRhZTQ2YzdmMC0zYWNmLTRhYWEtOGE3Zi0yMTg5ZjI0YTJhMWHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=price&srpvid=635ea1d3f7f2020b&srepoch=1785970859&all_sr_blocks=6597911_102603257_2_2_0&highlighted_blocks=6597911_102603257_2_2_0&matching_block_id=6597911_102603257_2_2_0&sr_pri_blocks=6597911_102603257_2_2_0__54394&from=searchresults",
+      "message": "🏨 Atomis Hotel Düsseldorf City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 34/night",
+      "is_read": 0,
+      "created_at": "2026-08-05T23:01:02.606Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 416,
-    "notifications": 326
+    "price_history": 417,
+    "notifications": 327
   }
 }
