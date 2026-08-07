@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-07T06:47:33.117Z",
+      "last_checked": "2026-08-07T08:16:35.633Z",
       "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-07T06:47:33.117Z"
+      "updated_at": "2026-08-07T08:16:35.633Z"
     }
   ],
   "price_history": [
@@ -673,14 +673,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALP2vLSBsACAdICJGEzMzA1YzJjLWFkM2QtNDJmZi1iN2I1LTIzOWY4OTBiZDA2MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=915c4ce721fb0e45&srepoch=1784458581&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__133462&from=searchresults",
       "checked_at": "2026-07-19T10:56:25.073Z"
-    },
-    {
-      "id": 174,
-      "alert_id": 2,
-      "price": 13,
-      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
-      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC39ry0gbAAgHSAiRlYWUwMjBmOS1jNTYxLTQ3MGYtOTNhYS05OTY2OTY5Mzg2OGXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=97584cefc4a32125&srepoch=1784458596&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__10379%2C35136502_433690902_0_1_0__10379&from=searchresults",
-      "checked_at": "2026-07-19T10:56:40.233Z"
     },
     {
       "id": 175,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_P7V0wbAAgHSAiQyYzFkYWY1MC1kNmM1LTQyNDQtODgzMy02ZTM2ZjhkYTMyMTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b9342fbe308f0282&srepoch=1786085249&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-08-07T06:47:33.110Z"
+    },
+    {
+      "id": 427,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC3KjW0wbAAgHSAiQyMjM3NDM1My04ODQxLTQ4OGItOWQwOS1kMDIwODRkZWNkN2TYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=6f683a2e17100453&srepoch=1786090593&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-07T08:16:35.627Z"
     }
   ],
   "notifications": [
@@ -5959,11 +5959,31 @@
       "message": "🏨 Atomis Hotel Düsseldorf City in Dusseldorf, North Rhine-Westphalia, Germany — EUR 34/night",
       "is_read": 0,
       "created_at": "2026-08-05T23:01:02.606Z"
+    },
+    {
+      "id": 327,
+      "alert_id": 2,
+      "hotel_name": "INNSiDE by Meliá Düsseldorf Derendorf",
+      "price": 23,
+      "url": "https://www.booking.com/hotel/de/innside-by-melia-dusseldorf-derendorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC3KjW0wbAAgHSAiQyMjM3NDM1My04ODQxLTQ4OGItOWQwOS1kMDIwODRkZWNkN2TYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=6f683a2e17100453&srepoch=1786090593&all_sr_blocks=6996114_338448814_2_2_0_501789&highlighted_blocks=6996114_338448814_2_2_0_501789&matching_block_id=6996114_338448814_2_2_0_501789&sr_pri_blocks=6996114_338448814_2_2_0_501789_37067&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 INNSiDE by Meliá Düsseldorf Derendorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 23/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-08-07T08:16:35.641Z"
+    },
+    {
+      "id": 328,
+      "alert_id": 2,
+      "hotel_name": "INNSiDE by Meliá Düsseldorf Seestern",
+      "price": 32,
+      "url": "https://www.booking.com/hotel/de/innside-by-melia-dusseldorf-seestern.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC3KjW0wbAAgHSAiQyMjM3NDM1My04ODQxLTQ4OGItOWQwOS1kMDIwODRkZWNkN2TYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=6f683a2e17100453&srepoch=1786090593&all_sr_blocks=6383417_338448025_2_2_0_501817&highlighted_blocks=6383417_338448025_2_2_0_501817&matching_block_id=6383417_338448025_2_2_0_501817&sr_pri_blocks=6383417_338448025_2_2_0_501817_51227&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 INNSiDE by Meliá Düsseldorf Seestern in Dusseldorf, North Rhine-Westphalia, Germany — EUR 32/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-08-07T08:16:35.647Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 427,
-    "notifications": 327
+    "price_history": 428,
+    "notifications": 329
   }
 }
