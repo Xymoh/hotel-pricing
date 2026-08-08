@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-08T19:31:19.995Z",
-      "last_price": 74,
+      "last_checked": "2026-08-08T20:31:40.655Z",
+      "last_price": 19,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-08T19:31:19.995Z"
+      "updated_at": "2026-08-08T20:31:40.655Z"
     }
   ],
   "price_history": [
@@ -897,14 +897,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaIgCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKF2v_SBsACAdICJDQ0YmJkNjU2LTI3YjYtNDA0NC1iYjhkLTI0NTM2MjE1NmQzNdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=af3e9b42c473060f&srepoch=1784671497&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-21T22:05:01.996Z"
-    },
-    {
-      "id": 232,
-      "alert_id": 2,
-      "price": 18,
-      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
-      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCktr_0gbAAgHSAiRmODNhYjU4MC1iODYxLTQ3NzYtYmMwMS0xMjBhYWU1OTFjMDbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b1d69b4906720468&srepoch=1784671511&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
-      "checked_at": "2026-07-21T22:05:14.309Z"
     },
     {
       "id": 233,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
       "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC_4fe0wbAAgHSAiRjZWM3Mjk2ZC03MDkwLTRhMTUtOGQ3ZS03OGUwZTYwNDY0NTHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3c15893fea620649&srepoch=1786217476&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
       "checked_at": "2026-08-08T19:31:19.988Z"
+    },
+    {
+      "id": 457,
+      "alert_id": 2,
+      "price": 19,
+      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
+      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCpKTe0wbAAgHSAiQ5YjBlMmFjYy01MGYzLTQ2YmUtYmRiNC1jYTQ2YWZlY2JiZDHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=96949052804e06f8&srepoch=1786221097&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
+      "checked_at": "2026-08-08T20:31:40.650Z"
     }
   ],
   "notifications": [
@@ -6023,7 +6023,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 457,
+    "price_history": 458,
     "notifications": 333
   }
 }
