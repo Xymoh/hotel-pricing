@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-09T16:46:24.432Z",
-      "last_price": 30,
+      "last_checked": "2026-08-09T17:32:55.465Z",
+      "last_price": 26,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-09T16:46:24.432Z"
+      "updated_at": "2026-08-09T17:32:55.465Z"
     }
   ],
   "price_history": [
@@ -1041,14 +1041,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKtkInTBsACAdICJGNiZjAwMjZlLTI3MDQtNDM4Yy1hMDVlLTg4YmRiZGVjZjg1Y9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f775652420167&srepoch=1784825906&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-23T16:58:29.618Z"
-    },
-    {
-      "id": 268,
-      "alert_id": 2,
-      "price": 39,
-      "hotel_name": "Limehome Düsseldorf Bahlenstr",
-      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCupCJ0wbAAgHSAiQ1YzU2ZGQyZS1mOWM4LTQ4ZmMtOTg4YS1jNzU0YTgyOTY2MTXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=d8b9775dee3f0457&srepoch=1784825919&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
-      "checked_at": "2026-07-23T16:58:42.231Z"
     },
     {
       "id": 269,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
       "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC193i0wbAAgHSAiRhNWEyODE1Ny1jMDMzLTQ3NjctYmNhYi03Y2M4ZTY4ODE2MmTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3c1575eb8de30b02&srepoch=1786293981&all_sr_blocks=635268805_296860626_2_1_0&highlighted_blocks=635268805_296860626_2_1_0&matching_block_id=635268805_296860626_2_1_0&sr_pri_blocks=635268805_296860626_2_1_0__48411&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-08-09T16:46:24.426Z"
+    },
+    {
+      "id": 475,
+      "alert_id": 2,
+      "price": 26,
+      "hotel_name": "Schöne 2-Zimmer Wohnung im Herzen Düsseldorfs",
+      "url": "https://www.booking.com/hotel/de/schone-2-zimmer-wohnung-im-herzen-dusseldorfs.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCvvPi0wbAAgHSAiQ1NGNkOWUxMS1hYTM4LTRiZjYtYTBhYS02YzA3ODA2ZjYxN2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=b66c7b5fabe60d87&srepoch=1786296772&all_sr_blocks=1705016601_442135415_6_0_0&highlighted_blocks=1705016601_442135415_6_0_0&matching_block_id=1705016601_442135415_6_0_0&sr_pri_blocks=1705016601_442135415_6_0_0__40673&from=searchresults",
+      "checked_at": "2026-08-09T17:32:55.459Z"
     }
   ],
   "notifications": [
@@ -6029,11 +6029,41 @@
       "message": "🏨 Meliá Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night (Genius)",
       "is_read": 0,
       "created_at": "2026-08-09T14:07:47.011Z"
+    },
+    {
+      "id": 334,
+      "alert_id": 2,
+      "hotel_name": "Schöne 2-Zimmer Wohnung im Herzen Düsseldorfs",
+      "price": 26,
+      "url": "https://www.booking.com/hotel/de/schone-2-zimmer-wohnung-im-herzen-dusseldorfs.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCvvPi0wbAAgHSAiQ1NGNkOWUxMS1hYTM4LTRiZjYtYTBhYS02YzA3ODA2ZjYxN2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=b66c7b5fabe60d87&srepoch=1786296772&all_sr_blocks=1705016601_442135415_6_0_0&highlighted_blocks=1705016601_442135415_6_0_0&matching_block_id=1705016601_442135415_6_0_0&sr_pri_blocks=1705016601_442135415_6_0_0__40673&from=searchresults",
+      "message": "🏨 Schöne 2-Zimmer Wohnung im Herzen Düsseldorfs in Dusseldorf, North Rhine-Westphalia, Germany — EUR 26/night",
+      "is_read": 0,
+      "created_at": "2026-08-09T17:32:55.474Z"
+    },
+    {
+      "id": 335,
+      "alert_id": 2,
+      "hotel_name": "Moderne Wohnung im Zentrum von Düsseldorf",
+      "price": 29,
+      "url": "https://www.booking.com/hotel/de/moderne-wohnung-im-zentrum-von-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCvvPi0wbAAgHSAiQ1NGNkOWUxMS1hYTM4LTRiZjYtYTBhYS02YzA3ODA2ZjYxN2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b66c7b5fabe60d87&srepoch=1786296772&all_sr_blocks=1704998301_442134357_6_0_0&highlighted_blocks=1704998301_442134357_6_0_0&matching_block_id=1704998301_442134357_6_0_0&sr_pri_blocks=1704998301_442134357_6_0_0__45757&from=searchresults",
+      "message": "🏨 Moderne Wohnung im Zentrum von Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 29/night",
+      "is_read": 0,
+      "created_at": "2026-08-09T17:32:55.479Z"
+    },
+    {
+      "id": 336,
+      "alert_id": 2,
+      "hotel_name": "Zentral & Geräumig im Herzen von Düsseldorf",
+      "price": 29,
+      "url": "https://www.booking.com/hotel/de/zentral-amp-geraumig-im-herzen-von-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCvvPi0wbAAgHSAiQ1NGNkOWUxMS1hYTM4LTRiZjYtYTBhYS02YzA3ODA2ZjYxN2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=b66c7b5fabe60d87&srepoch=1786296772&all_sr_blocks=1704995201_442134165_6_0_0&highlighted_blocks=1704995201_442134165_6_0_0&matching_block_id=1704995201_442134165_6_0_0&sr_pri_blocks=1704995201_442134165_6_0_0__45757&from=searchresults",
+      "message": "🏨 Zentral & Geräumig im Herzen von Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 29/night",
+      "is_read": 0,
+      "created_at": "2026-08-09T17:32:55.484Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 475,
-    "notifications": 334
+    "price_history": 476,
+    "notifications": 337
   }
 }
