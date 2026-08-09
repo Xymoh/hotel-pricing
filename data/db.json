@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-09T15:58:35.386Z",
+      "last_checked": "2026-08-09T16:46:24.432Z",
       "last_price": 30,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-09T15:58:35.386Z"
+      "updated_at": "2026-08-09T16:46:24.432Z"
     }
   ],
   "price_history": [
@@ -1033,14 +1033,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKf4ojTBsACAdICJGIwYTJmNDQwLWVhNGMtNDQwZC1hNjZlLTNlODQ1MjlhMDMyOdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b09b6bcf3b7f026b&srepoch=1784820004&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-23T15:20:08.212Z"
-    },
-    {
-      "id": 266,
-      "alert_id": 2,
-      "price": 39,
-      "hotel_name": "Limehome Düsseldorf Bahlenstr",
-      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCreKI0wbAAgHSAiQwYWZlZmViNC0zMjVlLTRlY2ItYjRiMS00MTNmZGRmYTM4ZTHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=f3d16bd6cda2113f&srepoch=1784820017&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
-      "checked_at": "2026-07-23T15:20:20.680Z"
     },
     {
       "id": 267,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
       "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCosfi0wbAAgHSAiQ2MjI3YTRjNi1iMGJkLTRkMTUtYTg0NC0zYTY4ZTQzZjhlYmHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=969470518459089a&srepoch=1786291112&all_sr_blocks=635268805_296860626_2_1_0&highlighted_blocks=635268805_296860626_2_1_0&matching_block_id=635268805_296860626_2_1_0&sr_pri_blocks=635268805_296860626_2_1_0__48411&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-08-09T15:58:35.380Z"
+    },
+    {
+      "id": 474,
+      "alert_id": 2,
+      "price": 30,
+      "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
+      "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC193i0wbAAgHSAiRhNWEyODE1Ny1jMDMzLTQ3NjctYmNhYi03Y2M4ZTY4ODE2MmTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=3c1575eb8de30b02&srepoch=1786293981&all_sr_blocks=635268805_296860626_2_1_0&highlighted_blocks=635268805_296860626_2_1_0&matching_block_id=635268805_296860626_2_1_0&sr_pri_blocks=635268805_296860626_2_1_0__48411&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-08-09T16:46:24.426Z"
     }
   ],
   "notifications": [
@@ -6033,7 +6033,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 474,
+    "price_history": 475,
     "notifications": 334
   }
 }
