@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-09T13:07:59.874Z",
+      "last_checked": "2026-08-09T14:07:47.004Z",
       "last_price": 30,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-09T13:07:59.874Z"
+      "updated_at": "2026-08-09T14:07:47.004Z"
     }
   ],
   "price_history": [
@@ -1017,14 +1017,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKS7ofTBsACAdICJDg4OTQ5NmM3LTY5OWQtNGQ3Mi05YjljLTk5OWUzYzMzYThiZdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c65a4ec9797805aa&srepoch=1784805142&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-23T11:12:26.936Z"
-    },
-    {
-      "id": 262,
-      "alert_id": 2,
-      "price": 18,
-      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
-      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCoe6H0wbAAgHSAiRhYjEwZjU3NC1kMGY0LTRiMGQtYTVjOS0wN2Y2M2ZmN2ViZDHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=599f4ed0384104b6&srepoch=1784805158&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14271%2C35136502_433690902_0_1_0__14271&from=searchresults",
-      "checked_at": "2026-07-23T11:12:41.156Z"
     },
     {
       "id": 263,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
       "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCp_fh0wbAAgHSAiRjZDJlMGJhNi1kNDQ3LTQ4OTctOGI2Zi01NmUyMjRkZjU0YTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c4bc5c53a74b040c&srepoch=1786280876&all_sr_blocks=635268805_296860626_2_1_0&highlighted_blocks=635268805_296860626_2_1_0&matching_block_id=635268805_296860626_2_1_0&sr_pri_blocks=635268805_296860626_2_1_0__48411&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-08-09T13:07:59.866Z"
+    },
+    {
+      "id": 472,
+      "alert_id": 2,
+      "price": 30,
+      "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
+      "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCq5Pi0wbAAgHSAiQ5YWI5NTllNi1jMTBjLTQyMTMtYTJmOC1jYWYwMzliYjU4ZDLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1e5a6355b68d0fcd&srepoch=1786284463&all_sr_blocks=635268805_296860626_2_1_0&highlighted_blocks=635268805_296860626_2_1_0&matching_block_id=635268805_296860626_2_1_0&sr_pri_blocks=635268805_296860626_2_1_0__48411&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-08-09T14:07:46.999Z"
     }
   ],
   "notifications": [
@@ -6019,11 +6019,21 @@
       "message": "🏨 B&B Hotel Düsseldorf-Airport in Dusseldorf, North Rhine-Westphalia, Germany — EUR 35/night (Genius)",
       "is_read": 0,
       "created_at": "2026-08-08T18:39:14.587Z"
+    },
+    {
+      "id": 333,
+      "alert_id": 2,
+      "hotel_name": "Meliá Düsseldorf",
+      "price": 43,
+      "url": "https://www.booking.com/hotel/de/melia-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCq5Pi0wbAAgHSAiQ5YWI5NTllNi1jMTBjLTQyMTMtYTJmOC1jYWYwMzliYjU4ZDLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=price&srpvid=1e5a6355b68d0fcd&srepoch=1786284463&all_sr_blocks=18286701_338449175_2_2_0_501831&highlighted_blocks=18286701_338449175_2_2_0_501831&matching_block_id=18286701_338449175_2_2_0_501831&sr_pri_blocks=18286701_338449175_2_2_0_501831_68794&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Meliá Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 43/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-08-09T14:07:47.011Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 472,
-    "notifications": 333
+    "price_history": 473,
+    "notifications": 334
   }
 }
