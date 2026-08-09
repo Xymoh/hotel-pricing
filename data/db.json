@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-09T22:32:42.492Z",
-      "last_price": 29,
+      "last_checked": "2026-08-09T23:32:44.040Z",
+      "last_price": 115,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-09T22:32:42.492Z"
+      "updated_at": "2026-08-09T23:32:44.040Z"
     }
   ],
   "price_history": [
@@ -1089,14 +1089,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJMCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK8i4zTBsACAdICJGE4Y2NmYThkLThkOTMtNDRjMC1hOWJhLTM3NjFhNWExZWZmY9gCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=098e2d5ee25a02d7&srepoch=1784874433&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T06:27:16.314Z"
-    },
-    {
-      "id": 280,
-      "alert_id": 2,
-      "price": 169,
-      "hotel_name": "Van der Valk Hotel Düsseldorf",
-      "url": "https://www.booking.com/hotel/de/van-der-valk-airporthotel-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC1dWM0wbAAgHSAiQ3YzdjMWZiOC1lNmNhLTQ0ZjgtODlmNy0yN2FkNmNiNGE3N2bYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=8&hapos=8&sr_order=price&srpvid=368a3fea094b014b&srepoch=1784883929&all_sr_blocks=24663702_90860864_2_2_0_1140079&highlighted_blocks=24663702_90860864_2_2_0_1140079&matching_block_id=24663702_90860864_2_2_0_1140079&sr_pri_blocks=24663702_90860864_2_2_0_1140079_67469&from_sustainable_property_sr=1&from=searchresults",
-      "checked_at": "2026-07-24T09:05:33.110Z"
     },
     {
       "id": 281,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Zentral & Geräumig im Herzen von Düsseldorf",
       "url": "https://www.booking.com/hotel/de/zentral-amp-geraumig-im-herzen-von-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCgYDk0wbAAgHSAiQ4MjgxZDk3MS1hZmU5LTRhMTQtYTEwNy1iYWU2NjgwMGRjNjbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=ec9f9e80b01e00a4&srepoch=1786314759&all_sr_blocks=1704995201_442134165_6_0_0&highlighted_blocks=1704995201_442134165_6_0_0&matching_block_id=1704995201_442134165_6_0_0&sr_pri_blocks=1704995201_442134165_6_0_0__45757&from=searchresults",
       "checked_at": "2026-08-09T22:32:42.485Z"
+    },
+    {
+      "id": 481,
+      "alert_id": 2,
+      "price": 115,
+      "hotel_name": "Zentral & Geräumig im Herzen von Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/zentral-amp-geraumig-im-herzen-von-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCk5zk0wbAAgHSAiRkMGYyNmU2OC0yNzY2LTQ3ZTYtOWI4NC1kOTliZmU2OTJmMmbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a969a5898d910584&srepoch=1786318360&all_sr_blocks=1704995201_442134165_6_0_0&highlighted_blocks=1704995201_442134165_6_0_0&matching_block_id=1704995201_442134165_6_0_0&sr_pri_blocks=1704995201_442134165_6_0_0__45757&from=searchresults",
+      "checked_at": "2026-08-09T23:32:44.033Z"
     }
   ],
   "notifications": [
@@ -6093,7 +6093,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 481,
+    "price_history": 482,
     "notifications": 340
   }
 }
