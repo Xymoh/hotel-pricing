@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-10T11:48:36.710Z",
+      "last_checked": "2026-08-10T13:11:14.830Z",
       "last_price": 25,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-10T11:48:36.710Z"
+      "updated_at": "2026-08-10T13:11:14.830Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 287,
-      "alert_id": 2,
-      "price": 40,
-      "hotel_name": "Premier Inn Düsseldorf City Centre",
-      "url": "https://www.booking.com/hotel/de/premier-inn-dusseldorf-city-centre.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCgZWP0wbAAgHSAiQ1NjE1MTY3OS0xNGZlLTRjM2QtOTBjZS03N2M3YjJhZmI3MWXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c5598fc0eace065f&srepoch=1784924805&all_sr_blocks=0_0_2_0_0&highlighted_blocks=0_0_2_0_0&matching_block_id=0_0_2_0_0&sr_pri_blocks=0_0_2_0_0__64080&from=searchresults",
-      "checked_at": "2026-07-24T20:26:49.185Z"
     },
     {
       "id": 288,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
       "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi3AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCjPXm0wbAAgHSAiQ1OTU2YzZmYy02ODZjLTQzMTgtYTEwNy02YjZhZGExYTA0ZDbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=f1df530619cf0795&srepoch=1786362513&all_sr_blocks=635268806_296860626_2_2_0&highlighted_blocks=635268806_296860626_2_2_0&matching_block_id=635268806_296860626_2_2_0&sr_pri_blocks=635268806_296860626_2_2_0__40000&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-08-10T11:48:36.704Z"
+    },
+    {
+      "id": 487,
+      "alert_id": 2,
+      "price": 25,
+      "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
+      "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC65vn0wbAAgHSAiQ4ZWY5ZWQ5MC04YjgyLTQ0MDQtYWQ5My0yMWU1NzNkNTU1NzLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=16b75cb58b9f137d&srepoch=1786367471&all_sr_blocks=635268806_296860626_2_2_0&highlighted_blocks=635268806_296860626_2_2_0&matching_block_id=635268806_296860626_2_2_0&sr_pri_blocks=635268806_296860626_2_2_0__40000&from_sustainable_property_sr=1&from=searchresults",
+      "checked_at": "2026-08-10T13:11:14.825Z"
     }
   ],
   "notifications": [
@@ -6093,7 +6093,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 487,
+    "price_history": 488,
     "notifications": 340
   }
 }
