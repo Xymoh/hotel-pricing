@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-11T05:10:35.302Z",
-      "last_price": 30,
+      "last_checked": "2026-08-11T06:28:14.318Z",
+      "last_price": 21,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-11T05:10:35.302Z"
+      "updated_at": "2026-08-11T06:28:14.318Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 298,
-      "alert_id": 2,
-      "price": 39,
-      "hotel_name": "Limehome Düsseldorf Bahlenstr",
-      "url": "https://www.booking.com/hotel/de/limehome-dusseldorf-bahlenstr.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCkNeT0wbAAgHSAiRiYWU2MTllNC1jYmNjLTRiNDgtYTNkMy1lMTY1NTZlZDAzNjLYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=10&hapos=10&sr_order=price&srpvid=5da477880d48002d&srepoch=1784998805&all_sr_blocks=1212816903_393497237_2_0_0&highlighted_blocks=1212816903_393497237_2_0_0&matching_block_id=1212816903_393497237_2_0_0&sr_pri_blocks=1212816903_393497237_2_0_0__62920&from=searchresults",
-      "checked_at": "2026-07-25T17:00:08.329Z"
     },
     {
       "id": 299,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
       "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwt3q0wbAAgHSAiRjNTFiODlkZC0xYjQyLTQyN2UtYWJhNy05MWM2MWFjMjlmYjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=dab124618ae70061&srepoch=1786425032&all_sr_blocks=635268805_296860626_2_1_0&highlighted_blocks=635268805_296860626_2_1_0&matching_block_id=635268805_296860626_2_1_0&sr_pri_blocks=635268805_296860626_2_1_0__48411&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-08-11T05:10:35.296Z"
+    },
+    {
+      "id": 498,
+      "alert_id": 2,
+      "price": 21,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9YHr0wbAAgHSAiQ0NzBiNGQyNC04MWU5LTQzZmItODI5ZS01OWRhMzdiMmQyNzfYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1e5a2d7a48eb01ea&srepoch=1786429690&all_sr_blocks=6061918_441161927_2_0_0&highlighted_blocks=6061918_441161927_2_0_0&matching_block_id=6061918_441161927_2_0_0&sr_pri_blocks=6061918_441161927_2_0_0__34159&from=searchresults",
+      "checked_at": "2026-08-11T06:28:14.311Z"
     }
   ],
   "notifications": [
@@ -6119,11 +6119,21 @@
       "message": "🏨 Exclusive Suite - Central - Netflix - 2 Big Beds in Dusseldorf, North Rhine-Westphalia, Germany — EUR 36/night",
       "is_read": 0,
       "created_at": "2026-08-10T21:42:37.158Z"
+    },
+    {
+      "id": 343,
+      "alert_id": 2,
+      "hotel_name": "Fährhaus Hotel am Rhein by Mayburgh",
+      "price": 21,
+      "url": "https://www.booking.com/hotel/de/hotelfahrhaus.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9YHr0wbAAgHSAiQ0NzBiNGQyNC04MWU5LTQzZmItODI5ZS01OWRhMzdiMmQyNzfYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=1e5a2d7a48eb01ea&srepoch=1786429690&all_sr_blocks=6061918_441161927_2_0_0&highlighted_blocks=6061918_441161927_2_0_0&matching_block_id=6061918_441161927_2_0_0&sr_pri_blocks=6061918_441161927_2_0_0__34159&from=searchresults",
+      "message": "🏨 Fährhaus Hotel am Rhein by Mayburgh in Dusseldorf, North Rhine-Westphalia, Germany — EUR 21/night (Genius)",
+      "is_read": 0,
+      "created_at": "2026-08-11T06:28:14.326Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 498,
-    "notifications": 343
+    "price_history": 499,
+    "notifications": 344
   }
 }
