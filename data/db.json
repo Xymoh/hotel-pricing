@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-13T16:00:35.776Z",
-      "last_price": 31,
+      "last_checked": "2026-08-13T17:06:07.069Z",
+      "last_price": 21,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-13T16:00:35.776Z"
+      "updated_at": "2026-08-13T17:06:07.069Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 336,
-      "alert_id": 2,
-      "price": 19,
-      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
-      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCp-Sn0wbAAgHSAiQ5OWZjODQ4ZC01YmQzLTRkYmUtOWEzZC03MWI3YmMxZTdiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=fa0d57d32f281319&srepoch=1785328173&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
-      "checked_at": "2026-07-29T12:29:36.629Z"
     },
     {
       "id": 337,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Holiday Inn - the niu, Seven Dusseldorf Ost by IHG",
       "url": "https://www.booking.com/hotel/de/holiday-inn-the-niu-seven-dusseldorf-ost.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCmtT30wbAAgHSAiQ3MzBkMzc5OS0xMjlhLTRiNWEtOWNiNS0zYjhkZGUwN2Y5MWbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c9bc708da9ac0104&srepoch=1786636832&all_sr_blocks=635268805_296860626_2_2_0&highlighted_blocks=635268805_296860626_2_2_0&matching_block_id=635268805_296860626_2_2_0&sr_pri_blocks=635268805_296860626_2_2_0__49135&from_sustainable_property_sr=1&from=searchresults",
       "checked_at": "2026-08-13T16:00:35.769Z"
+    },
+    {
+      "id": 536,
+      "alert_id": 2,
+      "price": 21,
+      "hotel_name": "Hotel Am Volksgarten",
+      "url": "https://www.booking.com/hotel/de/hotelanvolksgartennrw.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9vL30wbAAgHSAiQ0MTg1YWUyYi04ZWM3LTQxMjgtYjNmZC1kYTEwNGRjMmQyNGTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9694783b890206c7&srepoch=1786640763&all_sr_blocks=6144009_339577997_2_2_0&highlighted_blocks=6144009_339577997_2_2_0&matching_block_id=6144009_339577997_2_2_0&sr_pri_blocks=6144009_339577997_2_2_0__33271&from=searchresults",
+      "checked_at": "2026-08-13T17:06:07.064Z"
     }
   ],
   "notifications": [
@@ -6139,11 +6139,31 @@
       "message": "🏨 Hotel AMANO Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 41/night",
       "is_read": 0,
       "created_at": "2026-08-12T09:13:15.730Z"
+    },
+    {
+      "id": 345,
+      "alert_id": 2,
+      "hotel_name": "Hotel Am Volksgarten",
+      "price": 21,
+      "url": "https://www.booking.com/hotel/de/hotelanvolksgartennrw.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9vL30wbAAgHSAiQ0MTg1YWUyYi04ZWM3LTQxMjgtYjNmZC1kYTEwNGRjMmQyNGTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9694783b890206c7&srepoch=1786640763&all_sr_blocks=6144009_339577997_2_2_0&highlighted_blocks=6144009_339577997_2_2_0&matching_block_id=6144009_339577997_2_2_0&sr_pri_blocks=6144009_339577997_2_2_0__33271&from=searchresults",
+      "message": "🏨 Hotel Am Volksgarten in Dusseldorf, North Rhine-Westphalia, Germany — EUR 21/night",
+      "is_read": 0,
+      "created_at": "2026-08-13T17:06:07.078Z"
+    },
+    {
+      "id": 346,
+      "alert_id": 2,
+      "hotel_name": "Hotel Am Vogelsanger Weg",
+      "price": 36,
+      "url": "https://www.booking.com/hotel/de/vogelsangerweg.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9vL30wbAAgHSAiQ0MTg1YWUyYi04ZWM3LTQxMjgtYjNmZC1kYTEwNGRjMmQyNGTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=9694783b890206c7&srepoch=1786640763&all_sr_blocks=6105202_338443588_2_2_0&highlighted_blocks=6105202_338443588_2_2_0&matching_block_id=6105202_338443588_2_2_0&sr_pri_blocks=6105202_338443588_2_2_0__56822&from=searchresults",
+      "message": "🏨 Hotel Am Vogelsanger Weg in Dusseldorf, North Rhine-Westphalia, Germany — EUR 36/night",
+      "is_read": 0,
+      "created_at": "2026-08-13T17:06:07.083Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 536,
-    "notifications": 345
+    "price_history": 537,
+    "notifications": 347
   }
 }
