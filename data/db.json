@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-17T11:27:19.637Z",
-      "last_price": 87,
+      "last_checked": "2026-08-17T11:52:34.890Z",
+      "last_price": 22,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-17T11:27:19.637Z"
+      "updated_at": "2026-08-17T11:52:34.890Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 432,
-      "alert_id": 2,
-      "price": 19,
-      "hotel_name": "Backpackers Düsseldorf - SELF CHECK-IN",
-      "url": "https://www.booking.com/hotel/de/backpackers-da1-4sseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCmoHY0wbAAgHSAiQ0MDdmN2MxZS0yMmJiLTRjNDUtYTYwYS0zYzFjYzc0OTBiNmPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=19a4704d61d81128&srepoch=1786118303&all_sr_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&highlighted_blocks=35136502_433690902_0_1_0%2C35136502_433690902_0_1_0&matching_block_id=35136502_433690902_0_1_0&sr_pri_blocks=35136502_433690902_0_1_0__14727%2C35136502_433690902_0_1_0__14727&from=searchresults",
-      "checked_at": "2026-08-07T15:58:26.912Z"
     },
     {
       "id": 433,
@@ -2697,6 +2689,14 @@
       "hotel_name": "DORMERO Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCjuCL1AbAAgHSAiRhZDVlMWYxMy0yYjEwLTQzZTAtYmU2ZC0xYTQ2NzE3OWRlZmXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=c80950878ecf1888&srepoch=1786966035&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34556&from=searchresults",
       "checked_at": "2026-08-17T11:27:19.631Z"
+    },
+    {
+      "id": 632,
+      "alert_id": 2,
+      "price": 22,
+      "hotel_name": "DORMERO Hotel Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-uuL1AbAAgHSAiQyYTI4ZjIxNS0wYjE4LTQzYjYtYjY0Ny05YzAzOGMzYjZjNzjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=a9ea537d4abf00dd&srepoch=1786967550&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34556&from=searchresults",
+      "checked_at": "2026-08-17T11:52:34.883Z"
     }
   ],
   "notifications": [
@@ -6199,11 +6199,21 @@
       "message": "🏨 Sheraton Duesseldorf Airport Hotel in Dusseldorf, North Rhine-Westphalia, Germany — EUR 111/night",
       "is_read": 0,
       "created_at": "2026-08-17T11:27:19.645Z"
+    },
+    {
+      "id": 351,
+      "alert_id": 2,
+      "hotel_name": "Sheraton Duesseldorf Airport Hotel",
+      "price": 28,
+      "url": "https://www.booking.com/hotel/de/duesseldorairport.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-uuL1AbAAgHSAiQyYTI4ZjIxNS0wYjE4LTQzYjYtYjY0Ny05YzAzOGMzYjZjNzjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=price&srpvid=a9ea537d4abf00dd&srepoch=1786967550&all_sr_blocks=6152425_117900910_0_2_0&highlighted_blocks=6152425_117900910_0_2_0&matching_block_id=6152425_117900910_0_2_0&sr_pri_blocks=6152425_117900910_0_2_0__44486&from_sustainable_property_sr=1&from=searchresults",
+      "message": "🏨 Sheraton Duesseldorf Airport Hotel in Dusseldorf, North Rhine-Westphalia, Germany — EUR 28/night",
+      "is_read": 0,
+      "created_at": "2026-08-17T11:52:34.898Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 632,
-    "notifications": 351
+    "price_history": 633,
+    "notifications": 352
   }
 }
