@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-28T17:38:07.561Z",
+      "last_checked": "2026-08-29T01:30:43.401Z",
       "last_price": 22,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-28T17:38:07.561Z"
+      "updated_at": "2026-08-29T01:30:43.401Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 675,
-      "alert_id": 2,
-      "price": 22,
-      "hotel_name": "DORMERO Hotel Düsseldorf",
-      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiIAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC9a6U1AbAAgHSAiQyMGJmN2EyZC0zMTk2LTQ2MjUtOTI1NC1hMWRjYTJlZjhkMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=b7a812baa4630026&srepoch=1787107194&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34556&from=searchresults",
-      "checked_at": "2026-08-19T02:39:58.304Z"
     },
     {
       "id": 676,
@@ -2697,6 +2689,14 @@
       "hotel_name": "DORMERO Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC947H1AbAAgHSAiQxNzcwYjA5My0yYjg5LTRkMDMtYTk1OS05MGJmOWZiN2ZkYmPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=33c57bfbb1c00b08&srepoch=1787938684&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34953&from=searchresults",
       "checked_at": "2026-08-28T17:38:07.554Z"
+    },
+    {
+      "id": 875,
+      "alert_id": 2,
+      "price": 22,
+      "hotel_name": "DORMERO Hotel Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCuuzI1AbAAgHSAiQ2ZGQwODllZC05YjBmLTQyYWItOThkYi05ZDJmOTkwMjJlNjHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=ecdb0a9d4f330a3e&srepoch=1787967039&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34953&from=searchresults",
+      "checked_at": "2026-08-29T01:30:43.395Z"
     }
   ],
   "notifications": [
@@ -6253,7 +6253,7 @@
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 875,
+    "price_history": 876,
     "notifications": 356
   }
 }
