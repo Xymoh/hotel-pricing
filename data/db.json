@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-08-30T23:16:29.771Z",
+      "last_checked": "2026-08-31T07:33:16.972Z",
       "last_price": 24,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-08-30T23:16:29.771Z"
+      "updated_at": "2026-08-31T07:33:16.972Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 686,
-      "alert_id": 2,
-      "price": 87,
-      "hotel_name": "DORMERO Hotel Düsseldorf",
-      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiJAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8OaW1AbAAgHSAiQwZjczNzlmNC04MDc4LTQ3YTItYTVjOS04MWY5MDI4NGU2M2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=65cd60b842580d99&srepoch=1787147126&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34556&from=searchresults",
-      "checked_at": "2026-08-19T13:45:29.660Z"
     },
     {
       "id": 687,
@@ -2697,6 +2689,14 @@
       "hotel_name": "DORMERO Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCxfPS1AbAAgHSAiRjYjRjMGNiZC03ZmRiLTRiYTQtOTE0Yy00YjgxNjhjN2VlNTbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=de7aa3a2d5e402bb&srepoch=1788131785&all_sr_blocks=6682619_94004448_0_2_0_732951&highlighted_blocks=6682619_94004448_0_2_0_732951&matching_block_id=6682619_94004448_0_2_0_732951&sr_pri_blocks=6682619_94004448_0_2_0_732951_38131&from=searchresults",
       "checked_at": "2026-08-30T23:16:29.755Z"
+    },
+    {
+      "id": 886,
+      "alert_id": 2,
+      "price": 24,
+      "hotel_name": "DORMERO Hotel Düsseldorf",
+      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCstzU1AbAAgHSAiQ3NzljZDZkOC0zNzhiLTRiYWUtOGFhMC02NDE5NjI0OTgyYzjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=4d373519b15c0117&srepoch=1788161593&all_sr_blocks=6682619_94004448_0_2_0&highlighted_blocks=6682619_94004448_0_2_0&matching_block_id=6682619_94004448_0_2_0&sr_pri_blocks=6682619_94004448_0_2_0__38131&from=searchresults",
+      "checked_at": "2026-08-31T07:33:16.965Z"
     }
   ],
   "notifications": [
@@ -6249,11 +6249,21 @@
       "message": "🏨 Moxy Duesseldorf South in Dusseldorf, North Rhine-Westphalia, Germany — EUR 33/night",
       "is_read": 0,
       "created_at": "2026-08-24T04:46:54.195Z"
+    },
+    {
+      "id": 356,
+      "alert_id": 2,
+      "hotel_name": "Hotel Imperial Düsseldorf Superior - Sure Collection by Best Western",
+      "price": 38,
+      "url": "https://www.booking.com/hotel/de/imperialdu.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCstzU1AbAAgHSAiQ3NzljZDZkOC0zNzhiLTRiYWUtOGFhMC02NDE5NjI0OTgyYzjYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=6&hapos=6&sr_order=price&srpvid=4d373519b15c0117&srepoch=1788161593&all_sr_blocks=6011717_387473503_2_2_0&highlighted_blocks=6011717_387473503_2_2_0&matching_block_id=6011717_387473503_2_2_0&sr_pri_blocks=6011717_387473503_2_2_0__60561&from=searchresults",
+      "message": "🏨 Hotel Imperial Düsseldorf Superior - Sure Collection by Best Western in Dusseldorf, North Rhine-Westphalia, Germany — EUR 38/night",
+      "is_read": 0,
+      "created_at": "2026-08-31T07:33:16.980Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 886,
-    "notifications": 356
+    "price_history": 887,
+    "notifications": 357
   }
 }
