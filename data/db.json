@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-09-02T22:46:50.223Z",
-      "last_price": 24,
+      "last_checked": "2026-09-03T05:40:14.848Z",
+      "last_price": 21,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-09-02T22:46:50.223Z"
+      "updated_at": "2026-09-03T05:40:14.848Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 699,
-      "alert_id": 2,
-      "price": 22,
-      "hotel_name": "DORMERO Hotel Düsseldorf",
-      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqOeY1AbAAgHSAiQwODUyODJhMC0wNjBiLTRlZGUtODc4YS1hMDQzZDViNzNmZjPYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=6b2da0d443e40384&srepoch=1787179948&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34953&from=searchresults",
-      "checked_at": "2026-08-19T22:52:32.419Z"
     },
     {
       "id": 700,
@@ -2697,6 +2689,14 @@
       "hotel_name": "DORMERO Hotel Düsseldorf",
       "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC0s7i1AbAAgHSAiQ2NDFkYzgyZi00MzA3LTRlZTUtOTU3NS05MTcxYjgwMjU4NDbYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=9c4fa0298c5701e3&srepoch=1788389207&all_sr_blocks=6682619_94004448_0_2_0_732951&highlighted_blocks=6682619_94004448_0_2_0_732951&matching_block_id=6682619_94004448_0_2_0_732951&sr_pri_blocks=6682619_94004448_0_2_0_732951_38131&from=searchresults",
       "checked_at": "2026-09-02T22:46:50.216Z"
+    },
+    {
+      "id": 899,
+      "alert_id": 2,
+      "price": 21,
+      "hotel_name": "Central Düsseldorf Cozy 2-Bedroom Apartment with Kitchen",
+      "url": "https://www.booking.com/hotel/de/central-dusseldorf-cozy-2-bedroom-apartment-with-kitchen-dusseldorf2.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtpDk1AbAAgHSAiQzNGRlNjNlOC1hMmY4LTQ1MTEtOTA4OS1jMzE4YTNjM2IwNjHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=68e927db3f881123&srepoch=1788414011&all_sr_blocks=1623517201_443592121_2_0_0&highlighted_blocks=1623517201_443592121_2_0_0&matching_block_id=1623517201_443592121_2_0_0&sr_pri_blocks=1623517201_443592121_2_0_0__33645&from=searchresults",
+      "checked_at": "2026-09-03T05:40:14.842Z"
     }
   ],
   "notifications": [
@@ -6289,11 +6289,21 @@
       "message": "🏨 Deluxe Studio in Dusseldorf, North Rhine-Westphalia, Germany — EUR 34/night (Genius)",
       "is_read": 0,
       "created_at": "2026-09-01T11:55:29.202Z"
+    },
+    {
+      "id": 360,
+      "alert_id": 2,
+      "hotel_name": "Central Düsseldorf Cozy 2-Bedroom Apartment with Kitchen",
+      "price": 21,
+      "url": "https://www.booking.com/hotel/de/central-dusseldorf-cozy-2-bedroom-apartment-with-kitchen-dusseldorf2.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGi0AogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtpDk1AbAAgHSAiQzNGRlNjNlOC1hMmY4LTQ1MTEtOTA4OS1jMzE4YTNjM2IwNjHYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=68e927db3f881123&srepoch=1788414011&all_sr_blocks=1623517201_443592121_2_0_0&highlighted_blocks=1623517201_443592121_2_0_0&matching_block_id=1623517201_443592121_2_0_0&sr_pri_blocks=1623517201_443592121_2_0_0__33645&from=searchresults",
+      "message": "🏨 Central Düsseldorf Cozy 2-Bedroom Apartment with Kitchen in Dusseldorf, North Rhine-Westphalia, Germany — EUR 21/night",
+      "is_read": 0,
+      "created_at": "2026-09-03T05:40:14.856Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 899,
-    "notifications": 360
+    "price_history": 900,
+    "notifications": 361
   }
 }
