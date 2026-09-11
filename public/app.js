@@ -466,6 +466,7 @@ function renderAlerts() {
           <span class="alert-max-price">${alert.currency} ${alert.max_price}/night max</span>
           ${alert.last_price ? `<span class="alert-last-price ${lastPriceClass}">Last: ${alert.currency} ${alert.last_price}</span>` : '<span class="alert-last-price">Not checked yet</span>'}
           ${alert.last_checked ? `<span class="alert-last-price">Checked: ${timeAgo(alert.last_checked)}</span>` : ''}
+          ${alert.last_error ? `<span class="alert-check-error" title="${escapeAttr(alert.last_error)}">⚠️ Last check failed</span>` : ''}
         </div>
         <div class="alert-actions">
           <button class="toggle-btn" onclick="editAlert(${alert.id})" title="Edit">
@@ -704,6 +705,12 @@ function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
+}
+
+// innerHTML leaves quotes alone, which is fine between tags but not inside an
+// attribute value.
+function escapeAttr(text) {
+  return escapeHtml(text).replace(/"/g, '&quot;');
 }
 
 function timeAgo(dateStr) {

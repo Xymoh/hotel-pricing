@@ -253,6 +253,12 @@ header h1 {
   font-weight: 600;
 }
 
+.alert-check-error {
+  font-size: 0.8rem;
+  color: var(--danger);
+  font-weight: 600;
+}
+
 .alert-actions {
   display: flex;
   gap: 8px;

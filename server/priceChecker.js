@@ -11,6 +11,12 @@ const CHROME_PATH = process.env.CHROME_PATH ||
 // Cookies file for Booking.com session (Genius discounts)
 const COOKIES_FILE = path.join(__dirname, '..', 'data', 'booking-cookies.json');
 
+// How long to wait for Booking to stop redirecting before reading the page,
+// and how long the URL must hold still to count as settled.
+const SETTLE_TIMEOUT_MS = 20000;
+const URL_STABLE_MS = 2000;
+const EXTRACT_ATTEMPTS = 3;
+
 let browser = null;
 
 async function getBrowser() {
@@ -56,6 +62,192 @@ async function loadCookies(page) {
   }
   console.log('  No Booking.com cookies found - showing public prices (no Genius discounts)');
   return false;
+}
+
+// ---------------------------------------------------------------------------
+// Price parsing
+// ---------------------------------------------------------------------------
+
+// Booking's result-card link carries its own price for the whole stay in minor
+// units, as the last segment of sr_pri_blocks
+// (...&sr_pri_blocks=<hotel>_<block>_<n>_<n>_<n>__<total>). That number is
+// unambiguous, which the rendered price text is not: Booking renders the stay
+// total in some responses and the nightly rate in others, with no change to the
+// markup around it. Treating the rendered number as a total and dividing it by
+// the night count is what produced alerts roughly `nights` times cheaper than
+// the real price.
+function parseStayTotal(url) {
+  const match = /[?&]sr_pri_blocks=([^&]+)/.exec(url || '');
+  if (!match) return null;
+
+  const segments = decodeURIComponent(match[1]).split('_');
+  const last = segments[segments.length - 1];
+  if (!/^\d+$/.test(last)) return null;
+
+  const total = parseInt(last, 10) / 100;
+  return Number.isFinite(total) && total > 0 ? total : null;
+}
+
+// Read the number out of a rendered price, e.g. "€ 262 € 131" -> 131. When a
+// card shows a struck-through price next to the current one both end up in the
+// same text node, and the current price is always the last of the two.
+function parsePriceText(text) {
+  const tokens = String(text || '').match(/\d[\d.,\u00a0 ]*\d|\d/g);
+  if (!tokens || tokens.length === 0) return 0;
+
+  let cleaned = tokens[tokens.length - 1].replace(/[\u00a0 ]/g, '');
+
+  // Whichever of . or , comes last is the decimal separator if 1-2 digits
+  // follow it; every other . or , is a thousands separator.
+  const decimalPos = Math.max(cleaned.lastIndexOf('.'), cleaned.lastIndexOf(','));
+  const trailingDigits = decimalPos === -1 ? -1 : cleaned.length - decimalPos - 1;
+  if (trailingDigits === 1 || trailingDigits === 2) {
+    cleaned = cleaned.slice(0, decimalPos).replace(/[.,]/g, '') + '.' + cleaned.slice(decimalPos + 1);
+  } else {
+    cleaned = cleaned.replace(/[.,]/g, '');
+  }
+
+  return parseFloat(cleaned) || 0;
+}
+
+// Fallback for cards whose link has no sr_pri_blocks: Booking labels the price
+// block with what it covers ("for 4 nights", "per night"). Only an explicit
+// label counts - guessing here is the original bug.
+function nightsFromLabel(text) {
+  const match = /(\d+)\s*(?:nights?|nocy|noce|n[äa]chte|nacht)\b/i.exec(text || '');
+  if (!match) return null;
+  const n = parseInt(match[1], 10);
+  return n > 0 && n <= 365 ? n : null;
+}
+
+function isPerNightLabel(text) {
+  return /per night|\/\s*night|a night|per noc|za noc|pro nacht/i.test(text || '');
+}
+
+// Work out what one night actually costs for a single result card. Returns null
+// when the card gives us no trustworthy basis - we skip those rather than guess.
+function perNightPriceFor(hotel, nights) {
+  const stayTotal = parseStayTotal(hotel.url);
+  const displayed = parsePriceText(hotel.priceText);
+
+  if (stayTotal !== null) {
+    const perNight = stayTotal / nights;
+
+    // Cross-check the rendered price against the link so we hear about it if
+    // Booking ever changes either one, instead of silently drifting again.
+    if (displayed > 0) {
+      const near = (a, b) => Math.abs(a - b) <= Math.max(1, b * 0.02);
+      if (!near(displayed, stayTotal) && !near(displayed, perNight)) {
+        console.log(`  ⚠️  ${hotel.hotelName}: shown price "${hotel.priceText}" matches neither the stay total (${stayTotal.toFixed(2)}) nor the nightly rate (${perNight.toFixed(2)}) - trusting the booking link`);
+      }
+    }
+
+    return { perNightPrice: Math.round(perNight), stayTotal, basis: 'link' };
+  }
+
+  if (displayed > 0) {
+    const labelNights = nightsFromLabel(hotel.basisText);
+    if (labelNights) {
+      return { perNightPrice: Math.round(displayed / labelNights), stayTotal: displayed, basis: 'label' };
+    }
+    if (isPerNightLabel(hotel.basisText)) {
+      return { perNightPrice: Math.round(displayed), stayTotal: displayed * nights, basis: 'label' };
+    }
+  }
+
+  return null;
+}
+
+// ---------------------------------------------------------------------------
+// Page handling
+// ---------------------------------------------------------------------------
+
+// Runs inside the page. It only collects raw facts - what the price means is
+// decided in Node, where it can be cross-checked against the booking link.
+function scrapeCards() {
+  const cards = document.querySelectorAll('[data-testid="property-card"]');
+
+  return Array.prototype.slice.call(cards, 0, 10).map(card => {
+    const nameEl = card.querySelector('[data-testid="title"]');
+    const hotelName = nameEl ? nameEl.textContent.trim() : '';
+
+    const linkEl = card.querySelector('a[data-testid="title-link"]') || card.querySelector('a');
+    const priceEl = card.querySelector('[data-testid="price-and-discounted-price"]');
+
+    // Keep the text around the price too - that's where Booking says whether
+    // the figure covers one night or the whole stay.
+    const priceBlock = priceEl || card.querySelector('[data-testid="price-for-x-nights"]');
+    const basisScope = priceBlock ? (priceBlock.parentElement || priceBlock) : null;
+
+    return {
+      hotelName,
+      url: linkEl ? linkEl.href : '',
+      priceText: priceEl ? priceEl.textContent.trim() : '',
+      basisText: basisScope ? basisScope.textContent.trim().slice(0, 200) : '',
+      hasGenius: !!card.querySelector('[class*="genius"], [data-testid*="genius"]')
+    };
+  }).filter(hotel => hotel.hotelName);
+}
+
+// Booking re-navigates a few seconds after the first paint whenever it resolves
+// a free-text destination into its canonical search URL. page.evaluate racing
+// that redirect throws "Execution context was destroyed", which is why the
+// Poznan alert failed on every single run. Wait for the URL to stop moving and
+// the cards to be present before reading the DOM.
+async function settlePage(page) {
+  const deadline = Date.now() + SETTLE_TIMEOUT_MS;
+  let lastUrl = page.url();
+  let stableSince = Date.now();
+
+  while (Date.now() < deadline) {
+    await page.waitForSelector('[data-testid="property-card"]', { timeout: 5000 }).catch(() => {});
+
+    let currentUrl = lastUrl;
+    try {
+      currentUrl = page.url();
+    } catch {
+      // Context torn down mid-navigation; treat as "still moving".
+    }
+
+    if (currentUrl !== lastUrl) {
+      console.log(`  Page redirected to ${currentUrl}, waiting for it to settle...`);
+      lastUrl = currentUrl;
+      stableSince = Date.now();
+    } else if (Date.now() - stableSince >= URL_STABLE_MS) {
+      const ready = await page
+        .evaluate(() => document.querySelectorAll('[data-testid="property-card"]').length > 0)
+        .catch(() => false);
+      if (ready) return true;
+    }
+
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }
+
+  return false;
+}
+
+function isNavigationError(err) {
+  return /Execution context was destroyed|Cannot find context|Target closed|detached Frame|frame got detached/i.test(err.message || '');
+}
+
+// Extract the result cards, retrying when a late redirect tears the page out
+// from under us instead of failing the whole alert.
+async function extractHotels(page) {
+  for (let attempt = 1; attempt <= EXTRACT_ATTEMPTS; attempt++) {
+    const settled = await settlePage(page);
+    if (!settled) {
+      console.log(`  Page never settled (attempt ${attempt}/${EXTRACT_ATTEMPTS}), extracting what's there...`);
+    }
+
+    try {
+      return await page.evaluate(scrapeCards);
+    } catch (err) {
+      if (!isNavigationError(err) || attempt === EXTRACT_ATTEMPTS) throw err;
+      console.log(`  Page navigated mid-extraction (attempt ${attempt}/${EXTRACT_ATTEMPTS}), retrying...`);
+    }
+  }
+
+  return [];
 }
 
 function buildBookingUrl(alert) {
@@ -109,129 +301,64 @@ async function checkAlert(alert) {
 
     // Navigate and wait for content to load
     await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-    
+
     // Wait for the WAF challenge to resolve (if present) - it usually auto-redirects
     const currentUrl = page.url();
-    if (currentUrl.includes('challenge') || (await page.title()) === '') {
+    if (currentUrl.includes('challenge') || (await page.title().catch(() => '')) === '') {
       console.log('  WAF challenge detected, waiting for resolution...');
       await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => {});
     }
-    
-    // Wait for property cards to appear
-    await page.waitForSelector('[data-testid="property-card"], [class*="property-card"]', { 
-      timeout: 20000 
-    }).catch(() => {
-      console.log('  Waiting for property cards timed out, trying to extract what we have...');
-    });
 
-    // Give a bit more time for prices to render
-    await new Promise(resolve => setTimeout(resolve, 2000));
-
-    // Dismiss cookie banner if present
+    // Dismiss cookie banner if present. Done before extracting, so that any
+    // re-render it triggers is absorbed by the settle step below.
     await page.click('[id*="accept"], [class*="cookie"] button, #onetrust-accept-btn-handler')
       .catch(() => {});
 
     // Extract hotel data from the page
-    const results = await page.evaluate((currency) => {
-      const cards = document.querySelectorAll('[data-testid="property-card"]');
-      const hotels = [];
-      
-      cards.forEach((card, i) => {
-        if (i >= 10) return; // Check top 10 results
-        
-        const nameEl = card.querySelector('[data-testid="title"]');
-        const hotelName = nameEl ? nameEl.textContent.trim() : '';
-        
-        // Try multiple selectors for price
-        let priceText = '';
-        const priceSelectors = [
-          '[data-testid="price-and-discounted-price"]',
-          '[class*="prco-valign-middle-helper"]',
-          '[class*="price_display"]',
-          'span[class*="price"]',
-          '[data-testid="price-for-x-nights"]'
-        ];
-        
-        for (const sel of priceSelectors) {
-          const el = card.querySelector(sel);
-          if (el && el.textContent.trim()) {
-            priceText = el.textContent.trim();
-            break;
-          }
-        }
-        
-        // If still no price, look for any element with currency symbol or number pattern
-        if (!priceText) {
-          const allSpans = card.querySelectorAll('span');
-          for (const span of allSpans) {
-            const text = span.textContent.trim();
-            if (/[\d.,]+/.test(text) && (text.includes('€') || text.includes('$') || text.includes('£') || text.includes('zł') || text.includes('PLN') || text.includes('kr') || /^\s*\d/.test(text))) {
-              priceText = text;
-              break;
-            }
-          }
-        }
-        
-        // Extract numeric price - handle "PLN 1,500" or "€150" or "1 440 zł" etc.
-        // Remove currency symbols and text, keep digits, commas, dots, spaces
-        let cleaned = priceText.replace(/[^\d.,\s]/g, '').trim();
-        // Handle thousands separators: "1,440" or "1 440" or "1.440" (European)
-        // If there's a comma followed by exactly 3 digits at end, it's a thousands separator
-        // If there's a dot followed by exactly 2 digits at end, it's decimal
-        cleaned = cleaned.replace(/\s/g, ''); // Remove spaces used as thousands sep
-        // Determine if comma is thousands or decimal separator
-        if (/,\d{3}$/.test(cleaned) && !cleaned.includes('.')) {
-          // Comma is thousands separator (e.g., "1,440")
-          cleaned = cleaned.replace(/,/g, '');
-        } else if (/\.\d{3}$/.test(cleaned) && !cleaned.includes(',')) {
-          // Dot is thousands separator (e.g., "1.440" European)
-          cleaned = cleaned.replace(/\./g, '');
-        } else {
-          // Assume comma is decimal
-          cleaned = cleaned.replace(',', '.');
-        }
-        const price = parseFloat(cleaned) || 0;
-        
-        // Get link
-        const linkEl = card.querySelector('a[data-testid="title-link"]') || card.querySelector('a');
-        let link = linkEl ? linkEl.href : '';
-        
-        // Check if Genius discount is shown
-        const hasGenius = !!card.querySelector('[class*="genius"], [data-testid*="genius"]');
-        
-        if (hotelName && price > 0) {
-          hotels.push({ hotelName, price, url: link, priceText, hasGenius });
-        }
-      });
-      
-      return hotels;
-    }, alert.currency);
+    const results = await extractHotels(page);
 
-    console.log(`  Found ${results.length} hotels with prices`);
+    console.log(`  Found ${results.length} hotels`);
 
     if (results.length > 0) {
-      // Booking.com shows TOTAL price for the stay in search results
-      // Calculate per-night price
       const checkinDate = new Date(alert.checkin);
       const checkoutDate = new Date(alert.checkout);
       const nights = Math.max(1, Math.round((checkoutDate - checkinDate) / (1000 * 60 * 60 * 24)));
-      
-      const processedResults = results.map(r => {
-        // Total price divided by nights = per night price
-        const perNightPrice = Math.round(r.price / nights);
-        return { ...r, perNightPrice };
-      }).sort((a, b) => a.perNightPrice - b.perNightPrice);
+
+      const processedResults = [];
+      const unpriced = [];
+
+      for (const hotel of results) {
+        const priced = perNightPriceFor(hotel, nights);
+        if (priced && priced.perNightPrice > 0) {
+          processedResults.push({ ...hotel, ...priced });
+        } else {
+          unpriced.push(hotel.hotelName);
+        }
+      }
+
+      processedResults.sort((a, b) => a.perNightPrice - b.perNightPrice);
+
+      if (unpriced.length > 0) {
+        console.log(`  Skipped ${unpriced.length} hotel(s) with no readable price: ${unpriced.join(', ')}`);
+      }
+
+      // Every card being unreadable means the page changed shape on us. Report
+      // it as a failed check rather than as "no deals today", which would look
+      // identical from the dashboard.
+      if (processedResults.length === 0) {
+        return { found: false, error: `Found ${results.length} hotels but could not read a price for any of them` };
+      }
 
       // Find all hotels within budget
       const matchingHotels = processedResults.filter(r => r.perNightPrice <= alert.max_price);
       const cheapest = processedResults[0];
 
       const geniusLabel = cheapest.hasGenius ? ' (Genius price)' : '';
-      console.log(`  Cheapest: ${cheapest.hotelName} at ${alert.currency} ${cheapest.perNightPrice}/night${geniusLabel} (total: ${cheapest.price} for ${nights} nights)`);
+      console.log(`  Cheapest: ${cheapest.hotelName} at ${alert.currency} ${cheapest.perNightPrice}/night${geniusLabel} (total: ${cheapest.stayTotal.toFixed(2)} for ${nights} nights, from ${cheapest.basis})`);
       console.log(`  ${matchingHotels.length}/${processedResults.length} hotels within budget of ${alert.currency} ${alert.max_price}/night`);
 
       // Record cheapest price in history and update alert
-      db.addPriceHistory(alert.id, cheapest.perNightPrice, cheapest.hotelName, cheapest.url);
+      db.addPriceHistory(alert.id, cheapest.perNightPrice, cheapest.hotelName, cheapest.url, cheapest.basis);
       db.updateAlertPrice(alert.id, cheapest.perNightPrice);
 
       // Only notify about hotels that are new or have dropped below the
@@ -249,7 +376,7 @@ async function checkAlert(alert) {
         for (const hotel of newHotels) {
           const hotelGeniusLabel = hotel.hasGenius ? ' (Genius)' : '';
           const message = `🏨 ${hotel.hotelName} in ${alert.destination} — ${alert.currency} ${hotel.perNightPrice}/night${hotelGeniusLabel}`;
-          const notification = db.addNotification(alert.id, hotel.hotelName, hotel.perNightPrice, hotel.url, message);
+          const notification = db.addNotification(alert.id, hotel.hotelName, hotel.perNightPrice, hotel.url, message, hotel.basis);
 
           // Broadcast via SSE
           if (global.broadcast) {
@@ -306,6 +433,14 @@ async function checkAllAlerts() {
 
     const result = await checkAlert(alert);
     results.push({ alertId: alert.id, destination: alert.destination, ...result });
+
+    // Record failures against the alert too. Without this a permanently broken
+    // check is indistinguishable from one that just never finds a deal: the
+    // alert simply keeps showing whatever it last saw, which is how the Poznan
+    // alert sat dead for weeks.
+    if (result.error) {
+      db.recordCheckFailure(alert.id, result.error);
+    }
 
     // Random delay between checks (3-6 seconds) to be respectful
     const delay = 3000 + Math.random() * 3000;
@@ -444,4 +579,15 @@ process.on('exit', () => closeBrowser());
 process.on('SIGINT', async () => { await closeBrowser(); process.exit(); });
 process.on('SIGTERM', async () => { await closeBrowser(); process.exit(); });
 
-module.exports = { checkAllAlerts, checkAlert, buildBookingUrl, exportCookiesFromLogin, hasGeniusCookies };
+module.exports = {
+  checkAllAlerts,
+  checkAlert,
+  buildBookingUrl,
+  exportCookiesFromLogin,
+  hasGeniusCookies,
+  // exported for tests
+  extractHotels,
+  parseStayTotal,
+  parsePriceText,
+  perNightPriceFor
+};

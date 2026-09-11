@@ -47,12 +47,59 @@ Copy `.env.example` to `.env` and configure:
    you were already told about, so you don't get re-emailed the same matches every check
 4. Click the booking link to go directly to the deal and book it yourself
 
+### Where the price comes from
+
+Booking.com is inconsistent about what the number on a search-result card means: in
+some responses it's the total for the whole stay, in others it's the nightly rate, and
+the markup around it looks the same either way. So the price is taken from the card's
+own booking link instead (`sr_pri_blocks`), which always carries Booking's price for
+the whole stay in minor units, and divided by the number of nights.
+
+A result whose price can't be established that way — no price in the link, and no
+explicit "for 4 nights" / "per night" label on the card — is skipped rather than
+guessed at, and a check where *no* result yields a price is reported as a failed
+check rather than as "nothing within budget".
+
+### When a check fails
+
+Alerts whose last check failed show **⚠️ Last check failed** on the dashboard, with the
+reason on hover. Without that, a permanently broken alert looks exactly like one that
+simply never finds a deal: it just keeps showing the last price it ever saw.
+
 ## Important Notes
 
 - This tool **only monitors and notifies** — it does not book anything
 - Web scraping is subject to site structure changes; selectors may need updating
 - Be respectful of Booking.com's servers — don't set intervals too low
 - For personal use only
+
+## Tests
+
+```bash
+npm test
+```
+
+Pure Node, no test framework to install. The browser-driven tests are skipped
+automatically if no Chrome/Chromium is available.
+
+## Repairing old price data
+
+Prices recorded before the per-night fix are mostly `nights` times too low, because the
+checker divided the nightly rate by the night count. Those stored numbers aren't just
+cosmetic — the "have I already told you about this hotel?" check reads them — so
+notifications recorded before the fix are ignored when deciding what's new.
+
+To correct them instead (which also brings them back into that check), run:
+
+```bash
+npm run repair-prices -- --dry-run   # show what would change
+npm run repair-prices                # rewrite data/db.json
+```
+
+It recomputes each stored price from the booking link saved alongside it, so it needs no
+network access, and it's safe to run more than once. Commit `data/db.json` afterwards
+(or `npm run sync`). If `data/db.json` conflicts when you pull, take GitHub's copy
+(`git reset --hard origin/main`) and run the repair again rather than hand-merging.
 
 ## Tech Stack
 

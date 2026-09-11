@@ -76,6 +76,7 @@ function createAlert(data) {
     active: 1,
     last_checked: null,
     last_price: null,
+    last_error: null,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   };
@@ -142,12 +143,27 @@ function updateAlertPrice(id, price) {
   if (alert) {
     alert.last_price = price;
     alert.last_checked = new Date().toISOString();
+    alert.last_error = null;
     alert.updated_at = new Date().toISOString();
     writeDb(db);
   }
 }
 
-function addPriceHistory(alertId, price, hotelName, url) {
+// Mark a check as attempted-but-failed, so a broken alert shows up as broken
+// instead of just quietly keeping its last known price forever.
+function recordCheckFailure(id, message) {
+  const db = readDb();
+  const numId = parseInt(id);
+  const alert = db.alerts.find(a => a.id === numId);
+  if (alert) {
+    alert.last_checked = new Date().toISOString();
+    alert.last_error = String(message).slice(0, 300);
+    alert.updated_at = new Date().toISOString();
+    writeDb(db);
+  }
+}
+
+function addPriceHistory(alertId, price, hotelName, url, priceBasis) {
   const db = readDb();
   const entry = {
     id: db.nextId.price_history++,
@@ -155,6 +171,7 @@ function addPriceHistory(alertId, price, hotelName, url) {
     price,
     hotel_name: hotelName,
     url,
+    price_basis: priceBasis || null,
     checked_at: new Date().toISOString()
   };
   db.price_history.push(entry);
@@ -179,7 +196,7 @@ function getPriceHistory(alertId) {
     .slice(0, 50);
 }
 
-function addNotification(alertId, hotelName, price, url, message) {
+function addNotification(alertId, hotelName, price, url, message, priceBasis) {
   const db = readDb();
   const notification = {
     id: db.nextId.notifications++,
@@ -187,6 +204,10 @@ function addNotification(alertId, hotelName, price, url, message) {
     hotel_name: hotelName,
     price,
     url,
+    // How the per-night price was established. Rows without it were recorded
+    // before prices were read from the booking link and are mostly `nights`
+    // times too low, so they are not trusted below.
+    price_basis: priceBasis || null,
     message,
     is_read: 0,
     created_at: new Date().toISOString()
@@ -199,12 +220,17 @@ function addNotification(alertId, hotelName, price, url, message) {
 // Lowest price ever notified per hotel name for an alert, derived from
 // notification history - used to skip re-notifying about a hotel unless
 // it's new or has dropped to a new lower price.
+//
+// Only rows with a known price_basis count. The ones recorded before prices
+// were read from the booking link are mostly far too low, and letting them set
+// the bar would suppress alerts at the real price indefinitely. Running
+// `npm run repair-prices` corrects those rows and brings them back into play.
 function getNotifiedMinPrices(alertId) {
   const db = readDb();
   const numId = parseInt(alertId);
   const minPrices = {};
   db.notifications
-    .filter(n => n.alert_id === numId)
+    .filter(n => n.alert_id === numId && n.price_basis)
     .forEach(n => {
       if (!(n.hotel_name in minPrices) || n.price < minPrices[n.hotel_name]) {
         minPrices[n.hotel_name] = n.price;
@@ -239,6 +265,7 @@ module.exports = {
   deleteAlert,
   toggleAlert,
   updateAlertPrice,
+  recordCheckFailure,
   addPriceHistory,
   getPriceHistory,
   addNotification,

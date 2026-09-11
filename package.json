@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "node server/index.js",
+    "test": "node --test 'test/*.test.js'",
+    "repair-prices": "node server/scripts/repairPrices.js",
     "sync": "git add data/db.json && (git diff --cached --quiet || git commit -m 'Update alerts') && git pull --rebase && git push"
   },
   "dependencies": {
