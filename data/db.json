@@ -35,10 +35,10 @@
       "star_rating": "",
       "sort_by": "price",
       "active": 1,
-      "last_checked": "2026-09-12T09:05:02.035Z",
-      "last_price": 31,
+      "last_checked": "2026-09-12T13:01:22.483Z",
+      "last_price": 15,
       "created_at": "2026-07-11T18:32:26.142Z",
-      "updated_at": "2026-09-12T09:05:02.035Z"
+      "updated_at": "2026-09-12T13:01:22.483Z"
     }
   ],
   "price_history": [
@@ -1097,14 +1097,6 @@
       "hotel_name": "Novotel Poznań Malta",
       "url": "https://www.booking.com/hotel/pl/novotelpoznanmaltapoznan.html?aid=304142&label=gen173nr-10CAQoggJCMXNlYXJjaF9wb3puYW4sIGdyZWF0ZXIgcG9sYW5kIHZvaXZvZGVzaGlwLCBwb2xhbmRIM1gEaJECiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALvwo3TBsACAdICJGRiODU0MTc2LTViYWQtNGUwYy04MzJlLWJkMjUxZmRmMGM2NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2027-06-17&checkout=2027-06-20&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e0135b372b010035&srepoch=1784897908&all_sr_blocks=8871110_94301715_2_2_0&highlighted_blocks=8871110_94301715_2_2_0&matching_block_id=8871110_94301715_2_2_0&sr_pri_blocks=8871110_94301715_2_2_0__134209&from=searchresults",
       "checked_at": "2026-07-24T12:58:32.489Z"
-    },
-    {
-      "id": 750,
-      "alert_id": 2,
-      "price": 22,
-      "hotel_name": "DORMERO Hotel Düsseldorf",
-      "url": "https://www.booking.com/hotel/de/dormero-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCoZCj1AbAAgHSAiRlYjg4NjhmNy05ZTU5LTQxYTYtOTk1Ny0yZmJkOWUyZmVlMDfYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=333c9990beac01a1&srepoch=1787349030&all_sr_blocks=6682618_94004448_0_2_0_732951&highlighted_blocks=6682618_94004448_0_2_0_732951&matching_block_id=6682618_94004448_0_2_0_732951&sr_pri_blocks=6682618_94004448_0_2_0_732951_34953&from=searchresults",
-      "checked_at": "2026-08-21T21:50:33.577Z"
     },
     {
       "id": 751,
@@ -2697,6 +2689,14 @@
       "hotel_name": "Jugendherberge Düsseldorf",
       "url": "https://www.booking.com/hotel/de/jugendherberge-dusseldorf.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtauU1QbAAgHSAiQ3NDJlMDVmNS1iNWVhLTQ1OGEtOTVmYi05YzMxODY1NDgzYmTYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=507d3fda73400663&srepoch=1789203897&all_sr_blocks=23811703_338461364_2_41_0&highlighted_blocks=23811703_338461364_2_41_0&matching_block_id=23811703_338461364_2_41_0&sr_pri_blocks=23811703_338461364_2_41_0__48689&from=searchresults",
       "checked_at": "2026-09-12T09:05:02.029Z"
+    },
+    {
+      "id": 950,
+      "alert_id": 2,
+      "price": 15,
+      "hotel_name": "Hotel Gemini Self Check-IN",
+      "url": "https://www.booking.com/hotel/de/gemini.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCmJqV1QbAAgHSAiQ1NWMwODVhNS0wMjIzLTQ5ZTMtYWI4Yi1lYjAyZWE4NmMyY2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e6d25b8c388b03a5&srepoch=1789218078&all_sr_blocks=112394203_91116772_2_0_0&highlighted_blocks=112394203_91116772_2_0_0&matching_block_id=112394203_91116772_2_0_0&sr_pri_blocks=112394203_91116772_2_0_0__24299&from=searchresults",
+      "checked_at": "2026-09-12T13:01:22.477Z"
     }
   ],
   "notifications": [
@@ -6399,11 +6399,31 @@
       "message": "🏨 Jugendherberge Düsseldorf in Dusseldorf, North Rhine-Westphalia, Germany — EUR 31/night (Genius)",
       "is_read": 0,
       "created_at": "2026-09-11T19:56:27.669Z"
+    },
+    {
+      "id": 371,
+      "alert_id": 2,
+      "hotel_name": "Hotel Gemini Self Check-IN",
+      "price": 15,
+      "url": "https://www.booking.com/hotel/de/gemini.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCmJqV1QbAAgHSAiQ1NWMwODVhNS0wMjIzLTQ5ZTMtYWI4Yi1lYjAyZWE4NmMyY2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=price&srpvid=e6d25b8c388b03a5&srepoch=1789218078&all_sr_blocks=112394203_91116772_2_0_0&highlighted_blocks=112394203_91116772_2_0_0&matching_block_id=112394203_91116772_2_0_0&sr_pri_blocks=112394203_91116772_2_0_0__24299&from=searchresults",
+      "message": "🏨 Hotel Gemini Self Check-IN in Dusseldorf, North Rhine-Westphalia, Germany — EUR 15/night",
+      "is_read": 0,
+      "created_at": "2026-09-12T13:01:22.492Z"
+    },
+    {
+      "id": 372,
+      "alert_id": 2,
+      "hotel_name": "Bahn-Hotel",
+      "price": 139,
+      "url": "https://www.booking.com/hotel/de/bahn.html?aid=304142&label=gen173nr-10CAQoggJCMnNlYXJjaF9kdXNzZWxkb3JmLCBub3J0aCByaGluZS13ZXN0cGhhbGlhLCBnZXJtYW55SDNYBGiRAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCmJqV1QbAAgHSAiQ1NWMwODVhNS0wMjIzLTQ5ZTMtYWI4Yi1lYjAyZWE4NmMyY2PYAgHgAgE&ucfs=1&arphpl=1&checkin=2027-07-08&checkout=2027-07-12&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=9&hapos=9&sr_order=price&srpvid=e6d25b8c388b03a5&srepoch=1789218078&all_sr_blocks=6702903_97027552_0_0_0&highlighted_blocks=6702903_97027552_0_0_0&matching_block_id=6702903_97027552_0_0_0&sr_pri_blocks=6702903_97027552_0_0_0__222056&from=searchresults",
+      "message": "🏨 Bahn-Hotel in Dusseldorf, North Rhine-Westphalia, Germany — EUR 139/night",
+      "is_read": 0,
+      "created_at": "2026-09-12T13:01:22.498Z"
     }
   ],
   "nextId": {
     "alerts": 3,
-    "price_history": 950,
-    "notifications": 371
+    "price_history": 951,
+    "notifications": 373
   }
 }
