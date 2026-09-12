@@ -599,3 +599,16 @@ header h1 {
   display: flex;
   gap: 8px;
 }
+
+/* Shown on an alert when a price check came back without a usable price, so a
+   monitor that has quietly stopped working is visible on the dashboard. */
+.alert-error {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  font-size: 12px;
+  line-height: 1.45;
+}
