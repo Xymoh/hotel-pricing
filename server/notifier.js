@@ -25,7 +25,7 @@ function initTransporter() {
   return transporter;
 }
 
-async function sendEmail(notification, alert, matchingHotels) {
+async function sendEmail(notification, alert, matchingHotels, nights) {
   const transport = initTransporter();
   if (!transport) return false;
 
@@ -33,15 +33,23 @@ async function sendEmail(notification, alert, matchingHotels) {
   if (!recipientEmail) return false;
 
   try {
+    const stayNights = nights || null;
+    const stayLabel = stayNights ? ` for ${stayNights} night${stayNights > 1 ? 's' : ''}` : '';
+
     // Build hotel list HTML
     let hotelsHtml = '';
     if (matchingHotels && matchingHotels.length > 0) {
       hotelsHtml = matchingHotels.map((hotel, i) => {
         const geniusTag = hotel.hasGenius ? ' <span style="background:#febb02;color:#00224f;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:bold;">Genius</span>' : '';
+        // Show the stay total next to the nightly rate so the figure in the
+        // email can be checked against Booking.com at a glance.
+        const total = hotel.totalPrice
+          ? `<div style="font-weight: 400; font-size: 12px; color: #64748b;">${alert.currency} ${hotel.totalPrice} total${stayLabel}</div>`
+          : '';
         return `
           <tr style="border-bottom: 1px solid #e2e8f0;">
             <td style="padding: 10px 12px; font-weight: 500;">${i + 1}. ${hotel.hotelName}${geniusTag}</td>
-            <td style="padding: 10px 12px; text-align: right; font-weight: 700; color: #2563eb;">${alert.currency} ${hotel.perNightPrice}/night</td>
+            <td style="padding: 10px 12px; text-align: right; font-weight: 700; color: #2563eb;">${alert.currency} ${hotel.perNightPrice}/night${total}</td>
             <td style="padding: 10px 12px; text-align: center;"><a href="${hotel.url}" style="color: #2563eb; text-decoration: none;">View →</a></td>
           </tr>
         `;
@@ -66,7 +74,7 @@ async function sendEmail(notification, alert, matchingHotels) {
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 650px; margin: 0 auto;">
           <h2 style="color: #2563eb;">🏨 Hotel Price Alert!</h2>
-          <p style="color: #4b5563;">Found <strong>${count} hotel${count > 1 ? 's' : ''}</strong> in <strong>${alert.destination}</strong> within your budget of ${alert.currency} ${alert.max_price}/night.</p>
+          <p style="color: #4b5563;">Found <strong>${count} hotel${count > 1 ? 's' : ''}</strong> in <strong>${alert.destination}</strong> within your budget of ${alert.currency} ${alert.max_price} per night${stayLabel ? ` (stay${stayLabel})` : ''}.</p>
           
           <div style="background: #f8fafc; border-radius: 8px; margin: 16px 0; overflow: hidden; border: 1px solid #e2e8f0;">
             <table style="width: 100%; border-collapse: collapse;">
@@ -105,9 +113,9 @@ async function sendEmail(notification, alert, matchingHotels) {
   }
 }
 
-async function notify(notification, alert, matchingHotels) {
+async function notify(notification, alert, matchingHotels, nights) {
   // Send email with all matching hotels
-  await sendEmail(notification, alert, matchingHotels);
+  await sendEmail(notification, alert, matchingHotels, nights);
 
   // Browser notification is handled via SSE on the frontend
   const count = matchingHotels ? matchingHotels.length : 1;

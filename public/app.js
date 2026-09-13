@@ -461,6 +461,11 @@ function renderAlerts() {
             <span>🚪 ${alert.rooms} room${alert.rooms > 1 ? 's' : ''}</span>
             ${alert.star_rating ? `<span>⭐ ${alert.star_rating} star${alert.star_rating.includes(',') ? 's' : ''}</span>` : ''}
           </div>
+          ${alert.last_error ? `
+            <div class="alert-error">
+              ⚠️ Last check found no price${alert.consecutive_failures > 1 ? ` (${alert.consecutive_failures} checks in a row)` : ''}:
+              ${escapeHtml(alert.last_error)}
+            </div>` : ''}
         </div>
         <div class="alert-price">
           <span class="alert-max-price">${alert.currency} ${alert.max_price}/night max</span>

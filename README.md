@@ -47,6 +47,43 @@ Copy `.env.example` to `.env` and configure:
    you were already told about, so you don't get re-emailed the same matches every check
 4. Click the booking link to go directly to the deal and book it yourself
 
+### Per-night vs. total price
+
+Booking.com's search results show a nightly rate on some searches and the whole-stay
+total on others, so the number on a card can't be interpreted on its own. Each card's
+booking link carries the stay total (`sr_pri_blocks=..._..__66063` means 660.63), and
+that total is what decides which of the two the card was showing; an explicit "per
+night"/"total" label on the card is the fallback, and an unlabelled number is read as a
+nightly rate. Alerts and emails show both the nightly rate and the stay total so the
+figures can be checked against Booking.com directly. The arithmetic is unit tested:
+
+```bash
+npm test
+```
+
+## Pausing or Stopping Monitoring
+
+Nothing is booked or cancelled by this app, so stopping it is just stopping the checks.
+Pick whichever fits:
+
+- **Stop everything, immediately**: repo → Actions → "Hotel Price Check" → `⋯` →
+  **Disable workflow**. Takes effect at once and needs no commit; re-enable from the same
+  menu.
+- **Stop everything, in the repo**: the `schedule:` block in
+  [`.github/workflows/price-check.yml`](.github/workflows/price-check.yml) is commented
+  out, which turns off scheduled checking (manual "Run workflow" still works). GitHub only
+  reads the schedule from the **default branch**, so this has to be merged into `main` to
+  take effect.
+- **Pause individual alerts**: the ⏸️ button on the dashboard (`npm start`) — paused alerts
+  are skipped by every check. Run `npm run sync` afterwards so the scheduled run sees it.
+  ▶️ resumes them.
+- **Done with a trip for good**: delete the alert (🗑️), which also removes its price
+  history and notifications.
+
+If a check comes back without a price, the alert now says so on the dashboard ("Last check
+found no price…") and the Actions run log gets a warning, instead of the alert quietly
+going stale while it looks healthy.
+
 ## Important Notes
 
 - This tool **only monitors and notifies** — it does not book anything
@@ -66,7 +103,9 @@ Copy `.env.example` to `.env` and configure:
 This is a full-stack app (Express + Puppeteer + cron + email), so it can't run on
 GitHub Pages (static hosting only, no server process to keep alive). Instead, a
 [GitHub Actions workflow](.github/workflows/price-check.yml) runs the price check on a
-schedule (every 30 minutes) in the cloud, for free, with no server to host or pay for:
+schedule (every 30 minutes) in the cloud, for free, with no server to host or pay for
+— note that the schedule is currently commented out, see
+[Pausing or Stopping Monitoring](#pausing-or-stopping-monitoring):
 
 1. **Add SMTP secrets**: repo Settings → Secrets and variables → Actions → New repository
    secret. Add `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `NOTIFICATION_EMAIL`

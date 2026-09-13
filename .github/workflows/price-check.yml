@@ -1,8 +1,14 @@
 name: Hotel Price Check
 
+# Scheduled checking is OFF: the trips being monitored are booked, so nothing
+# needs watching for now. Only manual runs ("Run workflow" in the Actions tab)
+# happen while the schedule below stays commented out.
+#
+# To start monitoring again, uncomment the two schedule lines (and resume the
+# alerts with the play button on the dashboard if they were paused there).
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  # schedule:
+  #   - cron: '*/30 * * * *'
   workflow_dispatch: {}
 
 permissions:
